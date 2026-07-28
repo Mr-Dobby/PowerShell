@@ -1,4 +1,8 @@
-$Filter = ""
+[CmdletBinding()]
+param(
+    [string]$Filter = "",
+    [string]$ExportPath = "C:\SecurityGroups.csv"
+)
 
 Import-Module ActiveDirectory
 
@@ -24,4 +28,4 @@ foreach ($Member in $Arrayofmembers) {
   }
 }
 
-$Table | Export-Csv "C:\SecurityGroups.csv" -NoTypeInformation
+$Table | Export-Csv $ExportPath -NoTypeInformation

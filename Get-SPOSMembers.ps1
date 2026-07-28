@@ -1,9 +1,16 @@
-﻿Connect-SPOService -Url "" #Sharepoint admin login
+﻿[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$AdminUrl,
+    [Parameter(Mandatory = $true)]
+    [string]$GroupId
+)
+
+Connect-SPOService -Url $AdminUrl #Sharepoint admin login
 Connect-AzureAD
  
 # Get dynamic group members
-$groupId = "" #Object ID from Azure
-$group = Get-AzureADGroup -ObjectId $groupId
+$group = Get-AzureADGroup -ObjectId $GroupId
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId
  
 # Get SharePoint sites

@@ -1,8 +1,14 @@
-﻿Connect-SPOService
+﻿[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$SiteURL,
+    [string]$GroupObjectId
+)
+
+Connect-SPOService
 Connect-AzureAD
 
 $GroupsData = @()
-$SiteURL = " SPO SITE"
 $SiteGroups = Get-SPOSiteGroup -Site $SiteURL
 
 foreach($Group in $SiteGroups) {
@@ -17,4 +23,6 @@ foreach($Group in $SiteGroups) {
     }
 }
 
-Get-AzureADGroupMember -ObjectId ""
+if (-not [string]::IsNullOrWhiteSpace($GroupObjectId)) {
+    Get-AzureADGroupMember -ObjectId $GroupObjectId
+}

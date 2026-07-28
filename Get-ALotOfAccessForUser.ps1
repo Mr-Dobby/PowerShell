@@ -2,22 +2,27 @@
 #Connect-MicrosoftTeams
 #Connect-AzureAD
 
-$user = "mail@contoso.com"
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [Alias('Mailbox','UPN','UserPrincipalName')]
+    [string]$User
+)
 
-$mailbox = Get-Mailbox -Identity $user
+$mailbox = Get-Mailbox -Identity $User
 $mailboxes = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails UserMailbox,SharedMailbox,RoomMailbox,EquipmentMailbox
 Write-Host "`nMailbox Type: $($mailbox.RecipientTypeDetails)"
 
 foreach ($mb in $mailboxes) {
     $fullAccess = Get-MailboxPermission -Identity $mb.Identity -ErrorAction SilentlyContinue | Where {
-        $_.User -like $user -and $_.AccessRights -contains "FullAccess"
+        $_.User -like $User -and $_.AccessRights -contains "FullAccess"
     }
 
     $sendAs = Get-RecipientPermission -Identity $mb.Identity -ErrorAction SilentlyContinue | Where {
-        $_.Trustee -like $user -and $_.AccessRights -contains "SendAs"
+        $_.Trustee -like $User -and $_.AccessRights -contains "SendAs"
     }
 
-    $sendOnBehalf = ($mb.GrantSendOnBehalfTo -contains $user)
+    $sendOnBehalf = ($mb.GrantSendOnBehalfTo -contains $User)
 
     if ($fullAccess -or $sendAs -or $sendOnBehalf) {
         Write-Host "`nMailbox: $($mb.PrimarySmtpAddress)"
@@ -28,18 +33,18 @@ foreach ($mb in $mailboxes) {
 }
 
 Write-Host "`nAzure AD Groups:"
-Get-AzureADUserMembership -ObjectId $user | Select DisplayName | ft -AutoSize
+Get-AzureADUserMembership -ObjectId $User | Select DisplayName | ft -AutoSize
 
 Write-Host "`nMicrosoft Teams Memberships:"
 $teams = Get-Team
 foreach ($team in $teams) {
     $members = Get-TeamUser -GroupId $team.GroupId
-    if ($members.User -contains $user) {
+    if ($members.User -contains $User) {
         Write-Host "$($team.DisplayName)"
     }
 }
 
 Write-Host "`nDistribution Group Memberships:"
 Get-DistributionGroup | Where {
-    (Get-DistributionGroupMember $_.Identity -ResultSize Unlimited -ErrorAction SilentlyContinue).PrimarySmtpAddress -contains $user
+    (Get-DistributionGroupMember $_.Identity -ResultSize Unlimited -ErrorAction SilentlyContinue).PrimarySmtpAddress -contains $User
 } | Select DisplayName,PrimarySmtpAddress,GroupType | ft -AutoSize

@@ -1,6 +1,11 @@
 # Connect to Exchange Online
 #Connect-ExchangeOnline
-$SharedMailbox = "mailbox@contoso.com"
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$SharedMailbox
+)
+
 # Get Full Access users
 
 $Users = Get-MailboxPermission -Identity $SharedMailbox |

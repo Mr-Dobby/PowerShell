@@ -52,7 +52,7 @@ $AllADUsers | Sort-Object Name | Select-Object `
 @{Label = "E-mail"; Expression = { $_.Mail } },
 @{Label = "Mobile"; Expression = { $_.mobile } },
 @{Label = "Notes"; Expression = { $_.info } },
-@{Label = "Account status"; Expression = { if (($_.Enabled -eq 'TRUE') ) { 'Enabled' } Else { 'Disabled' } } },
+@{Label = "Account status"; Expression = { if (($_.Enabled -eq 'TRUE') ) { 'Enabled' } else { 'Disabled' } } },
 @{Label = "Last logon date"; Expression = { $_.lastlogondate } }|
 
 # Export report to CSV file

@@ -7,17 +7,20 @@
     - GDAP or DAP delegated admin access
 #>
 
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [string[]]$Tenants,
+    [string]$SenderToBlock
+)
+
 Import-Module PartnerCenter
 Import-Module ExchangeOnlineManagement
 
-# ==== INLINE TENANT DOMAIN LIST ====
-$Tenants = @(
-    "contoso.onmicrosoft.com"
-)
-# ====================================
-
 # Ask which sender to block
-$SenderToBlock  = Read-Host "Enter email address to block"
+if ([string]::IsNullOrWhiteSpace($SenderToBlock)) {
+    $SenderToBlock = Read-Host "Enter email address to block"
+}
 
 # Login to Partner Center (only once)
 Write-Host "`nConnecting to Partner Center..." -ForegroundColor Cyan

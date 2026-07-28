@@ -1,8 +1,14 @@
 # Create a log of all results everytime this script runs
+#.\DriveMapper.ps1 `
+#    -DnsDomainName corp.contoso.com `
+#    -ConfigFile .\Mappings.json
 Start-Transcript -Path "C:\DriveMapping.log"
 
 # Fill in your local active directory domain name
-$dnsDomainName= "xxx.yyy.zzz"
+param(
+    [string]$DnsDomainName,
+    [string]$ConfigFile
+)
 
 # Create a loop for all drive maps
 $new_driveMappingConfig=@()
@@ -96,7 +102,7 @@ foreach ($new_driveMapping in $new_driveMappingConfig) {
     if ($drive_created -eq $true) {
         Get-childItem -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2" |
         Where-Object  {$_.name.Split("\")[-1] -like $($new_driveMapping.UNCPath.Replace("\","#"))} |
-        foreach {
+        ForEach-Object {
             set-ItemProperty $($_.Name.replace("HKEY_CURRENT_USER","HKCU:")) -Name "_labelFromReg" -Value $($new_driveMapping.Description)
         }
     }

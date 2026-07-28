@@ -7,9 +7,14 @@
 #
 # Note: Don't got forget to delete any files/installs that the detection method uses on your machine
 # Deleting specific application based on its object id
-$Path = "HKLM:SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps"
-$UserObjectID = "efd4c448-e6f1-46fa-b083-d87e60ea1274"
-$AppID = "8ea44431-bb08-460c-b881-52bdff6a7128"
+[CmdletBinding()]
+param (
+    [string]$Path = "HKLM:SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps",
+    [Parameter(Mandatory = $true)]
+    [string]$UserObjectID,
+    [Parameter(Mandatory = $true)]
+    [string]$AppID
+)
 
 function GetAppGRSHash {
     param (

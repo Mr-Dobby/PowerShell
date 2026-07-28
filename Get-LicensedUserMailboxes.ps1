@@ -1,7 +1,10 @@
-﻿$ExportPath = "C:\LicensedUserMailboxes.csv"
-$Scopes = @(
+﻿[CmdletBinding()]
+param(
+    [string]$ExportPath = "C:\LicensedUserMailboxes.csv",
+    [string[]]$Scopes = @(
     "User.Read.All",
     "Directory.Read.All"
+    )
 )
 
 Import-Module Microsoft.Graph

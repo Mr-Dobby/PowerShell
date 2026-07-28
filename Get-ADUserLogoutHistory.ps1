@@ -1,11 +1,17 @@
+[CmdletBinding()]
+param(
+	[Parameter(Mandatory = $true)]
+	[string]$User
+)
+
 Import-Module ActiveDirectory
 $ErrorActionPreference = "SilentlyContinue"
 Clear-Host
-$User = ""
+
 $PDC = (Get-ADDomainController -Discover -Service PrimaryDC).Name
 $DCs = (Get-ADDomainController -Filter *).Name #| Select-Object name
 foreach ($DC in $DCs) {
-	Write-Host -ForegroundColor Green "Checking events on $dc for User: $user"
+	Write-Host -ForegroundColor Green "Checking events on $dc for User: $User"
 	if ($DC -eq $PDC) {
     		Write-Host -ForegroundColor Green "$DC is the PDC"
 	}

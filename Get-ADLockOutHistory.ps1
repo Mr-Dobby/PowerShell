@@ -1,16 +1,21 @@
-$username = "" # Username
-$domainControllers = @("DC01", "DC02") # Domain controllers to check
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$Username,
+    [string[]]$DomainControllers = @("DC01", "DC02")
+)
+
 $lockoutEvents = @{}
 #$startDate = (Get-Date).AddMonths(-3) # Used for time filter - undo line 9
 #$endDate = Get-Date                   # Used for time filter - undo line 9
-foreach ($dc in $domainControllers) {
+foreach ($dc in $DomainControllers) {
     try {
         $events = Get-WinEvent -ComputerName $dc -LogName Security -FilterXPath "*[System[(EventID=4740)]]" -ErrorAction Stop
 #        $events = Get-WinEvent -ComputerName $dc -LogName Security -FilterXPath "*[System[(EventID=4740) and TimeCreated[@SystemTime>='$($startDate.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ"))' and @SystemTime<='$($endDate.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ"))']]]" -ErrorAction Stop
 
 
         foreach ($event in $events) {
-            if ($event.Properties[0].Value -like "*$username*") {
+            if ($event.Properties[0].Value -like "*$Username*") {
                 if (-not $lockoutEvents.ContainsKey($dc)) {
                     $lockoutEvents[$dc] = @()
                 }

@@ -48,7 +48,7 @@ if ($addressOrSite.IndexOf("@") -ige 0)
        $folderQueries += $folderStat
    }
    Write-Host "-----Exchange Folders-----"
-   $folderQueries |ft
+   $folderQueries | ft
 }
 elseif ($addressOrSite.IndexOf("http") -ige 0)
 {

@@ -1,7 +1,13 @@
-﻿$Users = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails UserMailbox
-$Exception = @("contoso@microsoft.com")
-$Permission = "Reviewer"
-$FolderCalendars = @("Calendar", "Kalender")
+﻿[CmdletBinding()]
+param(
+    [string[]]$Exception = @(),
+    [string]$Permission = "Reviewer",
+    [string[]]$FolderCalendars = @("Calendar", "Kalender"),
+    [switch]$ApplyChanges
+)
+
+$Users = Get-Mailbox -ResultSize Unlimited -RecipientTypeDetails UserMailbox
+$whatIfMode = -not $ApplyChanges
 
 foreach ($User in $Users) {
 
@@ -18,7 +24,7 @@ foreach ($User in $Users) {
                 $Cal = "$($User.UserPrincipalName):\$CalendarName"
                 $CurrentMailFolderPermission = Get-MailboxFolderPermission -Identity $Cal -User Default
                 
-                Set-MailboxFolderPermission -Identity $Cal -User Default -AccessRights $Permission -WarningAction:SilentlyContinue -WhatIf
+                Set-MailboxFolderPermission -Identity $Cal -User Default -AccessRights $Permission -WarningAction:SilentlyContinue -WhatIf:$whatIfMode
                 
                 if ($CurrentMailFolderPermission.AccessRights -eq "$Permission") {
                     Write-Host $User.DisplayName already has the permission $CurrentMailFolderPermission.AccessRights -ForegroundColor Yellow

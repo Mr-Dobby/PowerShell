@@ -18,6 +18,53 @@ A collection of PowerShell scripts for Windows, Active Directory, Exchange Onlin
 
 ---
 
+# Parameterized Script Usage (New)
+
+Many scripts in this folder were updated to remove hard-coded values (mailboxes, users, domains, IDs, export paths) and now accept parameters directly.
+
+## Why this change
+
+- No more editing script files before each run
+- Safer reuse across tenants/environments
+- Easier automation in pipelines and scheduled tasks
+
+## Common usage pattern
+
+```powershell
+.\ScriptName.ps1 -Mailbox "mailbox@contoso.com"
+```
+
+Use `Get-Help` to see required parameters and examples:
+
+```powershell
+Get-Help .\ScriptName.ps1 -Detailed
+```
+
+## Updated examples
+
+```powershell
+.\Bulk - Add FullAccess Members to SendAs&SendOn.ps1 -SharedMailbox "shared@contoso.com"
+.\Get-ALotOfAccessForUser.ps1 -User "user@contoso.com"
+.\Set&Remove-MailboxFolderPermissions.ps1 -User "user@contoso.com" -SearchChar "CPH" -AccessRights "Editor"
+.\ForceRemoveIntuneApp.ps1 -UserObjectID "<AAD-USER-OBJECT-ID>" -AppID "<INTUNE-WIN32-APP-ID>"
+.\Bulk-SetHostedContentFilterPolicy.ps1 -Tenants "tenant1.onmicrosoft.com","tenant2.onmicrosoft.com" -SenderToBlock "spam@bad.tld"
+.\Get-AzureADUserLoginLogs.ps1 -UserEmail "user@contoso.com" -ExportPath "C:\Temp\login_logs.csv"
+.\Get-DistributionGroupsUserIsMemberOf - Single.ps1 -UserEmailAddress "user@contoso.com" -ExportPath "C:\Temp\groups.csv"
+.\Get-SPOSMembers.ps1 -AdminUrl "https://contoso-admin.sharepoint.com" -GroupId "<GROUP-OBJECT-ID>"
+.\Get-SPOSMembers_1.ps1 -SiteURL "https://contoso.sharepoint.com/sites/Example"
+.\Get-ADLockOutHistory.ps1 -Username "samAccountName" -DomainControllers "DC01","DC02"
+.\Get-ADUserLogoutHistory.ps1 -User "samAccountName"
+.\Get-ADGroupMembers.ps1 -Filter "IT" -ExportPath "C:\Temp\SecurityGroups.csv"
+.\Get-LicensedUserMailboxes.ps1 -ExportPath "C:\Temp\LicensedUserMailboxes.csv"
+.\MailboxPermissions.ps1 -CsvPath "C:\Temp\MailboxesUserHasAccessTo.csv"
+.\Set-MailboxFolderPermissions_For_Multiple_Users.ps1 -Permission "Reviewer" -Exception "vip@contoso.com"
+.\Set-MailboxFolderPermissions_For_Multiple_Users.ps1 -Permission "Reviewer" -ApplyChanges
+```
+
+> Note: Some scripts still prompt interactively when optional values are not provided.
+
+---
+
 # Windows Administration
 
 ## ResetWindowsSearchBox.ps1
