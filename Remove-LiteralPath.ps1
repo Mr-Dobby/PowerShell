@@ -1,0 +1,1 @@
+Remove-Item -LiteralPath "\\?\E:\Path\To\Existing\Item " -Force

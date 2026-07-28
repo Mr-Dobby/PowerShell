@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingCN">启动MSRD-Collect</lang>
+<lang id="notApprovedCN">脚本执行未经管理员批准，退出。</lang>
+<lang id="eulaOKCN">EULA已接受，继续</lang>
+<lang id="eulaNotOKCN">EULA已拒绝，退出</lang>
+<lang id="eulaSilentOKCN">AcceptEula开关指定，静默继续</lang>
+<lang id="noticeOKCN">通知已接受，继续</lang>
+<lang id="noticeSilentOKCN">AcceptNotice开关指定，静默继续</lang>
+<lang id="enabledCN">启用</lang>
+<lang id="disabledCN">禁用</lang>
+<lang id="autoUpdateCN">脚本启动时自动检查更新：</lang>
+<lang id="playSndCN">播放声音：</lang>
+<lang id='aaModeCN'>音频辅助模式：</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuCN'>文件</lang>
+<lang id='RunMenuCN'>开始数据收集/诊断</lang>
+<lang id='UpdateMenuCN'>检查更新</lang>
+<lang id='ExitMenuCN'>退出</lang>
+<lang id='ViewMenuCN'>视图</lang>
+<lang id='PresetsMenuCN'>预设</lang>
+<lang id='HideConsoleCN'>显示控制台窗口</lang>
+<lang id='MaximizeWindowCN'>启动时最大化</lang>
+<lang id='AlwaysOnTopCN'>始终置顶</lang>
+<lang id='OutputLocationCN'>打开输出位置</lang>
+<lang id='LiteModeCN'>精简模式</lang>
+<lang id='LiteModeMachineCN'>选择机器上下文</lang>
+<lang id='LiteModeRoleCN'>选择机器角色</lang>
+<lang id='LiteModeSourceCN'>源机器/客户端</lang>
+<lang id='LiteModeSourceTooltipCN'>源机器，您可以使用远程桌面客户端连接到其他机器</lang>
+<lang id='LiteModeTargetCN'>目标机器/主机</lang>
+<lang id='LiteModeTarget2CN'>目标机器/主机（或中间服务器）</lang>
+<lang id='LiteModeTargetTooltipCN'>您连接到的目标机器</lang>
+<lang id='LiteModeTargetTooltip2CN'>您连接到的目标机器或RDS部署中的任何RDS服务器</lang>
+<lang id='LiteModeScenariosCN'>选择一个或多个场景（可选）</lang>
+<lang id='LiteModeStartCN'>准备就绪后，单击“开始”</lang>
+<lang id='LiteModeAdvancedCN'>高级模式</lang>
+<lang id='LiteModeHideConsoleCN'>显示控制台</lang>
+<lang id='DiagReportsCN'>诊断报告</lang>
+<lang id='ToolsMenuCN'>工具</lang>
+<lang id='SetOutputLocationCN'>设置输出位置</lang>
+<lang id='SetUserContextCN'>设置用户上下文</lang>
+<lang id='ConfigDataCollectionCN'>配置数据收集</lang>
+<lang id='ConfigDiagCN'>配置诊断</lang>
+<lang id='ConfigSchedTaskCN'>创建计划任务</lang>
+<lang id='OpenTaskSchedCN'>打开任务计划程序</lang>
+<lang id='AutoVerCheckCN'>启动时检查更新</lang>
+<lang id='PlaySoundsCN'>使用系统声音</lang>
+<lang id='AssistModeCN'>音频辅助模式</lang>
+<lang id='UILangCN'>用户界面语言</lang>
+<lang id='araCN'>阿拉伯语</lang>
+<lang id='dutCN'>荷兰语</lang>
+<lang id='gerCN'>德语</lang>
+<lang id='engCN'>英语</lang>
+<lang id='hunCN'>匈牙利语</lang>
+<lang id='romCN'>罗马尼亚语</lang>
+<lang id='freCN'>法语</lang>
+<lang id='itaCN'>意大利语</lang>
+<lang id='porCN'>葡萄牙语</lang>
+<lang id='spaCN'>西班牙语</lang>
+<lang id='jpnCN'>日语</lang>
+<lang id='czeCN'>捷克语</lang>
+<lang id='turCN'>土耳其语</lang>
+<lang id='chiCN'>中文</lang>
+<lang id='HelpMenuCN'>帮助</lang>
+<lang id='ReadMeCN'>ReadMe（英语）</lang>
+<lang id='WhatsNewCN'>新功能</lang>
+<lang id='DownloadCN'>下载</lang>
+<lang id='DownloadMSRDCCN'>获取 &amp;MSRD-Collect</lang>
+<lang id='DownloadRDSTracingCN'>获取 &amp;RDSTracing</lang>
+<lang id='DownloadSaRACN'>获取 &amp;SaRA for Office 365</lang>
+<lang id='DownloadTSSCN'>获取 &amp;TSS</lang>
+<lang id='MSDocsCN'>&amp;Microsoft Docs</lang>
+<lang id='AVDCN'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixCN'>&amp;FSLogix</lang>
+<lang id='RDSCN'>&amp;Remote Desktop Services</lang>
+<lang id='365CN'>&amp;Windows 365</lang>
+<lang id='TechCommunityCN'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDCN'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixCN'>&amp;FSLogix</lang>	
+<lang id='TC365CN'>&amp;Windows 365</lang>
+<lang id='AzureMenuCN'>A&amp;zure</lang>
+<lang id='AzOutageNotificationCN'>获取影响您的中断通知 (文档)</lang>
+<lang id='AzStatusCN'>Azure 状态</lang>
+<lang id='AzStatusHistCN'>Azure 状态历史记录</lang>
+<lang id='AzServHealthCN'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorCN'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailCN'>提供反馈（电子邮件）</lang>
+<lang id='FeedbackSurveyCN'>提供反馈（调查）</lang>
+<lang id='AboutCN'>关于</lang>
+<lang id='contextLabelCN'>Machine Context</lang>
+<lang id='roleLabelCN'>Machine Role</lang>
+<lang id='scenarioLabelCN'>Data Collection Scenarios</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceCN'>Source</lang>
+<lang id='btnTargetCN'>Target</lang>
+<lang id='btnAVDCN'>AVD</lang>
+<lang id='btnRDSCN'>RDS</lang>
+<lang id='btnW365CN'>W365</lang>
+<lang id='btnCoreCN'>Core</lang>
+<lang id='btnProfilesCN'>Profiles</lang>
+<lang id='btnActivationCN'>Activation</lang>
+<lang id='btnMSRACN'>MSRA</lang>
+<lang id='btnSCardCN'>SCard</lang>
+<lang id='btnIMECN'>IME</lang>
+<lang id='btnTeamsCN'>Teams</lang>
+<lang id='btnMSIXAACN'>MSIXAA</lang>
+<lang id='btnHCICN'>HCI</lang>
+<lang id='btnProcDumpCN'>DumpPID</lang>
+<lang id='btnNetTraceCN'>NetTrace</lang>
+<lang id='btnDiagOnlyCN'>DiagOnly</lang>
+<lang id='btnLiveDiagCN'>LiveDiag</lang>
+<lang id='StartCN'>开始</lang>
+<lang id='RunningCN'>正在运行</lang>
+<lang id='SurveyCN'>调查</lang>
+<lang id='CompLabelCN'>计算机</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDCN'>选择此计算机类型以执行 Azure Virtual Desktop 相关的方案</lang>
+<lang id='btnTooltipRDSCN'>选择此计算机类型以执行远程桌面服务或直接 RDP 相关的方案</lang>
+<lang id='btnTooltipW365CN'>选择此计算机类型以执行 Windows 365 Cloud PC 相关的方案</lang>
+<lang id='btnTooltipSourceCN'>如果计算机用于发起到其他计算机的远程连接，请选择此角色类型</lang>
+<lang id='btnTooltipTargetCN'>如果计算机处于远程连接的接收端，或者是安装了任何 RDS 角色的服务器，请选择此角色类型</lang>
+<lang id='btnTooltipProfilesCN'>收集用于解决“用户配置文件”问题的数据</lang>
+<lang id='btnTooltipActivationCN'>收集用于解决“操作系统许可证/激活”问题的数据</lang>
+<lang id='btnTooltipMSRACN'>收集用于解决“远程协助”问题的数据</lang>
+<lang id='btnTooltipSCardCN'>收集用于解决“智能卡”问题的数据</lang>
+<lang id='btnTooltipIMECN'>收集用于解决“输入法”问题的数据</lang>
+<lang id='btnTooltipTeamsCN'>收集用于解决“Teams 媒体优化”问题的数据 (仅限 AVD/W365)</lang>
+<lang id='btnTooltipMSIXAACN'>收集用于解决“MSIX 应用程序附加”问题的数据 (仅限 AVD)</lang>
+<lang id='btnTooltipHCICN'>收集用于解决“Azure Stack HCI”问题的数据 (仅限 AVD)</lang>
+<lang id='btnTooltipProcDumpCN'>收集现有进程的进程转储</lang>
+<lang id='btnTooltipNetTraceCN'>收集网络跟踪 (netsh)</lang>
+<lang id='btnTooltipDiagOnlyCN'>仅生成诊断报告</lang>
+<lang id='btnTooltipLiveDiagCN'>进入实时诊断模式</lang>
+<lang id='btnTooltipSurveyCN'>打开 MSRD-Collect 满意度调查，提供有关脚本的反馈</lang>
+<lang id='btnTooltipComputerCN'>输入一个或多个计算机名称 (NetBIOS 或 FQDN)，用分号分隔，以收集数据</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkCN'>您觉得这个脚本怎么样？</lang>
+<lang id='ReadyCN'>准备就绪</lang>
+<lang id='checkupdCN'>正在检查更新。请稍候...</lang>
+<lang id='collecting1CN'>正在收集</lang>
+<lang id='collecting2CN'>数据。请稍候...</lang>
+<lang id='waitCN'>请稍候...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aCN'>脚本版本</lang>
+<lang id='initvalues1bCN'>从此处启动：</lang>
+<lang id='initvalues1cCN'>命令行：</lang>
+<lang id='initvalues2CN'>已接受 EULA 和通知</lang>
+<lang id='initvalues3CN'>输出位置：</lang>
+<lang id='initvalues4CN'>用户上下文：</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteCN'>为了解决 Teams 问题，建议首先生成最新的 Teams 调试日志。
+请参阅：https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+要生成这些调试日志，请打开受影响的 Teams 应用程序（使用与此数据收集相同的用户帐户/上下文），然后在 Teams 中按 CTRL+ALT+SHIFT+1。
+Teams 将生成诊断日志，该日志可以由此脚本收集。
+
+如果您已经拥有这些日志或不需要这些日志，请选择“重试”以继续。
+否则，请选择“取消”，生成 Teams 调试日志，然后再次启动数据收集。</lang>
+
+<lang id='teamstitleCN'>正在收集 Teams 故障排除数据</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1CN'>选择要转储的正在运行的进程</lang>
+<lang id='dpidtext2CN'>选择一个进程</lang>
+<lang id='dpidtext3CN'>选择用于进程转储的进程 (PID)：</lang>
+<lang id='dpidtext4CN'>未选择 PID - 不会生成进程转储</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgCN'>正在运行数据收集 - 请稍候...</lang>
+<lang id='fdcmsgCN'>已完成数据收集</lang>
+<lang id='rdiagmsgCN'>正在运行诊断 - 请稍候...</lang>
+<lang id='noDiagmsgCN'>未选择诊断检查。跳过诊断报告生成。</lang>
+<lang id='selectedParamCN'>用于数据收集/诊断的已选择参数：</lang>
+<lang id='checkmsgCN'>正在检查</lang>
+<lang id='fdiagmsgCN'>已完成诊断</lang>
+<lang id='archmsgCN'>正在归档结果 - 请稍候！</lang>
+<lang id='zipmsgCN'>Zip 文件已准备好：</lang>
+<lang id='ziperrormsgCN'>无法创建 Zip 文件。请在以下位置手动归档收集的数据：</lang>
+<lang id='dtmmsgCN'>与 Microsoft CSS 共享这些结果时，请始终使用安全的文件传输工具。与您的支持专业人员讨论此事以及您可能拥有的任何顾虑。</lang>
+<lang id='logfoldermsgCN'>正在创建文件夹</lang>
+<lang id='logfolderexistmsgCN'>已存在</lang>
+<lang id='coremsgCN'>正在收集核心故障排除数据</lang>
+<lang id='profilesmsgCN'>正在收集用户配置文件故障排除数据</lang>
+<lang id='msramsgCN'>正在收集远程协助故障排除数据</lang>
+<lang id='scardmsgCN'>正在收集智能卡故障排除数据</lang>
+<lang id='imemsgCN'>正在收集输入法故障排除数据</lang>
+<lang id='teamsmsgCN'>正在收集 AVD 上的 Teams 故障排除数据</lang>
+<lang id='msixaamsgCN'>正在收集 MSIX 应用附加故障排除数据</lang>
+<lang id='hcimsgCN'>正在收集 Azure Stack HCI 故障排除数据</lang>
+<lang id='activationmsgCN'>正在收集操作系统许可证/激活故障排除数据</lang>
+<lang id='errormsgCN'>发生错误</lang>
+<lang id='location1CN'>选择要存储结果的位置 (默认为 C:\MS_DATA)</lang>
+<lang id='location2CN'>输出位置：</lang>
+<lang id='context1CN'>设置用户上下文</lang>
+<lang id='context2CN'>输入要收集其某些数据的用户名</lang>
+<lang id='context3CN'>用户上下文设置为：</lang>
+<lang id='selectCollect1CN'>配置数据收集</lang>
+<lang id='selectCollect2CN'>使用左侧表格选择要收集的数据项，单击右箭头排除所选数据项。要重新包含项目，请从右侧表格中选择并单击左箭头。</lang>
+<lang id='selectCollect3CN'>按场景收集的数据</lang>
+<lang id='selectCollect4CN'>按场景排除的数据</lang>
+<lang id='selectDiag1CN'>配置诊断</lang>
+<lang id='selectDiag2CN'>使用左侧表格选择要诊断的数据项，单击右箭头排除所选数据项。要重新包含项目，请从右侧表格中选择并单击左箭头。</lang>
+<lang id='selectDiag3CN'>按类别执行的诊断</lang>
+<lang id='selectDiag4CN'>按类别排除的诊断</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceCN'>正在运行网络跟踪 - 请稍候...</lang>
+
+<lang id='netTraceNoteCN'>重现问题。
+一旦问题发生，请尽快通过按“确定”按钮停止跟踪。</lang>
+
+<lang id='netTraceNote2CN'>重现问题并在完成重现后按“Y”键（窗口焦点在此处）</lang>
+<lang id='netTraceRunningCN'>正在运行网络跟踪</lang>
+<lang id='netTraceStoppingCN'>正在停止网络跟踪 - 请稍候（这可能需要几分钟）...</lang>
+<lang id='netTraceFinishedCN'>网络跟踪已完成</lang>
+<lang id='conVisibleCN'>控制台窗口可见</lang>
+<lang id='conHiddenCN'>控制台窗口已隐藏</lang>
+<lang id='openMaximizedCN'>将以最大化的方式启动脚本</lang>
+<lang id='openWindowedCN'>将不以最大化的方式启动脚本</lang>
+<lang id='ontopCN'>脚本窗口将保持在其他窗口的上方</lang>
+<lang id='ontopNotCN'>脚本窗口将不保持在其他窗口的上方</lang>
+<lang id='outputNotFoundCN'>[警告] 找不到所选的输出位置。</lang>
+<lang id='outputLoc1CN'>正在刷新当前输出位置下可用的诊断报告列表</lang>
+<lang id='outputLoc2CN'>[警告] 所选的输出位置不再存在。单击“查看\诊断报告”以刷新列表，然后重试。</lang>
+<lang id='outputLoc3CN'>列表已成功刷新。</lang>
+<lang id='outputLoc4CN'>在当前输出位置下找不到报告</lang>
+<lang id='outputLoc5CN'>首先生成一些诊断报告以填充此列表。</lang>
+<lang id='outputLoc6CN'>当前输出位置不存在</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgCN'>一个或多个后台作业仍在运行。这可能需要长达 3 分钟。请稍候...</lang>
+<lang id='bgjob2msgCN'>一个或多个后台作业无法在分配的时间内完成。可能会缺少某些数据。如果此问题一直重复，请将其报告给： MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1CN'>正在检查是否有新版本可用（请稍候）</lang>
+<lang id='vercheck2CN'>https://aka.ms/msrd-collect 上有新版本可用！</lang>
+<lang id='vercheck3CN'>有新版本可用：</lang>
+<lang id='vercheck4CN'>您当前的版本为</lang>
+<lang id='vercheck5CN'>为了获得最佳结果，请从 https://aka.ms/MSRD-Collect 下载并使用最新版本</lang>
+<lang id='vercheck5bCN'>如果选择“是”，将打开一个浏览器窗口以下载最新的“MSRD-Collect.zip”文件，并将关闭当前脚本。否则，当前脚本将继续运行。</lang>
+<lang id='vercheck6CN'>您是否要立即下载新版本？</lang>
+
+<lang id='vercheck7CN'>正在打开默认浏览器以从 https://aka.ms/MSRD-Collect 下载最新的“MSRD-Collect.zip”
+退出。
+</lang>
+
+<lang id='vercheck8CN'>您已决定暂时不下载最新版本。为了获得最佳结果，请从 https://aka.ms/MSRD-Collect 下载并使用最新版本</lang>
+<lang id='vercheck9CN'>MSRD-Collect 版本已更新</lang>
+<lang id='PDvercheck1CN'>ProcDump 版本已更新</lang>
+<lang id='selfupdate1CN'>如果选择“是”，脚本将自动更新。否则，当前脚本将继续运行。</lang>
+<lang id='selfupdate2CN'>脚本自动更新</lang>
+<lang id='selfupdate3CN'>由用户启动：</lang>
+<lang id='selfupdate4CN'>正在启动从 https://aka.ms/MSRD-Collect 下载最新版本的安全下载（请稍候...）</lang>
+<lang id='selfupdate5CN'>正在将当前 MSRD-Collect 配置文件的副本保存到</lang>
+<lang id='selfupdate6CN'>正在从</lang>
+<lang id='selfupdate7CN'>正在从以前的备份中恢复 MSRD-Collect 配置文件并删除备份</lang>
+<lang id='selfupdate8CN'>正在删除临时下载文件</lang>
+<lang id='selfupdate9CN'>更新成功。正在重新启动脚本。</lang>
+
+<!-- How to -->	
+<lang id='howtouseCN'> 使用指南：
+
+	步骤 1：选择计算机使用的上下文/环境：
+
+		AVD		- Azure 虚拟桌面
+		RDS		- 远程桌面服务或直接 RDP 连接（非 AVD/非 W365）
+		W365		- Windows 365 Cloud PC
+
+	步骤 2：选择上下文/环境中计算机的角色：
+
+		Source		- 您使用远程桌面客户端连接到其他计算机的源计算机
+		Target		- 连接的目标计算机或安装有任何RDS角色的服务器
+
+	步骤 3：[可选] 如果选择了 'AVD' 或 'W365'，请在要从中收集数据的 '计算机' 字段中输入一个或多个计算机名称（NetBIOS 或 FQDN）。 
+		 本地计算机名称用作默认值。 
+		 如果指定了多台计算机，请使用分号将它们分开。数据将按顺序从每台计算机收集。
+
+收集数据：
+
+	步骤 4a：[可选] 选择一个或多个可用的方案：
+	
+		Profiles	- 收集用于解决 '用户配置文件' 问题的数据
+		Activation	- 收集用于解决 '许可证/操作系统激活' 问题的数据
+		MSRA		- 收集用于解决 '远程协助' 问题的数据
+		SCard		- 收集用于解决 '智能卡' 问题的数据
+		IME		- 收集用于解决 '输入法' 问题的数据
+		Teams		- 收集用于解决 'Teams 媒体优化' 问题的数据（仅限 AVD/W365）
+		MSIXAA		- 收集用于解决 'MSIX 应用附加' 问题的数据（仅限 AVD）
+		HCI		- 收集用于解决 'Azure Stack HCI' 问题的数据（仅限 AVD）
+		DumpPID	- 收集现有进程的进程转储
+		NetTrace	- 收集网络跟踪（netsh）
+		DiagOnly	- 仅生成诊断报告
+
+	步骤 5a：准备就绪后，单击 '开始' 按钮。数据收集/诊断可能需要几分钟时间。
+
+实时诊断：
+
+	步骤 4b：选择 'LiveDiag' 选项。
+	
+	步骤 5b：选择所需的诊断类别选项卡。
+	
+	步骤 6：单击所选选项卡中的所需按钮以运行相应的诊断检查。
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1CN'>运行诊断。这可能需要几分钟。请稍候...</lang>
+<lang id='liveDiag2CN'>诊断完成</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateCN'>创建计划任务以运行诊断</lang>
+<lang id='schedTaskNoteCN'>您即将在此计算机上创建一个计划任务，该计划任务将运行 MSRD-Collect Diagnostics 并生成 MSRD-Diag.html 报告。`n`n您确定要继续吗？</lang>
+<lang id='schedTaskInfo1CN'>使用以下参数成功创建了计划任务：</lang>
+<lang id='schedTaskInfo2CN'>开始日期：</lang>
+<lang id='schedTaskInfo3CN'>开始时间：</lang>
+<lang id='schedTaskInfo4CN'>频率：</lang>
+<lang id='schedTaskInfo5CN'>星期几：</lang>
+<lang id='schedTaskInfo6CN'>机器上下文：</lang>
+<lang id='schedTaskInfo7CN'>机器角色：</lang>
+<lang id='schedTaskInfo8CN'>脚本位置：</lang>
+<lang id='schedTaskInfo9CN'>输出位置：</lang>
+<lang id='schedTaskInfo10CN'>用户上下文：</lang>
+<lang id='schedTaskInfo11CN'>使用以下参数成功创建了计划任务：</lang>
+<lang id='schedTaskInfo12CN'>月份：</lang>
+<lang id='schedTaskInfo13CN'>未知错误。未创建计划任务。</lang>
+<lang id='schedTaskInfo14CN'>将执行的操作：</lang>
+<lang id='schedTaskEmpty1CN'>输出位置为空</lang>
+<lang id='schedTaskEmpty2CN'>脚本位置为空</lang>
+<lang id='schedTaskNotFound1CN'>输出位置未找到</lang>
+<lang id='schedTaskNotFound2CN'>脚本位置未找到</lang>
+	
+<!-- Presets -->
+<lang id='presetResetCN'>重置全部</lang>
+<lang id='presetLoaded1CN'>已选择预设</lang>
+<lang id='presetLoaded2CN'>按“开始”按钮开始数据收集/诊断。</lang>
+<lang id='presetErrcon1CN'>无法连接/初始连接时出错（源/客户端计算机）</lang>
+<lang id='presetErrcon2CN'>无法连接/初始连接时出错（目标/主机计算机）</lang>
+<lang id='presetLogon1CN'>无法登录/身份验证或用户配置文件问题（源/客户端计算机）</lang>
+<lang id='presetLogon2CN'>无法登录/身份验证或用户配置文件问题（目标/主机计算机）</lang>
+<lang id='presetScard1CN'>无法使用智能卡登录或在会话中使用智能卡时出现问题（源/客户端计算机）</lang>
+<lang id='presetScard2CN'>无法使用智能卡登录或在会话中使用智能卡时出现问题（目标/主机计算机）</lang>
+<lang id='presetMsixaaCN'>MSIX App Attach / 使用分配的应用程序包时出现问题（目标/主机计算机）</lang>
+<lang id='presetLic1CN'>使用“每个设备”RDS CAL的RD许可问题（源/客户端计算机）</lang>
+<lang id='presetLic2CN'>使用“每个设备”或“每个用户”RDS CAL的RD许可问题（会话主机/许可证服务器）</lang>
+<lang id='presetLic3CN'>使用“每个用户”RDS CAL的RD许可问题（会话主机/许可证服务器）</lang>
+<lang id='presetDiscon1CN'>活动或空闲会话的意外断开（源/客户端计算机）</lang>
+<lang id='presetDiscon2CN'>活动或空闲会话的意外断开（目标/主机计算机）</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeCN'>脚本现在处于远程模式</lang>
+<lang id='remoteInvalidCompCN'>“计算机”字段包含一个无效的计算机名称：</lang>
+<lang id='remoteReach1CN'>指定的计算机</lang>
+<lang id='remoteReach2CN'>可达。继续进行数据收集/诊断。</lang>	
+<lang id='remoteReach3CN'>不可达。请确保计算机名称正确，并且可以通过网络访问。如果尚未执行，则可能需要在远程计算机上“启用文件和打印机共享”。</lang>
+<lang id='remoteModeNotice1CN'>您在“计算机”字段中指定了一个或多个与本地计算机不同的计算机。</lang>
+<lang id='remoteModeNotice2CN'>脚本将尝试通过将自身复制到每个指定计算机上的 C:\MS_DATA\ 文件夹并从该文件夹运行来远程收集数据。</lang>
+<lang id='remoteModeNotice3CN'>您要继续吗？</lang>
+<lang id='remoteModeNotice4CN'>如果选择“是”，则可能会提示您为每个远程计算机单独输入凭据。 请提供具有远程计算机上的管理员权限的帐户（如果计算机加入了域，则最好是域管理员）。</lang>
+<lang id='remoteModeNotice5CN'>请注意，目前，对于过滤，对“配置数据收集”或“配置诊断”选项所做的任何更改都不适用于远程数据收集或诊断。</lang>
+<lang id='remoteModeRunningCN'>正在远程模式下运行 - 请稍候...</lang>
+<lang id='localModeCN'>脚本现在处于本地模式</lang>
+<lang id='popupWarningCN'>警告</lang>
+<lang id='remotePSinitLocalCredCN'>使用当前用户的权限设置远程 PowerShell 会话。 远程计算机:</lang>
+<lang id='remotePSinitLocalCredSuccessCN'>成功使用当前用户的权限创建远程 PSSession。 远程计算机:</lang>
+<lang id='remotePSinitLocalCredFailCN'>无法使用当前用户的权限创建远程 PSSession。 提示凭据并重试。 远程计算机:</lang>
+<lang id='remotePSenterCredCN'>输入远程计算机的管理员凭据:</lang>
+<lang id='remotePSinitProvCredSuccessCN'>成功使用提供的凭据创建远程 PSSession。 远程计算机:</lang>
+<lang id='remotePScopyCN'>正在将脚本文件复制到 C:\MS_DATA\ 上:</lang>
+<lang id='remotePScopyExistsCN'>已经存在。 检查现有的脚本文件并根据需要更新。 远程计算机:</lang>
+<lang id='remotePSlaunch1CN'>在远程 PSSession 中启动 MSRD-Collect</lang>
+<lang id='remotePScompleteCN'>远程数据收集/诊断完成。 删除远程 PSSession 到:</lang>
+
+<!-- User Context -->
+<lang id='userCon1CN'>在默认用户配置文件位置下找不到指定用户的本地配置文件:</lang>
+<lang id='userCon2CN'>用户上下文已重置为:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundCN'>找不到 avdnettest.exe。 AVD 的 RDP Shortpath 的可用性信息将不完整。 确保您下载并解压缩了 MSRD-Collect 或 TSS 的完整包</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeCN'>AVD Windows 桌面客户端 (MSRDC) 当前正在此计算机上运行。
+要捕获最新的 Windows 桌面客户端特定 ETL 跟踪，必须关闭 MSRDC.exe 进程。
+	
+	
+您现在要关闭 MSRDC.exe 吗？
+	
+	
+如果选择“是”，则将终止 MSRDC.exe 进程，断开所有传出的 MSRDC 连接，并且脚本将继续进行数据收集。
+	
+如果选择“否”，则 MSRDC.exe 进程将持续存在，脚本将继续进行数据收集，但无法收集最新的 ETL 跟踪。
+	
+如果选择“取消”，则将中止数据收集。</lang>
+
+<lang id='msrdcClosedCN'>MSRDC.exe 已关闭。 脚本将在继续之前等待 20 秒，以允许保存最新的 RD 客户端 ETL 跟踪数据。</lang>
+<lang id='msrdcNotClosedCN'>MSRDC.exe 未关闭。 最新的 RD 客户端 ETL 跟踪数据将不可用于故障排除！ 继续数据收集。</lang>
+<lang id='msrdcTitleCN'>继续之前</lang>
+
+</LangV1>

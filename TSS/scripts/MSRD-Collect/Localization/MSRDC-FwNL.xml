@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingNL">MSRD-Collect starten</lang>
+<lang id="notApprovedNL">Scriptuitvoering niet goedgekeurd door de beheerder, afsluiten.</lang>
+<lang id="eulaOKNL">EULA geaccepteerd, doorgaan</lang>
+<lang id="eulaNotOKNL">EULA geweigerd, afsluiten</lang>
+<lang id="eulaSilentOKNL">AcceptEula-schakelaar opgegeven, stil doorgaan</lang>
+<lang id="noticeOKNL">Kennisgeving geaccepteerd, doorgaan</lang>
+<lang id="noticeSilentOKNL">AcceptNotice-schakelaar opgegeven, stil doorgaan</lang>
+<lang id="enabledNL">Ingeschakeld</lang>
+<lang id="disabledNL">Uitgeschakeld</lang>
+<lang id="autoUpdateNL">Automatische updatecontrole bij het starten van het script:</lang>
+<lang id="playSndNL">Geluid afspelen:</lang>
+<lang id='aaModeNL'>Audio Assist-modus:</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuNL'>&amp;Bestand</lang>
+<lang id='RunMenuNL'>Start gegevensverzameling/diagnostiek</lang>
+<lang id='UpdateMenuNL'>&amp;Update controleren</lang>
+<lang id='ExitMenuNL'>&amp;Afsluiten</lang>
+<lang id='ViewMenuNL'>&amp;Weergave</lang>
+<lang id='PresetsMenuNL'>&amp;Presets</lang>
+<lang id='HideConsoleNL'>&amp;Consolevenster weergeven</lang>
+<lang id='MaximizeWindowNL'>&amp;Maximaliseren bij opstarten</lang>
+<lang id='AlwaysOnTopNL'>&amp;Altijd bovenaan</lang>
+<lang id='OutputLocationNL'>&amp;Uitvoerlocatie openen</lang>
+<lang id='LiteModeNL'>&amp;Lite-modus</lang>
+<lang id='LiteModeMachineNL'>Selecteer machinetype</lang>
+<lang id='LiteModeRoleNL'>Selecteer machinerol</lang>
+<lang id='LiteModeSourceNL'>Bronmachine / Client</lang>
+<lang id='LiteModeSourceTooltipNL'>Bronmachine van waaruit u verbinding maakt met andere machines met behulp van een Remote Desktop-client</lang>
+<lang id='LiteModeTargetNL'>Doelmachine / Host</lang>
+<lang id='LiteModeTarget2NL'>Doelmachine / Host (of tussenliggende servers)</lang>
+<lang id='LiteModeTargetTooltipNL'>Doelmachine waarmee u verbinding maakt</lang>
+<lang id='LiteModeTargetTooltip2NL'>Doelmachine waarmee u verbinding maakt of een RDS-server in een RDS-implementatie</lang>
+<lang id='LiteModeScenariosNL'>Selecteer een of meer scenario's (optioneel)</lang>
+<lang id='LiteModeStartNL'>Klik op 'Start' wanneer u klaar bent</lang>
+<lang id='LiteModeAdvancedNL'>Geavanceerde modus</lang>
+<lang id='LiteModeHideConsoleNL'>&amp;Console weergeven</lang>
+<lang id='DiagReportsNL'>&amp;Diagnoserapporten</lang>
+<lang id='ToolsMenuNL'>&amp;Gereedschap</lang>
+<lang id='SetOutputLocationNL'>&amp;Uitvoerlocatie instellen...</lang>
+<lang id='SetUserContextNL'>&amp;Gebruikerscontext instellen...</lang>
+<lang id='ConfigDataCollectionNL'>&amp;Gegevensverzameling configureren...</lang>
+<lang id='ConfigDiagNL'>Diagnostiek &amp;configureren...</lang>
+<lang id='ConfigSchedTaskNL'>Geplande taak maken...</lang>
+<lang id='OpenTaskSchedNL'>Taakplanner openen</lang>
+<lang id='AutoVerCheckNL'>Controleer op update bij opstarten</lang>
+<lang id='PlaySoundsNL'>Systeemgeluiden gebruiken</lang>
+<lang id='AssistModeNL'>Audio-assistentmodus</lang>
+<lang id='UILangNL'>Taal van de gebruikersinterface</lang>
+<lang id='araNL'>Arabisch</lang>
+<lang id='dutNL'>Nederlands</lang>
+<lang id='gerNL'>Duits</lang>
+<lang id='engNL'>Engels</lang>
+<lang id='hunNL'>Hongaars</lang>
+<lang id='romNL'>Roemeens</lang>
+<lang id='freNL'>Frans</lang>
+<lang id='itaNL'>Italiaans</lang>
+<lang id='porNL'>Portugees</lang>
+<lang id='spaNL'>Spaans</lang>
+<lang id='jpnNL'>Japans</lang>
+<lang id='czeNL'>Tsjechisch</lang>
+<lang id='turNL'>Turks</lang>
+<lang id='chiNL'>Chinees</lang>
+<lang id='HelpMenuNL'>&amp;Help</lang>
+<lang id='ReadMeNL'>&amp;ReadMe (Engels)</lang>
+<lang id='WhatsNewNL'>&amp;Wat is er nieuw</lang>
+<lang id='DownloadNL'>&amp;Downloads</lang>
+<lang id='DownloadMSRDCNL'>&amp;MSRD-Collect ophalen</lang>
+<lang id='DownloadRDSTracingNL'>&amp;RDSTracing ophalen</lang>
+<lang id='DownloadSaRANL'>&amp;SaRA voor Office 365</lang>
+<lang id='DownloadTSSNL'>&amp;TSS ophalen</lang>
+<lang id='MSDocsNL'>&amp;Microsoft Docs</lang>
+<lang id='AVDNL'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixNL'>&amp;FSLogix</lang>
+<lang id='RDSNL'>&amp;Remote Desktop Services</lang>
+<lang id='365NL'>&amp;Windows 365</lang>
+<lang id='TechCommunityNL'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDNL'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixNL'>&amp;FSLogix</lang>	
+<lang id='TC365NL'>&amp;Windows 365</lang>
+<lang id='AzureMenuNL'>A&amp;zure</lang>
+<lang id='AzOutageNotificationNL'>&amp;Ontvang meldingen van storingen die u beïnvloeden (Docs)</lang>
+<lang id='AzStatusNL'>&amp;Azure-status</lang>
+<lang id='AzStatusHistNL'>Azure &amp;Statusgeschiedenis</lang>
+<lang id='AzServHealthNL'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorNL'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailNL'>Feedback (&amp;e-mail) geven</lang>
+<lang id='FeedbackSurveyNL'>Feedback (&amp;enquête) geven</lang>
+<lang id='AboutNL'>&amp;Over</lang>
+<lang id='contextLabelNL'>Machinecontext</lang>
+<lang id='roleLabelNL'>Machinerol</lang>
+<lang id='scenarioLabelNL'>Gegevensverzamelingscenario's</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceNL'>Source</lang>
+<lang id='btnTargetNL'>Target</lang>
+<lang id='btnAVDNL'>AVD</lang>
+<lang id='btnRDSNL'>RDS</lang>
+<lang id='btnW365NL'>W365</lang>
+<lang id='btnCoreNL'>Core</lang>
+<lang id='btnProfilesNL'>Profiles</lang>
+<lang id='btnActivationNL'>Activation</lang>
+<lang id='btnMSRANL'>MSRA</lang>
+<lang id='btnSCardNL'>SCard</lang>
+<lang id='btnIMENL'>IME</lang>
+<lang id='btnTeamsNL'>Teams</lang>
+<lang id='btnMSIXAANL'>MSIXAA</lang>
+<lang id='btnHCINL'>HCI</lang>
+<lang id='btnProcDumpNL'>DumpPID</lang>
+<lang id='btnNetTraceNL'>NetTrace</lang>
+<lang id='btnDiagOnlyNL'>DiagOnly</lang>
+<lang id='btnLiveDiagNL'>LiveDiag</lang>
+<lang id='StartNL'>Start</lang>
+<lang id='RunningNL'>Uitvoeren</lang>
+<lang id='SurveyNL'>Enquête</lang>
+<lang id='CompLabelNL'>Computer(s)</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDNL'>Selecteer dit machinetype voor Azure Virtual Desktop-gerelateerde scenario's</lang>
+<lang id='btnTooltipRDSNL'>Selecteer dit machinetype voor Remote Desktop Services of direct RDP-gerelateerde scenario's</lang>
+<lang id='btnTooltipW365NL'>Selecteer dit machinetype voor Windows 365 Cloud PC-gerelateerde scenario's</lang>
+<lang id='btnTooltipSourceNL'>Selecteer dit roletype als de machine wordt gebruikt om externe verbindingen met andere machines tot stand te brengen</lang>
+<lang id='btnTooltipTargetNL'>Selecteer dit roletype als de machine aan de ontvangende kant van een externe verbinding staat of als het een server is met een willekeurige RDS-rol geïnstalleerd</lang>
+<lang id='btnTooltipProfilesNL'>Gegevens verzamelen voor het oplossen van problemen met gebruikersprofielen</lang>
+<lang id='btnTooltipActivationNL'>Gegevens verzamelen voor het oplossen van problemen met OS-licenties/activering</lang>
+<lang id='btnTooltipMSRANL'>Gegevens verzamelen voor het oplossen van problemen met 'Hulp op afstand'</lang>
+<lang id='btnTooltipSCardNL'>Gegevens verzamelen voor het oplossen van problemen met 'Smart Card'</lang>
+<lang id='btnTooltipIMENL'>Gegevens verzamelen voor het oplossen van problemen met 'Invoermethode'</lang>
+<lang id='btnTooltipTeamsNL'>Gegevens verzamelen voor het oplossen van problemen met 'Teams Media Optimization' (alleen AVD/W365)</lang>
+<lang id='btnTooltipMSIXAANL'>Gegevens verzamelen voor het oplossen van problemen met 'MSIX App Attach' (alleen AVD)</lang>
+<lang id='btnTooltipHCINL'>Gegevens verzamelen voor het oplossen van problemen met 'Azure Stack HCI' (alleen AVD)</lang>
+<lang id='btnTooltipProcDumpNL'>Verzamel een procesdump van een bestaand proces</lang>
+<lang id='btnTooltipNetTraceNL'>Verzamel een netwerktrace (netsh)</lang>
+<lang id='btnTooltipDiagOnlyNL'>Genereer alleen een diagnostisch rapport</lang>
+<lang id='btnTooltipLiveDiagNL'>Ga naar de Live Diagnostics-modus</lang>
+<lang id='btnTooltipSurveyNL'>Open de MSRD-Collect tevredenheidsenquête om feedback te geven over het script</lang>
+<lang id='btnTooltipComputerNL'>Voer een of meer computernamen (NetBIOS of FQDN) in, gescheiden door een puntkomma, om gegevens te verzamelen</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkNL'>Hoe vind je dit script?</lang>
+<lang id='ReadyNL'>Klaar</lang>
+<lang id='checkupdNL'>Controleren op updates. Even geduld a.u.b....</lang>
+<lang id='collecting1NL'>Verzamelen van</lang>
+<lang id='collecting2NL'>gegevens. Even geduld a.u.b....</lang>
+<lang id='waitNL'>Even geduld a.u.b....</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aNL'>Script versie</lang>
+<lang id='initvalues1bNL'>gestart vanuit:</lang>
+<lang id='initvalues1cNL'>Commandoregel:</lang>
+<lang id='initvalues2NL'>EULA en kennisgeving geaccepteerd</lang>
+<lang id='initvalues3NL'>Uitvoerlocatie:</lang>
+<lang id='initvalues4NL'>Gebruikerscontext:</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteNL'>Voor het oplossen van Teams-problemen wordt aanbevolen eerst nieuwe Teams Debug-logs te genereren.
+Zie: https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+Om deze debug-logs te genereren, opent u de betreffende Teams-app (met hetzelfde gebruikersaccount/context als voor deze gegevensverzameling) en drukt u op CTRL+ALT+SHIFT+1 binnen Teams.
+Teams genereert diagnostische logs die kunnen worden verzameld door dit script.
+
+Als u deze logs al heeft of niet nodig heeft, selecteert u 'Opnieuw' om door te gaan.
+Selecteer anders 'Cancel', genereer de Teams debug-logs en start de gegevensverzameling opnieuw.</lang>
+
+<lang id='teamstitleNL'>Teams probleemoplossingsgegevens verzamelen</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1NL'>Selecteer het uit te voeren proces om te dumpen</lang>
+<lang id='dpidtext2NL'>Selecteer een proces</lang>
+<lang id='dpidtext3NL'>Proces (PID) geselecteerd voor procesdump:</lang>
+<lang id='dpidtext4NL'>Geen PID geselecteerd - er wordt geen procesdump gegenereerd</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgNL'>Gegevensverzameling wordt uitgevoerd - even geduld a.u.b....</lang>
+<lang id='fdcmsgNL'>Gegevensverzameling voltooid</lang>
+<lang id='rdiagmsgNL'>Diagnose wordt uitgevoerd - even geduld a.u.b....</lang>
+<lang id='noDiagmsgNL'>Er zijn geen diagnostische controles geselecteerd. Overslaan van het genereren van het diagnostisch rapport.</lang>
+<lang id='selectedParamNL'>Geselecteerde parameters voor gegevensverzameling/diagnostiek:</lang>
+<lang id='checkmsgNL'>Controleren</lang>
+<lang id='fdiagmsgNL'>Diagnose voltooid</lang>
+<lang id='archmsgNL'>Resultaten archiveren - even geduld a.u.b.!</lang>
+<lang id='zipmsgNL'>Zip-bestand gereed:</lang>
+<lang id='ziperrormsgNL'>Zip-bestand kan niet worden gemaakt. Archiveer de verzamelde gegevens handmatig onder:</lang>
+<lang id='dtmmsgNL'>Gebruik altijd een beveiligde bestandsoverdrachtstool bij het delen van deze resultaten met Microsoft CSS. Bespreek dit met uw supportprofessional en ook eventuele zorgen die u heeft.</lang>
+<lang id='logfoldermsgNL'>Map maken</lang>
+<lang id='logfolderexistmsgNL'>bestaat al</lang>
+<lang id='coremsgNL'>Core probleemoplossingsgegevens verzamelen</lang>
+<lang id='profilesmsgNL'>Gebruikersprofielen probleemoplossingsgegevens verzamelen</lang>
+<lang id='msramsgNL'>Remote Assistance probleemoplossingsgegevens verzamelen</lang>
+<lang id='scardmsgNL'>Smart Card probleemoplossingsgegevens verzamelen</lang>
+<lang id='imemsgNL'>Input Method probleemoplossingsgegevens verzamelen</lang>
+<lang id='teamsmsgNL'>Teams op AVD probleemoplossingsgegevens verzamelen</lang>
+<lang id='msixaamsgNL'>MSIX App Attach probleemoplossingsgegevens verzamelen</lang>
+<lang id='hcimsgNL'>Azure Stack HCI probleemoplossingsgegevens verzamelen</lang>
+<lang id='activationmsgNL'>OS-licentie/activering probleemoplossingsgegevens verzamelen</lang>
+<lang id='errormsgNL'>Er is een fout opgetreden in</lang>
+<lang id='location1NL'>Selecteer een locatie om de resultaten op te slaan (standaard is C:\MS_DATA)</lang>
+<lang id='location2NL'>Uitvoerlocatie:</lang>
+<lang id='context1NL'>Gebruikerscontext instellen</lang>
+<lang id='context2NL'>Voer de gebruikersnaam in van wie het profiel moet worden verzameld</lang>
+<lang id='context3NL'>Gebruikerscontext ingesteld op:</lang>
+<lang id='selectCollect1NL'>Configureer gegevensverzameling</lang>
+<lang id='selectCollect2NL'>Gebruik de linker tabel om items te selecteren voor gegevensverzameling, klik op de rechter pijl om geselecteerde items uit te sluiten. Om items weer op te nemen, selecteert u uit de rechter tabel en klikt u op de linker pijl.</lang>
+<lang id='selectCollect3NL'>Gegevens worden per scenario verzameld</lang>
+<lang id='selectCollect4NL'>Gegevens worden per scenario uitgesloten</lang>
+<lang id='selectDiag1NL'>Configureer diagnostiek</lang>
+<lang id='selectDiag2NL'>Gebruik de linker tabel om items te selecteren voor diagnostiek, klik op de rechter pijl om geselecteerde items uit te sluiten. Om items weer op te nemen, selecteert u uit de rechter tabel en klikt u op de linker pijl.</lang>
+<lang id='selectDiag3NL'>Diagnostiek wordt per categorie uitgevoerd</lang>
+<lang id='selectDiag4NL'>Diagnostiek wordt per categorie uitgesloten</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceNL'>Netwerktrace wordt uitgevoerd - even geduld a.u.b....</lang>
+
+<lang id='netTraceNoteNL'>Reproduceer het probleem.
+Zodra het probleem zich heeft voorgedaan, stopt u de trace zo snel mogelijk door op de knop 'OK' te drukken.</lang>
+
+<lang id='netTraceNote2NL'>Reproduceer het probleem en druk op de toets 'Y' NA het voltooien van de reproductie (met vensterfocus hier)</lang>
+<lang id='netTraceRunningNL'>Netwerktrace wordt uitgevoerd </lang>
+<lang id='netTraceStoppingNL'>Netwerktrace wordt gestopt - even geduld a.u.b. (dit kan enkele minuten duren)...</lang>
+<lang id='netTraceFinishedNL'>Netwerktrace voltooid</lang>
+<lang id='conVisibleNL'>Consolevenster is zichtbaar</lang>
+<lang id='conHiddenNL'>Consolevenster is verborgen</lang>
+<lang id='openMaximizedNL'>Het script wordt gemaximaliseerd gestart</lang>
+<lang id='openWindowedNL'>Het script wordt niet gemaximaliseerd gestart</lang>
+<lang id='ontopNL'>Het scriptvenster blijft boven andere vensters</lang>
+<lang id='ontopNotNL'>Het scriptvenster blijft niet boven andere vensters</lang>
+<lang id='outputNotFoundNL'>[WAARSCHUWING] De geselecteerde uitvoerlocatie kan niet worden gevonden.</lang>
+<lang id='outputLoc1NL'>De lijst met beschikbare diagnostische rapporten onder de huidige uitvoerlocatie wordt vernieuwd</lang>
+<lang id='outputLoc2NL'>[WAARSCHUWING] De geselecteerde uitvoerlocatie bestaat niet meer. Klik op 'Beeld\Diagnostische rapporten' om de lijst te vernieuwen en probeer het opnieuw.</lang>
+<lang id='outputLoc3NL'>Lijst succesvol vernieuwd.</lang>
+<lang id='outputLoc4NL'>Er zijn geen rapporten gevonden onder de huidige uitvoerlocatie</lang>
+<lang id='outputLoc5NL'>Genereer eerst enkele diagnostische rapporten om deze lijst te vullen.</lang>
+<lang id='outputLoc6NL'>De huidige uitvoerlocatie bestaat niet</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgNL'>Een of meer achtergrondtaken worden nog uitgevoerd. Deze kunnen tot 3 minuten duren. Even geduld a.u.b....</lang>
+<lang id='bgjob2msgNL'>Een of meer achtergrondtaken konden niet binnen de toegewezen tijd worden voltooid. Mogelijk ontbreken er gegevens. Als dit probleem zich blijft voordoen, meld het dan aan: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1NL'>Controleren of er een nieuwe versie beschikbaar is (even geduld a.u.b.)</lang>
+<lang id='vercheck2NL'>Een nieuwere versie is beschikbaar op https://aka.ms/msrd-collect !</lang>
+<lang id='vercheck3NL'>Een nieuwere versie is beschikbaar:</lang>
+<lang id='vercheck4NL'>u gebruikt momenteel</lang>
+<lang id='vercheck5NL'>Voor de beste resultaten downloadt en gebruikt u de nieuwste versie van https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck5bNL'>Als u 'Ja' selecteert, wordt er een browservenster geopend om het nieuwste bestand 'MSRD-Collect.zip' te downloaden en wordt het huidige script afgesloten. Anders gaat het huidige script gewoon door.</lang>
+<lang id='vercheck6NL'>Wilt u de nieuwe versie nu downloaden?</lang>
+
+<lang id='vercheck7NL'>Standaardbrowser wordt geopend om de nieuwste 'MSRD-Collect.zip' te downloaden van https://aka.ms/MSRD-Collect
+Afsluiten.
+</lang>
+
+<lang id='vercheck8NL'>U hebt besloten om de nieuwste versie nog niet te downloaden. Voor de beste resultaten downloadt en gebruikt u de nieuwste versie van https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck9NL'>MSRD-Collect-versie is up-to-date </lang>
+<lang id='PDvercheck1NL'>ProcDump-versie is up-to-date </lang>
+<lang id='selfupdate1NL'>Als u 'Ja' selecteert, wordt het script automatisch bijgewerkt. Anders gaat het huidige script gewoon door.</lang>
+<lang id='selfupdate2NL'>Script zelf bijwerken</lang>
+<lang id='selfupdate3NL'>geïnitieerd door gebruiker:</lang>
+<lang id='selfupdate4NL'>Bezig met het starten van de beveiligde download van de nieuwste versie van https://aka.ms/MSRD-Collect (even geduld a.u.b.)</lang>
+<lang id='selfupdate5NL'>Een kopie van het huidige MSRD-Collect-configuratiebestand opslaan naar</lang>
+<lang id='selfupdate6NL'>Bestanden uitpakken van</lang>
+<lang id='selfupdate7NL'>Het MSRD-Collect-configuratiebestand wordt hersteld vanaf de vorige back-up en de back-up wordt verwijderd</lang>
+<lang id='selfupdate8NL'>Tijdelijk downloadbestand verwijderen</lang>
+<lang id='selfupdate9NL'>Update geslaagd. Script wordt opnieuw gestart.</lang>
+
+<!-- How to -->	
+<lang id='howtouseNL'>Gebruiksaanwijzing:
+
+	Stap 1: Selecteer de context/omgeving waarin de machine(s) worden gebruikt:
+
+		AVD		- Azure Virtual Desktop
+		RDS		- Remote Desktop Services of directe (non-AVD/non-W365) RDP-verbinding
+		W365		- Windows 365 Cloud PC
+
+	Stap 2: Selecteer de rol van de machine(s) in de gegeven context/omgeving:
+
+		Source		- Bronmachine van waaruit u verbinding maakt met andere machines met behulp van een Remote Desktop-client
+		Target		- Doelmachine waarmee u verbinding maakt of een server met een willekeurige RDS-rol geïnstalleerd
+
+	Stap 3: [Optioneel] Als u 'AVD' of 'W365' hebt geselecteerd, voert u één of meer computernamen (NetBIOS of FQDN) in het veld 'Computer(s)' in waarvan u gegevens wilt verzamelen. 
+		 De naam van de lokale computer wordt gebruikt als de standaardwaarde. 
+		 Als er meerdere machines zijn opgegeven, scheidt u ze met een puntkomma. De gegevens worden van elke computer in een sequentiële volgorde verzameld.
+
+Voor gegevensverzameling:
+
+	Stap 4a: [Optioneel] Selecteer één of meer beschikbare scenario's:
+
+		Profielen	- Verzamel gegevens voor het oplossen van problemen met 'Gebruikersprofielen'
+		Activering	- Verzamel gegevens voor het oplossen van problemen met 'Besturingssysteem Licentie/Activering'
+		MSRA		- Verzamel gegevens voor het oplossen van problemen met 'Hulp op Afstand'
+		SCard		- Verzamel gegevens voor het oplossen van problemen met 'Smartcard'
+		IME		- Verzamel gegevens voor het oplossen van problemen met 'Invoermethode'
+		Teams		- Verzamel gegevens voor het oplossen van problemen met 'Teams Media-optimalisatie' (alleen AVD/W365)
+		MSIXAA		- Verzamel gegevens voor het oplossen van problemen met 'MSIX App Attach' (alleen AVD)
+		HCI		- Verzamel gegevens voor het oplossen van problemen met 'Azure Stack HCI' (alleen AVD)
+		DumpPID	- Verzamel een procesdump van een bestaand proces
+		NetTrace	- Verzamel een netwerktrace (netsh)
+		DiagOnly	- Genereer alleen een diagnostisch rapport
+
+	Stap 5a: Klik op de knop 'Start' wanneer u klaar bent. Gegevensverzameling/diagnostiek kan enkele minuten duren.
+
+Voor live diagnostiek:
+
+	Stap 4b: Selecteer de optie 'LiveDiag'.
+
+	Stap 5b: Selecteer het gewenste tabblad voor de diagnostische categorie.
+
+	Stap 6: Klik op de gewenste knop binnen het geselecteerde tabblad om de bijbehorende diagnostische controle uit te voeren.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1NL'>Diagnostiek wordt uitgevoerd. Dit kan enkele minuten duren. Even geduld a.u.b...</lang>
+<lang id='liveDiag2NL'>Diagnostiek voltooid</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateNL'>Geplande taak maken om diagnostiek uit te voeren</lang>
+<lang id='schedTaskNoteNL'>U staat op het punt een geplande taak op deze computer te maken, die MSRD-Collect Diagnostics zal uitvoeren en een MSRD-Diag.html rapport zal genereren.`n`nWeet u zeker dat u wilt doorgaan?</lang>
+<lang id='schedTaskInfo1NL'>Geplande taak succesvol aangemaakt met de volgende parameters:</lang>
+<lang id='schedTaskInfo2NL'>Startdatum:</lang>
+<lang id='schedTaskInfo3NL'>Starttijd:</lang>
+<lang id='schedTaskInfo4NL'>Frequentie:</lang>
+<lang id='schedTaskInfo5NL'>Dag van de week:</lang>
+<lang id='schedTaskInfo6NL'>Machine context:</lang>
+<lang id='schedTaskInfo7NL'>Machine rol:</lang>
+<lang id='schedTaskInfo8NL'>Scriptlocatie:</lang>
+<lang id='schedTaskInfo9NL'>Uitvoerlocatie:</lang>
+<lang id='schedTaskInfo10NL'>Gebruikerscontext:</lang>
+<lang id='schedTaskInfo11NL'>Geplande taak succesvol aangemaakt met de volgende parameters:</lang>
+<lang id='schedTaskInfo12NL'>Week van de maand:</lang>
+<lang id='schedTaskInfo13NL'>Onbekende fout. Er is geen geplande taak aangemaakt.</lang>
+<lang id='schedTaskInfo14NL'>Actie die zal worden uitgevoerd:</lang>
+<lang id='schedTaskEmpty1NL'>Uitvoerlocatie is leeg</lang>
+<lang id='schedTaskEmpty2NL'>Scriptlocatie is leeg</lang>
+<lang id='schedTaskNotFound1NL'>Uitvoerlocatie niet gevonden</lang>
+<lang id='schedTaskNotFound2NL'>Scriptlocatie niet gevonden</lang>
+	
+<!-- Presets -->
+<lang id='presetResetNL'>Alles resetten</lang>
+<lang id='presetLoaded1NL'>Voorinstelling geselecteerd</lang>
+<lang id='presetLoaded2NL'>Druk op de knop 'Start' om met de gegevensverzameling/diagnostiek te beginnen.</lang>
+<lang id='presetErrcon1NL'>Kan geen verbinding maken / Fout tijdens initiële verbinding (Bron-/clientmachine)</lang>
+<lang id='presetErrcon2NL'>Kan geen verbinding maken / Fout tijdens initiële verbinding (Doel-/hostmachine)</lang>
+<lang id='presetLogon1NL'>Kan niet inloggen / Probleem met authenticatie of gebruikersprofiel (Bron-/clientmachine)</lang>
+<lang id='presetLogon2NL'>Kan niet inloggen / Probleem met authenticatie of gebruikersprofiel (Doel-/hostmachine)</lang>
+<lang id='presetScard1NL'>Kan niet inloggen met een smartcard of problemen met het gebruik van een smartcard in een sessie (Bron-/clientmachine)</lang>
+<lang id='presetScard2NL'>Kan niet inloggen met een smartcard of problemen met het gebruik van een smartcard in een sessie (Doel-/hostmachine)</lang>
+<lang id='presetMsixaaNL'>MSIX App Attach / Problemen met het gebruik van toegewezen toepassingspakketten (Doel-/hostmachine)</lang>
+<lang id='presetLic1NL'>RD-licentieproblemen met 'per apparaat' RDS CAL's (Bron-/clientmachine)</lang>
+<lang id='presetLic2NL'>RD-licentieprobleem met 'per apparaat' of 'per gebruiker' RDS CAL's (Session Host / License Server)</lang>
+<lang id='presetLic3NL'>RD-licentieprobleem met 'per gebruiker' RDS CAL's (Session Host / License Server)</lang>
+<lang id='presetDiscon1NL'>Onverwachte verbreking van een actieve of inactieve sessie (Bron-/clientmachine)</lang>
+<lang id='presetDiscon2NL'>Onverwachte verbreking van een actieve of inactieve sessie (Doel-/hostmachine)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeNL'>Het script bevindt zich nu in de modus voor externe toegang</lang>
+<lang id='remoteInvalidCompNL'>Het veld 'Computer(s)' bevat een ongeldige computernaam:</lang>
+<lang id='remoteReach1NL'>De opgegeven computer</lang>
+<lang id='remoteReach2NL'>is bereikbaar. Doorgaan met gegevensverzameling/diagnostiek.</lang>
+<lang id='remoteReach3NL'>is niet bereikbaar. Zorg ervoor dat de computernaam correct is en dat deze via het netwerk bereikbaar is. U moet mogelijk 'Bestands- en printerdeling inschakelen' op de externe computer als dit nog niet is gebeurd.</lang>
+<lang id='remoteModeNotice1NL'>U hebt één of meer machines opgegeven in het veld 'Computer(s)' die verschillen van de lokale machine.</lang>
+<lang id='remoteModeNotice2NL'>Het script zal proberen om gegevens op afstand te verzamelen door zichzelf te kopiëren naar de map C:\MS_DATA\ op elke opgegeven machine en van daaruit te draaien.</lang>
+<lang id='remoteModeNotice3NL'>Wilt u doorgaan?</lang>
+<lang id='remoteModeNotice4NL'>Als u 'Ja' selecteert, wordt u mogelijk gevraagd om referenties in te voeren voor elke afzonderlijke externe machine. Geef een account op met beheerdersrechten op de externe machine (bij voorkeur een domeinbeheerder als de machine is gekoppeld aan een domein).</lang>
+<lang id='remoteModeNotice5NL'>Houd er rekening mee dat momenteel alle wijzigingen die in de opties 'Gegevensverzameling configureren' of 'Diagnostiek configureren' voor filtering worden aangebracht, niet van toepassing zijn op externe gegevensverzameling of diagnostiek.</lang>
+<lang id='remoteModeRunningNL'>Bezig met uitvoeren in de modus voor externe toegang - Even geduld a.u.b....</lang>
+<lang id='localModeNL'>Het script bevindt zich nu in de lokale modus</lang>
+<lang id='popupWarningNL'>Waarschuwing</lang>
+<lang id='remotePSinitLocalCredNL'>Instellen van een externe PowerShell-sessie met de rechten van de huidige gebruiker. Externe computer:</lang>
+<lang id='remotePSinitLocalCredSuccessNL'>Succesvolle aanmaak van een externe PSSessie met de rechten van de huidige gebruiker. Externe computer:</lang>
+<lang id='remotePSinitLocalCredFailNL'>Kan geen externe PSSessie maken met de rechten van de huidige gebruiker. Vragen om referenties en opnieuw proberen. Externe computer:</lang>
+<lang id='remotePSenterCredNL'>Voer beheerdersreferenties in voor de externe computer:</lang>
+<lang id='remotePSinitProvCredSuccessNL'>Succesvolle aanmaak van een externe PSSessie met de opgegeven referenties. Externe computer:</lang>
+<lang id='remotePScopyNL'>Kopiëren van scriptbestanden naar C:\MS_DATA\ op:</lang>
+<lang id='remotePScopyExistsNL'>bestaat al. Controleren op bestaande scriptbestanden en indien nodig bijwerken. Externe computer:</lang>
+<lang id='remotePSlaunch1NL'>MSRD-Collect starten in de externe PSSessie</lang>
+<lang id='remotePScompleteNL'>Externe gegevensverzameling/diagnostiek voltooid. Externe PSSessie verwijderen naar:</lang>
+
+<!-- User Context -->
+<lang id='userCon1NL'>Geen lokaal profiel gevonden voor de opgegeven gebruiker onder de standaardlocatie voor gebruikersprofielen:</lang>
+<lang id='userCon2NL'>Gebruikerscontext is gereset naar:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundNL'>avdnettest.exe kan niet worden gevonden. Informatie over de beschikbaarheid van RDP Shortpath voor AVD is onvolledig. Zorg ervoor dat u het volledige pakket van MSRD-Collect of TSS downloadt en uitpakt</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeNL'>De AVD Windows Desktop-client (MSRDC) wordt momenteel uitgevoerd op deze computer.
+Om de nieuwste Windows Desktop-client-specifieke ETL-trace(s) vast te leggen, is het nodig om het proces MSRDC.exe te sluiten.
+	
+	
+Wilt u MSRDC.exe nu sluiten?
+	
+	
+Als u 'Ja' kiest, wordt het proces MSRDC.exe beëindigd, waardoor alle uitgaande MSRDC-verbindingen worden verbroken en het script doorgaat met de gegevensverzameling.
+	
+Als u 'Nee' kiest, blijft het proces MSRDC.exe bestaan en gaat het script door met de gegevensverzameling, maar kan het de meest recente ETL-trace(s) niet vastleggen.
+	
+Als u 'Annuleren' kiest, wordt de gegevensverzameling afgebroken.</lang>
+
+<lang id='msrdcClosedNL'>MSRDC.exe is gesloten. Het script wacht 20 seconden voordat het doorgaat, zodat de nieuwste RD-client-ETL-tracegegevens kunnen worden opgeslagen.</lang>
+<lang id='msrdcNotClosedNL'>MSRDC.exe is niet gesloten. De meest recente RD-client-ETL-tracegegevens zijn NIET beschikbaar voor probleemoplossing! Doorgaan met gegevensverzameling.</lang>
+<lang id='msrdcTitleNL'>Voordat u verder gaat</lang>
+
+</LangV1>

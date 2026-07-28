@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingTR">MSRD-Collect başlatılıyor</lang>
+<lang id="notApprovedTR">Komut dosyası yürütme, yönetici kullanıcı tarafından onaylanmadı, çıkış.</lang>
+<lang id="eulaOKTR">EULA kabul edildi, devam ediliyor</lang>
+<lang id="eulaNotOKTR">EULA reddedildi, çıkış</lang>
+<lang id="eulaSilentOKTR">AcceptEula parametresi belirtildi, sessizce devam ediliyor</lang>
+<lang id="noticeOKTR">Bildirim kabul edildi, devam ediliyor</lang>
+<lang id="noticeSilentOKTR">AcceptNotice parametresi belirtildi, sessizce devam ediliyor</lang>
+<lang id="enabledTR">Etkin</lang>
+<lang id="disabledCN">禁用</lang>
+<lang id="autoUpdateTR">Komut dosyası başlatıldığında otomatik güncelleme kontrolü:</lang>
+<lang id="playSndTR">Sesleri oynat:</lang>
+<lang id='aaModeTR'>Sesli Yardım modu:</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuTR'>&amp;Dosya</lang>
+<lang id='RunMenuTR'>Veri toplama / teşhis başlat</lang>
+<lang id='UpdateMenuTR'>Güncellemeleri kontrol et</lang>
+<lang id='ExitMenuTR'>Çıkış</lang>
+<lang id='ViewMenuTR'>Görünüm</lang>
+<lang id='PresetsMenuTR'>Ön ayarlar</lang>
+<lang id='HideConsoleTR'>Konsol penceresini göster</lang>
+<lang id='MaximizeWindowTR'>Tam ekran başlat</lang>
+<lang id='AlwaysOnTopTR'>Her zaman en üstte</lang>
+<lang id='OutputLocationTR'>Çıkış konumunu aç</lang>
+<lang id='LiteModeTR'>Lite Modu</lang>
+<lang id='LiteModeMachineTR'>Makine bağlamını seçin</lang>
+<lang id='LiteModeRoleTR'>Makine rolünü seçin</lang>
+<lang id='LiteModeSourceTR'>Kaynak makine / İstemci</lang>
+<lang id='LiteModeSourceTooltipTR'>Uzak Masaüstü istemci kullanarak diğer makinelerle bağlantı kurduğunuz kaynak makine</lang>
+<lang id='LiteModeTargetTR'>Hedef makine / Ana bilgisayar</lang>
+<lang id='LiteModeTarget2TR'>Hedef makine / Ana bilgisayar (veya ara sunucular)</lang>
+<lang id='LiteModeTargetTooltipTR'>Bağlandığınız hedef makine</lang>
+<lang id='LiteModeTargetTooltip2TR'>Bağlandığınız hedef makine veya bir RDS dağıtımındaki herhangi bir RDS sunucusu</lang>
+<lang id='LiteModeScenariosTR'>Bir veya daha fazla senaryo seçin (isteğe bağlı)</lang>
+<lang id='LiteModeStartTR'>Hazır olduğunuzda 'Başlat' düğmesine tıklayın</lang>
+<lang id='LiteModeAdvancedTR'>Gelişmiş Mod</lang>
+<lang id='LiteModeHideConsoleTR'>Konsolu göster</lang>
+<lang id='DiagReportsTR'>Tanılama Raporları</lang>
+<lang id='ToolsMenuTR'>Araçlar</lang>
+<lang id='SetOutputLocationTR'>Çıkış konumunu ayarla...</lang>
+<lang id='SetUserContextTR'>Kullanıcı bağlamını ayarla...</lang>
+<lang id='ConfigDataCollectionTR'>Veri toplama ayarlarını yapılandır...</lang>
+<lang id='ConfigDiagTR'>Tanıyı yapılandır...</lang>
+<lang id='ConfigSchedTaskTR'>Zamanlanmış görev oluştur...</lang>
+<lang id='OpenTaskSchedTR'>Görev Zamanlayıcıyı aç</lang>
+<lang id='AutoVerCheckTR'>Başlatma sırasında güncellemeleri kontrol et</lang>
+<lang id='PlaySoundsTR'>Sistem seslerini kullan</lang>
+<lang id='AssistModeTR'>Sesli yardım modu</lang>
+<lang id='UILangTR'>Kullanıcı arayüzü dili</lang>
+<lang id='araTR'>Arapça</lang>
+<lang id='dutTR'>Hollanda</lang>
+<lang id='gerTR'>Almanca</lang>
+<lang id='engTR'>İngilizce</lang>
+<lang id='hunTR'>Macarca</lang>
+<lang id='romTR'>Romence</lang>
+<lang id='freTR'>Fransızca</lang>
+<lang id='itaTR'>İtalyanca</lang>
+<lang id='porTR'>Portekizce</lang>
+<lang id='spaTR'>İspanyolca</lang>
+<lang id='jpnTR'>Japonca</lang>
+<lang id='czeTR'>Çekçe</lang>
+<lang id='turTR'>Türkçe</lang>
+<lang id='chiTR'>Çince</lang>
+<lang id='HelpMenuTR'>Yardım</lang>
+<lang id='ReadMeTR'>ReadMe (İngilizce)</lang>
+<lang id='WhatsNewTR'>Yenilikler</lang>
+<lang id='DownloadTR'>İndirmeler</lang>
+<lang id='DownloadMSRDCTR'>&amp;MSRD-Collect al</lang>
+<lang id='DownloadRDSTracingTR'>&amp;RDSTracing al</lang>
+<lang id='DownloadSaRATR'>&amp;SaRA for Office 365 al</lang>
+<lang id='DownloadTSSTR'>&amp;TSS al</lang>
+<lang id='MSDocsTR'>&amp;Microsoft Docs</lang>
+<lang id='AVDTR'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixTR'>&amp;FSLogix</lang>
+<lang id='RDSTR'>&amp;Remote Desktop Services</lang>
+<lang id='365TR'>&amp;Windows 365</lang>
+<lang id='TechCommunityTR'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDTR'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixTR'>&amp;FSLogix</lang>	
+<lang id='TC365TR'>&amp;Windows 365</lang>
+<lang id='AzureMenuTR'>A&amp;zure</lang>
+<lang id='AzOutageNotificationTR'>Sizi etkileyen kesintilerden haberdar olun (Belgeler)</lang>
+<lang id='AzStatusTR'>Azure Durumu</lang>
+<lang id='AzStatusHistTR'>Azure Durum Geçmişi</lang>
+<lang id='AzServHealthTR'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorTR'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailTR'>Geri bildirim sağla (e-posta)</lang>
+<lang id='FeedbackSurveyTR'>Geri bildirim sağla (anket)</lang>
+<lang id='AboutTR'>Hakkında</lang>
+<lang id='contextLabelTR'>Makine Bağlamı</lang>
+<lang id='roleLabelTR'>Makine Rolü</lang>
+<lang id='scenarioLabelTR'>Veri Toplama Senaryoları</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceTR'>Source</lang>
+<lang id='btnTargetTR'>Target</lang>
+<lang id='btnAVDTR'>AVD</lang>
+<lang id='btnRDSTR'>RDS</lang>
+<lang id='btnW365TR'>W365</lang>
+<lang id='btnCoreTR'>Core</lang>
+<lang id='btnProfilesTR'>Profiles</lang>
+<lang id='btnActivationTR'>Activation</lang>
+<lang id='btnMSRATR'>MSRA</lang>
+<lang id='btnSCardTR'>SCard</lang>
+<lang id='btnIMETR'>IME</lang>
+<lang id='btnTeamsTR'>Teams</lang>
+<lang id='btnMSIXAATR'>MSIXAA</lang>
+<lang id='btnHCITR'>HCI</lang>
+<lang id='btnProcDumpTR'>DumpPID</lang>
+<lang id='btnNetTraceTR'>NetTrace</lang>
+<lang id='btnDiagOnlyTR'>DiagOnly</lang>
+<lang id='btnLiveDiagTR'>LiveDiag</lang>
+<lang id='StartTR'>Başlat</lang>
+<lang id='RunningTR'>Çalışıyor</lang>
+<lang id='SurveyTR'>Anket</lang>
+<lang id='CompLabelTR'>Bilgisayar(lar)</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDTR'>Azure Virtual Desktop ile ilgili senaryolar için bu makine türünü seçin</lang>
+<lang id='btnTooltipRDSTR'>Uzak Masaüstü Hizmetleri veya doğrudan RDP ile ilgili senaryolar için bu makine türünü seçin</lang>
+<lang id='btnTooltipW365TR'>Windows 365 Cloud PC ile ilgili senaryolar için bu makine türünü seçin</lang>
+<lang id='btnTooltipSourceTR'>Makine, diğer makinelerle uzaktan bağlantı kurmak için kullanılıyorsa bu rol türünü seçin</lang>
+<lang id='btnTooltipTargetTR'>Makine, uzaktan bağlantının alıcı ucunda veya herhangi bir RDS rolü yüklü bir sunucuysa bu rol türünü seçin</lang>
+<lang id='btnTooltipProfilesTR'>Kullanıcı profilleri ile ilgili sorunları gidermek için veri toplayın</lang>
+<lang id='btnTooltipActivationTR'>OS Lisanslama/Etkinleştirme ile ilgili sorunları gidermek için veri toplayın</lang>
+<lang id='btnTooltipMSRATR'>Uzaktan Yardım ile ilgili sorunları gidermek için veri toplayın</lang>
+<lang id='btnTooltipSCardTR'>'Smart Card' ile ilgili sorunları gidermek için veri toplayın</lang>
+<lang id='btnTooltipIMETR'>Giriş Yöntemi ile ilgili sorunları gidermek için veri toplayın</lang>
+<lang id='btnTooltipTeamsTR'>Teams Medya Optimizasyonu ile ilgili sorunları gidermek için veri toplayın (AVD/W365 yalnızca)</lang>
+<lang id='btnTooltipMSIXAATR'>MSIX Uygulama Eki ile ilgili sorunları gidermek için veri toplayın (AVD yalnızca)</lang>
+<lang id='btnTooltipHCITR'>Azure Stack HCI ile ilgili sorunları gidermek için veri toplayın (AVD yalnızca)</lang>
+<lang id='btnTooltipProcDumpTR'>Mevcut bir işlemin, işlem dökümünü toplayın</lang>
+<lang id='btnTooltipNetTraceTR'>Bir ağ izi toplayın (netsh)</lang>
+<lang id='btnTooltipDiagOnlyTR'>Sadece Tanılama raporu oluşturun</lang>
+<lang id='btnTooltipLiveDiagTR'>Canlı Tanılama moduna girin</lang>
+<lang id='btnTooltipSurveyTR'>Geri bildirimde bulunmak için MSRD-Collect memnuniyet anketini açın</lang>
+<lang id='btnTooltipComputerTR'>Veri toplamak için noktalı virgülle ayrılmış bir veya daha fazla bilgisayar adı (NetBIOS veya FQDN) girin</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkTR'>Bu scripti nasıl buldunuz?</lang>
+<lang id='ReadyTR'>Hazır</lang>
+<lang id='checkupdTR'>Güncellemeler kontrol ediliyor. Lütfen bekleyin...</lang>
+<lang id='collecting1TR'>Toplanıyor</lang>
+<lang id='collecting2TR'>veri. Lütfen bekleyin...</lang>
+<lang id='waitTR'>Lütfen bekleyin...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aTR'>Script versiyonu</lang>
+<lang id='initvalues1bTR'>şuradan başlatıldı:</lang>
+<lang id='initvalues1cTR'>Komut satırı:</lang>
+<lang id='initvalues2TR'>EULA ve Bildirim kabul edildi</lang>
+<lang id='initvalues3TR'>Çıktı konumu:</lang>
+<lang id='initvalues4TR'>Kullanıcı bağlamı:</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteTR'>Teams sorunlarını gidermek için öncelikle taze Teams Hata Ayıklama Günlükleri oluşturmanız önerilir.
+Bkz: https://docs.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+Bu hata ayıklama günlüklerini oluşturmak için, etkilenen Teams uygulamasını açın (bu veri toplama için kullanılan kullanıcı hesabı/bağlamı ile aynı) ve Teams içinde CTRL+ALT+SHIFT+1 tuşlarına basın.
+Teams, bu komut dosyası tarafından toplanabilecek tanılama günlükleri oluşturacaktır.
+
+Bu günlükleriniz zaten varsa veya ihtiyacınız yoksa, devam etmek için 'Yeniden Dene'yi seçin.
+Aksi takdirde 'İptal'i seçin, Teams hata ayıklama günlüklerini oluşturun ve veri toplamayı yeniden başlatın.</lang>
+
+<lang id='teamstitleTR'>Teams sorun giderme verileri toplanıyor</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1TR'>Döküm için çalışan işlemi seçin</lang>
+<lang id='dpidtext2TR'>Bir işlem seçin</lang>
+<lang id='dpidtext3TR'>İşlem dökümü için seçilen işlem (PID):</lang>
+<lang id='dpidtext4TR'>PID seçilmedi - hiçbir işlem dökümü oluşturulmayacak</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgTR'>Veri toplama işlemi devam ediyor - lütfen bekleyin...</lang>
+<lang id='fdcmsgTR'>Veri toplama işlemi tamamlandı</lang>
+<lang id='rdiagmsgTR'>Teşhis işlemi devam ediyor - lütfen bekleyin...</lang>
+<lang id='noDiagmsgTR'>Teşhis denetimleri seçilmedi. Teşhis raporu oluşturma atlanıyor.</lang>
+<lang id='selectedParamTR'>Veri toplama/teşhis için seçilen parametreler:</lang>
+<lang id='checkmsgTR'>Denetleniyor</lang>
+<lang id='fdiagmsgTR'>Teşhis tamamlandı</lang>
+<lang id='archmsgTR'>Sonuçlar arşivleniyor - lütfen bekleyin!</lang>
+<lang id='zipmsgTR'>Zip dosyası hazır:</lang>
+<lang id='ziperrormsgTR'>Zip dosyası oluşturulamadı. Lütfen toplanan verileri aşağıdaki konumda manuel arşivleyin:</lang>
+<lang id='dtmmsgTR'>Bu sonuçları Microsoft CSS ile paylaşırken her zaman güvenli bir dosya aktarım aracı kullanın. Bu konuda yardıma ihtiyacınız varsa destek mühendisinizeden yardım isteyin.</lang>
+<lang id='logfoldermsgTR'>Klasör oluşturuluyor</lang>
+<lang id='logfolderexistmsgTR'>zaten var</lang>
+<lang id='coremsgTR'>Çekirdek sorun giderme verileri toplanıyor</lang>
+<lang id='profilesmsgTR'>Kullanıcı profilleri sorun giderme verileri toplanıyor</lang>
+<lang id='msramsgTR'>Uzaktan Yardım sorun giderme verileri toplanıyor</lang>
+<lang id='scardmsgTR'>Smart Card sorun giderme verileri toplanıyor</lang>
+<lang id='imemsgTR'>Giriş Yöntemi sorun giderme verileri toplanıyor</lang>
+<lang id='teamsmsgTR'>AVD üzerinde Teams sorun giderme verileri toplanıyor</lang>
+<lang id='msixaamsgTR'>MSIX Uygulama Ekle sorun giderme verileri toplanıyor</lang>
+<lang id='hcimsgTR'>Azure Stack HCI sorun giderme verileri toplanıyor</lang>
+<lang id='activationmsgTR'>OS Lisanslama/Etkinleştirme sorun giderme verileri toplanıyor</lang>
+<lang id='errormsgTR'>Bir hata oluştu</lang>
+<lang id='location1TR'>Sonuçları saklamak için bir konum seçin (varsayılan C:\MS_DATA)</lang>
+<lang id='location2TR'>Çıktı konumu:</lang>
+<lang id='context1TR'>Kullanıcı bağlamını ayarla</lang>
+<lang id='context2TR'>Veri toplamak istediğiniz kullanıcı profilinin kullanıcı adını girin</lang>
+<lang id='context3TR'>Kullanıcı bağlamı şuna ayarlandı:</lang>
+<lang id='selectCollect1TR'>Veri toplamayı ayarla</lang>
+<lang id='selectCollect2TR'>Veri toplama için öğeleri seçmek için sol tabloyu kullanın, seçilen öğeleri hariç tutmak için sağ oku tıklayın. Öğeleri geri almak için sağ tablodan seçin ve sol oku tıklayın.</lang>
+<lang id='selectCollect3TR'>Senaryo başına toplanan veriler</lang>
+<lang id='selectCollect4TR'>Senaryo başına hariç tutulan veriler</lang>
+<lang id='selectDiag1TR'>Tanılamayı ayarla</lang>
+<lang id='selectDiag2TR'>Tanılama için öğeleri seçmek için sol tabloyu kullanın, seçilen öğeleri hariç tutmak için sağ oku tıklayın. Öğeleri geri almak için sağ tablodan seçin ve sol oku tıklayın.</lang>
+<lang id='selectDiag3TR'>Kategori başına gerçekleştirilen tanılamalar</lang>
+<lang id='selectDiag4TR'>Kategori başına hariç tutulan tanılamalar</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceTR'>Ağ izi çalışıyor - lütfen bekleyin...</lang>
+
+<lang id='netTraceNoteTR'>Sorunu yeniden oluşturun.
+Sorun oluştuğunda, 'Tamam' düğmesine basarak izlemeyi mümkün olan en kısa sürede durdurun.</lang>
+
+<lang id='netTraceNote2TR'>Sorun tekrar oluştuktan sonra "Y" tuşuna basın (pencere burada odaklanıyor)</lang>
+<lang id='netTraceRunningTR'>Ağ izi çalışıyor</lang>
+<lang id='netTraceStoppingTR'>Ağ izi durduruluyor - lütfen bekleyin (bu işlem birkaç dakika sürebilir)...</lang>
+<lang id='netTraceFinishedTR'>Ağ izi tamamlandı</lang>
+<lang id='conVisibleTR'>Konsol penceresi görünür</lang>
+<lang id='conHiddenTR'>Konsol penceresi gizli</lang>
+<lang id='openMaximizedTR'>Komut dosyası maksimum boyutta başlatılacak</lang>
+<lang id='openWindowedTR'>Komut dosyası maksimum boyutta başlatılmayacak</lang>
+<lang id='ontopTR'>Komut dosyası penceresi diğer pencerelerin üzerinde kalacak</lang>
+<lang id='ontopNotTR'>Komut dosyası penceresi diğer pencerelerin üzerinde kalmayacak</lang>
+<lang id='outputNotFoundTR'>[UYARI] Seçilen çıkış konumu bulunamadı.</lang>
+<lang id='outputLoc1TR'>Geçerli çıkış konumu altında mevcut tanılama raporlarının listesi yenileniyor</lang>
+<lang id='outputLoc2TR'>[UYARI] Seçilen çıkış konumu artık mevcut değil. Liste yenilemek ve yeniden denemek için 'Görünüm\Tanılama Raporları'na tıklayın.</lang>
+<lang id='outputLoc3TR'>Liste başarıyla yenilendi.</lang>
+<lang id='outputLoc4TR'>Mevcut çıkış konumu altında rapor bulunamadı</lang>
+<lang id='outputLoc5TR'>Bu listedeki öğeleri doldurmak için önce bazı tanılama raporları oluşturun.</lang>
+<lang id='outputLoc6TR'>Geçerli çıkış konumu mevcut değil</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgTR'>Bir veya daha fazla arka plan işi hala çalışıyor. Bunlar 3 dakikaya kadar sürebilir. Lütfen bekleyin...</lang>
+<lang id='bgjob2msgTR'>Bir veya daha fazla arka plan işi ayrılan sürede tamamlanamadı. Bazı veriler eksik olabilir. Bu sorun tekrarlanırsa, lütfen bunu bildirin: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1TR'>Yeni bir sürümün mevcut olup olmadığını kontrol ediyoruz (lütfen bekleyin)</lang>
+<lang id='vercheck2TR'>https://aka.ms/msrd-collect adresinde yeni bir sürüm mevcut!</lang>
+<lang id='vercheck3TR'>Yeni bir sürüm mevcut:</lang>
+<lang id='vercheck4TR'>şu anda</lang>
+<lang id='vercheck5TR'>En iyi sonuçlar için https://aka.ms/MSRD-Collect adresinden en son sürümü indirin ve kullanın</lang>
+<lang id='vercheck5bTR'>Evet'i seçerseniz, en son 'MSRD-Collect.zip' dosyasını indirmek için bir tarayıcı penceresi açılır ve geçerli komut dosyası kapatılır. Aksi takdirde geçerli komut dosyası olduğu gibi devam eder.</lang>
+<lang id='vercheck6TR'>Yeni sürümü şimdi indirmek ister misiniz?</lang>
+
+<lang id='vercheck7TR'>https://aka.ms/MSRD-Collect adresinden en son 'MSRD-Collect.zip' dosyasını indirmek için varsayılan tarayıcı açılıyor
+Çıkış.
+</lang>
+
+<lang id='vercheck8TR'>En son sürümü henüz indirmemeye karar verdiniz. En iyi sonuçlar için https://aka.ms/MSRD-Collect adresinden en son sürümü indirin ve kullanın</lang>
+<lang id='vercheck9TR'>MSRD-Collect sürümü güncel</lang>
+<lang id='PDvercheck1TR'>ProcDump sürümü güncel</lang>
+<lang id='selfupdate1TR'>Evet'i seçerseniz, komut dosyası otomatik olarak güncellenir. Aksi takdirde geçerli komut dosyası olduğu gibi devam eder.</lang>
+<lang id='selfupdate2TR'>Komut Dosyası Otomatik Güncelleme</lang>
+<lang id='selfupdate3TR'>Kullanıcı tarafından başlatıldı:</lang>
+<lang id='selfupdate4TR'>https://aka.ms/MSRD-Collect adresinden en son sürümün güvenli indirilmesi başlatılıyor (Lütfen bekleyin...)</lang>
+<lang id='selfupdate5TR'>Geçerli MSRD-Collect yapılandırma dosyasının bir kopyası kaydediliyor</lang>
+<lang id='selfupdate6TR'>Dosyaların içinden çıkarılması</lang>
+<lang id='selfupdate7TR'>Önceki yedekten MSRD-Collect yapılandırma dosyasının geri yüklenmesi ve yedek kaldırılması</lang>
+<lang id='selfupdate8TR'>Geçici indirme dosyası kaldırılıyor</lang>
+<lang id='selfupdate9TR'>Güncelleme başarılı. Komut dosyası yeniden başlatılıyor.</lang>
+
+<!-- How to -->	
+<lang id='howtouseTR'>Kullanım Kılavuzu:
+
+	Adım 1: Makinenin kullanıldığı bağlam/ortamı seçin:
+
+		AVD		- Azure Sanal Masaüstü
+		RDS		- Uzak Masaüstü Hizmetleri veya doğrudan RDP bağlantısı (AVD değil/W365 değil)
+		W365		- Windows 365 Cloud PC
+
+	Adım 2: Makinenin verilen bağlam/ortamdaki rolünü seçin:
+
+		Source		- Uzak Masaüstü istemcisi kullanarak diğer makinelerle bağlantı kurduğunuz kaynak makine
+		Target		- Bağlandığınız hedef makine veya üzerinde herhangi bir RDS rolü bulunan bir sunucu
+
+	Adım 3: [İsteğe bağlı] 'AVD' veya 'W365' seçtiyseniz, veri toplamak istediğiniz 'Bilgisayar(lar)' alanına bir veya daha fazla bilgisayar adı (NetBIOS veya FQDN) girin.
+		Yerel bilgisayar adı varsayılan değer olarak kullanılır.
+		Birden fazla makine belirtilirse, bunları noktalı virgülle ayırın. Veriler, her makineden sıralı bir şekilde toplanır.
+
+Veri toplamak için:
+
+	Adım 4a: [İsteğe bağlı] Mevcut senaryolardan birini veya daha fazlasını seçin:
+
+		Profiles	- 'Kullanıcı profilleri' sorunlarını gidermek için veri toplayın
+		Activation	- 'Lisans/İşletim sistemi etkinleştirme' sorunlarını gidermek için veri toplayın
+		MSRA		- 'Uzak yardım' sorunlarını gidermek için veri toplayın
+		SCard		- 'Smart Card' sorunlarını gidermek için veri toplayın
+		IME		- 'Giriş yöntemi' sorunlarını gidermek için veri toplayın
+		Teams		- 'Teams Medya Optimizasyonu' sorunlarını gidermek için veri toplayın (yalnızca AVD/W365)
+		MSIXAA		- 'MSIX Uygulama Ekle' sorunlarını gidermek için veri toplayın (yalnızca AVD)
+		HCI		- 'Azure Stack HCI' sorunlarını gidermek için veri toplayın (yalnızca AVD)
+		DumpPID	- Mevcut bir işlemin işlem dökümünü toplayın
+		NetTrace	- Bir ağ izi toplayın (netsh)
+		DiagOnly	- Yalnızca bir teşhis raporu oluşturun
+
+	Adım 5a: Hazır olduğunuzda 'Başlat' düğmesine tıklayın. Veri toplama/teşhis etme birkaç dakika sürebilir.
+
+Canlı teşhis için:
+
+	Adım 4b: 'LiveDiag' seçeneğini seçin.
+
+	Adım 5b: İstenen teşhis kategorisi sekmesini seçin.
+
+	Adım 6: İstenen düğmeyi seçilen sekmede tıklayarak ilgili teşhis kontrolünü çalıştırın.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1TR'>Teşhis çalışıyor. Bu birkaç dakika sürebilir. Lütfen bekleyin...</lang>
+<lang id='liveDiag2TR'>Teşhis tamamlandı</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateTR'>Teşhisleri çalıştırmak için Zamanlanmış Görev Oluştur</lang>
+<lang id='schedTaskNoteTR'>Bu makinede zamanlanmış bir görev oluşturmak üzeresiniz, bu görev MSRD-Collect Diagnostics'i çalıştıracak ve bir MSRD-Diag.html raporu oluşturacaktır.`n`nDevam etmek istediğinizden emin misiniz?</lang>
+<lang id='schedTaskInfo1TR'>Zamanlanmış görev aşağıdaki parametrelerle başarıyla oluşturuldu:</lang>
+<lang id='schedTaskInfo2TR'>Başlangıç tarihi:</lang>
+<lang id='schedTaskInfo3TR'>Başlangıç saati:</lang>
+<lang id='schedTaskInfo4TR'>Sıklık:</lang>
+<lang id='schedTaskInfo5TR'>Haftanın Günü:</lang>
+<lang id='schedTaskInfo6TR'>Makine Bağlamı:</lang>
+<lang id='schedTaskInfo7TR'>Makine Rolü:</lang>
+<lang id='schedTaskInfo8TR'>Komut Dosyası Konumu:</lang>
+<lang id='schedTaskInfo9TR'>Çıktı Konumu:</lang>
+<lang id='schedTaskInfo10TR'>Kullanıcı Bağlamı:</lang>
+<lang id='schedTaskInfo11TR'>Zamanlanmış görev aşağıdaki parametrelerle başarıyla oluşturuldu:</lang>
+<lang id='schedTaskInfo12TR'>Ayın Haftası:</lang>
+<lang id='schedTaskInfo13TR'>Bilinmeyen hata. Zamanlanmış görev oluşturulmadı.</lang>
+<lang id='schedTaskInfo14TR'>Yapılacak işlem:</lang>
+<lang id='schedTaskEmpty1TR'>Çıktı konumu boş</lang>
+<lang id='schedTaskEmpty2TR'>Komut dosyası konumu boş</lang>
+<lang id='schedTaskNotFound1TR'>Çıktı konumu bulunamadı</lang>
+<lang id='schedTaskNotFound2TR'>Komut dosyası konumu bulunamadı</lang>
+	
+<!-- Presets -->
+<lang id='presetResetTR'>Tümünü Sıfırla</lang>
+<lang id='presetLoaded1TR'>Ön Ayar Seçildi</lang>
+<lang id='presetLoaded2TR'>Veri Toplama/Tanılama işlemini başlatmak için 'Başlat' düğmesine basın.</lang>
+<lang id='presetErrcon1TR'>Bağlanılamıyor / Başlangıç bağlantısı sırasında hata (Kaynak/İstemci makinesi)</lang>
+<lang id='presetErrcon2TR'>Bağlanılamıyor / Başlangıç bağlantısı sırasında hata (Hedef/Sunucu makinesi)</lang>
+<lang id='presetLogon1TR'>Giriş yapılamıyor / Kimlik doğrulama veya kullanıcı profili sorunu (Kaynak/İstemci makinesi)</lang>
+<lang id='presetLogon2TR'>Giriş yapılamıyor / Kimlik doğrulama veya kullanıcı profili sorunu (Hedef/Sunucu makinesi)</lang>
+<lang id='presetScard1TR'>Smart Card ile giriş yapılamıyor veya bir oturum içinde Smart Card kullanımında sorunlar var (Kaynak/İstemci makinesi)</lang>
+<lang id='presetScard2TR'>Smart Card ile giriş yapılamıyor veya bir oturum içinde Smart Card kullanımında sorunlar var (Hedef/Sunucu makinesi)</lang>
+<lang id='presetMsixaaTR'>MSIX App Attach / Atanmış uygulama paketlerinin kullanımıyla ilgili sorunlar (Hedef/Sunucu makinesi)</lang>
+<lang id='presetLic1TR'>RD Lisanslama sorunları 'per Device' RDS CAL'ler (Kaynak/İstemci makinesi)</lang>
+<lang id='presetLic2TR'>'per Device' veya 'per User' RDS CAL'ler ile RD Lisanslama sorunu (Oturum Ana Bilgisayarı/Lisans Sunucusu)</lang>
+<lang id='presetLic3TR'>'per User' RDS CAL'ler ile RD Lisanslama sorunu (Oturum Ana Bilgisayarı/Lisans Sunucusu)</lang>
+<lang id='presetDiscon1TR'>Aktif veya boşta olan bir oturumun beklenmedik kesintisi (Kaynak/İstemci makinesi)</lang>
+<lang id='presetDiscon2TR'>Aktif veya boşta olan bir oturumun beklenmedik kesintisi (Hedef/Sunucu makinesi)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeTR'>Komut dosyası şimdi Uzak Modda</lang>
+<lang id='remoteInvalidCompTR'>'Bilgisayar(lar)' alanı geçersiz bir bilgisayar adı içeriyor:</lang>
+<lang id='remoteReach1TR'>Belirtilen bilgisayar</lang>
+<lang id='remoteReach2TR'>ulaşılabilir. Veri toplama/teşhis ile devam ediliyor.</lang>
+<lang id='remoteReach3TR'>ulaşılamıyor. Bilgisayar adının doğru olduğundan ve ağ üzerinden erişilebilir olduğundan emin olun. Zaten yapılmadıysa uzak bilgisayarda 'Dosya ve yazıcı paylaşımını etkinleştir' gerekebilir.</lang>
+<lang id='remoteModeNotice1TR'>'Bilgisayar(lar)' alanında yerel makineden farklı bir veya daha fazla makine belirttiniz.</lang>
+<lang id='remoteModeNotice2TR'>Komut dosyası, her belirtilen makineye C:\MS_DATA\ klasörüne kopyalayarak ve oradan çalıştırarak uzaktan veri toplamaya çalışacaktır.</lang>
+<lang id='remoteModeNotice3TR'>Devam etmek istiyor musunuz?</lang>
+<lang id='remoteModeNotice4TR'>Evet seçeneğini seçerseniz, her uzak makine için ayrı ayrı kimlik bilgilerini girmeniz istenebilir. Uzak makinede yönetici izinlerine sahip bir hesap sağlayın (Eğer makine bir domain üyesi ise, tercihen domain admin kullanıcısı).</lang>
+<lang id='remoteModeNotice5TR'>Lütfen şu anda, filtreleme için 'Veri Toplama Yapılandırması' veya 'Tanılama Yapılandırması' seçeneklerinde yapılan değişikliklerin uzaktan veri toplama veya tanılama için geçerli olmadığını unutmayın.</lang>
+<lang id='remoteModeRunningTR'>Uzak Modda Çalışıyor - Lütfen bekleyin...</lang>
+<lang id='localModeTR'>Komut dosyası şimdi Yerel Modda</lang>
+<lang id='popupWarningTR'>Uyarı</lang>
+<lang id='remotePSinitLocalCredTR'>Geçerli kullanıcının ayrıcalıklarını kullanarak uzak bir PowerShell oturumu ayarlanıyor. Uzak bilgisayar:</lang>
+<lang id='remotePSinitLocalCredSuccessTR'>Geçerli kullanıcının ayrıcalıklarını kullanarak uzak bir PSS oturumu başarıyla oluşturuldu. Uzak bilgisayar:</lang>
+<lang id='remotePSinitLocalCredFailTR'>Geçerli kullanıcının ayrıcalıklarını kullanarak uzak bir PSS oturumu oluşturulamadı. Kimlik bilgileri isteniyor ve tekrar deniyor. Uzak bilgisayar:</lang>
+<lang id='remotePSenterCredTR'>Uzak bilgisayar için yönetici kimlik bilgilerini girin:</lang>
+<lang id='remotePSinitProvCredSuccessTR'>Sağlanan kimlik bilgilerini kullanarak uzak bir PSS oturumu başarıyla oluşturuldu. Uzak bilgisayar:</lang>
+<lang id='remotePScopyTR'>Scriptin dosyalarını C:\MS_DATA\ üzerine kopyalıyor:</lang>
+<lang id='remotePScopyExistsTR'>zaten var. Mevcut komut dosyası dosyalarını kontrol edin ve gerektiğinde güncelleyin. Uzak bilgisayar:</lang>
+<lang id='remotePSlaunch1TR'>Uzak PSS oturumunda MSRD-Collect başlatılıyor</lang>
+<lang id='remotePScompleteTR'>Uzak veri toplama/tanılama tamamlandı. Uzak PSS oturumunu kaldırma:</lang>
+
+<!-- User Context -->
+<lang id='userCon1TR'>Belirtilen kullanıcı için varsayılan kullanıcı profil konumu altında belirtilen kullanıcı için yerel profil bulunamadı:</lang>
+<lang id='userCon2TR'>Kullanıcı bağlamı şuna sıfırlandı:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundTR'>avdnettest.exe bulunamadı. AVD için RDP Shortpath kullanılabilirliği hakkındaki bilgiler eksik olacaktır. MSRD-Collect veya TSS'nin tam paketini indirdiğinizden ve açtığınızdan emin olun</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeTR'>AVD Windows Masaüstü istemcisi (MSRDC) şu anda bu makinede çalışıyor.
+En son Windows Masaüstü istemci özel ETL izini yakalamak için MSRDC.exe işleminin kapatılması gerekir.
+	
+	
+MSRDC.exe'yi şimdi kapatmak ister misiniz?
+	
+	
+'Evet' seçerseniz, MSRDC.exe işlemi sonlandırılacak ve tüm giden MSRDC bağlantıları kesilecek ve komut dosyası veri toplamaya devam edecektir.
+	
+'Hayır' seçerseniz, MSRDC.exe işlemi kalıcı olacak ve komut dosyası veri toplamaya devam edecek, ancak en son ETL izini toplayamayacaktır.
+	
+'İptal' seçerseniz, veri toplama iptal edilecektir.</lang>
+
+<lang id='msrdcClosedTR'>MSRDC.exe kapatıldı. En son RD istemci ETL izleme verilerinin kaydedilmesine izin vermek için komut dosyası devam etmeden önce 20 saniye bekleyecektir.</lang>
+<lang id='msrdcNotClosedTR'>MSRDC.exe kapatılmadı. En son RD istemci ETL izleme verileri sorun giderme için KULLANILAMAZ! Veri toplamaya devam ediliyor.</lang>
+<lang id='msrdcTitleTR'>Devam etmeden önce</lang>
+
+</LangV1>

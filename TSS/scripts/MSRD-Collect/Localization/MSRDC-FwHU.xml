@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingHU">MSRD-Collect indítása</lang>
+<lang id="notApprovedHU">A script végrehajtása nem engedélyezett az adminisztrátori felhasználó által, kilépés.</lang>
+<lang id="eulaOKHU">EULA elfogadva, folytatás</lang>
+<lang id="eulaNotOKHU">EULA elutasítva, kilépés</lang>
+<lang id="eulaSilentOKHU">AcceptEula kapcsoló megadva, csendes folytatás</lang>
+<lang id="noticeOKHU">Értesítés elfogadva, folytatás</lang>
+<lang id="noticeSilentOKHU">AcceptNotice kapcsoló megadva, csendes folytatás</lang>
+<lang id="enabledHU">Engedélyezve</lang>
+<lang id="disabledHU">Letiltva</lang>
+<lang id="autoUpdateHU">Automatikus frissítés ellenőrzése a script indításakor:</lang>
+<lang id="playSndHU">Hangok lejátszása:</lang>
+<lang id='aaModeHU'>Audio Assist mód:</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuHU'>&amp;Fájl</lang>
+<lang id='RunMenuHU'>Adatgyűjtés/diagnosztika indítása</lang>
+<lang id='UpdateMenuHU'>Frissítések ellenőrzése</lang>
+<lang id='ExitMenuHU'>&amp;Kilépés</lang>
+<lang id='ViewMenuHU'>&amp;Nézet</lang>
+<lang id='PresetsMenuHU'>&amp;Előre beállítások</lang>
+<lang id='HideConsoleHU'>&amp;Console ablak megjelenítése</lang>
+<lang id='MaximizeWindowHU'>&amp;Indítás teljes képernyőn</lang>
+<lang id='AlwaysOnTopHU'>&amp;Mindig az előtérben</lang>
+<lang id='OutputLocationHU'>&amp;Kimeneti hely megnyitása</lang>
+<lang id='LiteModeHU'>&amp;Könnyített mód</lang>
+<lang id='LiteModeMachineHU'>Válasszon gépkörnyezetet</lang>
+<lang id='LiteModeRoleHU'>Válasszon gépszerepet</lang>
+<lang id='LiteModeSourceHU'>Forrás gép / Kliens</lang>
+<lang id='LiteModeSourceTooltipHU'>Forrás gép, amelyről távoli asztali kliens segítségével kapcsolódik más gépekhez</lang>
+<lang id='LiteModeTargetHU'>Célcég / Host</lang>
+<lang id='LiteModeTarget2HU'>Célcég / Host (vagy köztes szerverek)</lang>
+<lang id='LiteModeTargetTooltipHU'>Célcég, amelyhez kapcsolódik</lang>
+<lang id='LiteModeTargetTooltip2HU'>Célcég, amelyhez kapcsolódik, vagy bármely RDS-szerver egy RDS-telepítésben</lang>
+<lang id='LiteModeScenariosHU'>Válasszon egy vagy több forgatókönyvet (opcionális)</lang>
+<lang id='LiteModeStartHU'>Kattintson az 'Indítás' gombra, ha kész</lang>
+<lang id='LiteModeAdvancedHU'>Haladó mód</lang>
+<lang id='LiteModeHideConsoleHU'>&amp;Console megjelenítése</lang>
+<lang id='DiagReportsHU'>&amp;Diagnosztikai jelentések</lang>
+<lang id='ToolsMenuHU'>&amp;Eszközök</lang>
+<lang id='SetOutputLocationHU'>Kimeneti hely &amp;beállítása...</lang>
+<lang id='SetUserContextHU'>Felhasználói &amp;környezet beállítása...</lang>
+<lang id='ConfigDataCollectionHU'>Adatgyűjtés &amp;konfigurálása...</lang>
+<lang id='ConfigDiagHU'>Diagnosztika &amp;konfigurálása...</lang>
+<lang id='ConfigSchedTaskHU'>Ütemezett feladat létrehozása...</lang>
+<lang id='OpenTaskSchedHU'>Ütemezett feladatok megnyitása</lang>
+<lang id='AutoVerCheckHU'>Ellenőrizze az frissítéseket indításkor</lang>
+<lang id='PlaySoundsHU'>Rendszerhangok használata</lang>
+<lang id='AssistModeHU'>Hangos asszisztens mód</lang>
+<lang id='UILangHU'>Felhasználói felület nyelve</lang>
+<lang id='araHU'>Arab</lang>
+<lang id='dutHU'>Holland</lang>
+<lang id='gerHU'>Német</lang>
+<lang id='engHU'>Angol</lang>
+<lang id='hunHU'>Magyar</lang>
+<lang id='romHU'>Román</lang>
+<lang id='freHU'>Francia</lang>
+<lang id='itaHU'>Olasz</lang>
+<lang id='porHU'>Portugál</lang>
+<lang id='spaHU'>Spanyol</lang>
+<lang id='jpnHU'>Japán</lang>
+<lang id='czeHU'>Cseh</lang>
+<lang id='turHU'>Török</lang>
+<lang id='chiHU'>Kínai</lang>
+<lang id='HelpMenuHU'>&amp;Súgó</lang>
+<lang id='ReadMeHU'>&amp;ReadMe (angol)</lang>
+<lang id='WhatsNewHU'>&amp;Mi az új</lang>
+<lang id='DownloadHU'>&amp;Letöltések</lang>
+<lang id='DownloadMSRDCHU'>&amp;MSRD-Collect letöltése</lang>
+<lang id='DownloadRDSTracingHU'>&amp;RDSTracing letöltése</lang>
+<lang id='DownloadSaRAHU'>&amp;SaRA az Office 365-hez</lang>
+<lang id='DownloadTSSHU'>&amp;TSS letöltése</lang>
+<lang id='MSDocsHU'>&amp;Microsoft Docs</lang>
+<lang id='AVDHU'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixHU'>&amp;FSLogix</lang>
+<lang id='RDSHU'>&amp;Remote Desktop Services</lang>
+<lang id='365HU'>&amp;Windows 365</lang>
+<lang id='TechCommunityHU'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDHU'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixHU'>&amp;FSLogix</lang>	
+<lang id='TC365HU'>&amp;Windows 365</lang>
+<lang id='AzureMenuHU'>A&amp;zure</lang>
+<lang id='AzOutageNotificationHU'>&amp;Értesüljön a rendelkezésre állási problémákról, amelyek Önt érintik (Dokumentumok)</lang>
+<lang id='AzStatusHU'>Azure &amp;Státusz</lang>
+<lang id='AzStatusHistHU'>Azure &amp;Státusz előzmények</lang>
+<lang id='AzServHealthHU'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorHU'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailHU'>&amp;Visszajelzés küldése (e-mailben)</lang>
+<lang id='FeedbackSurveyHU'>&amp;Visszajelzés küldése (kérdőívvel)</lang>
+<lang id='AboutHU'>&amp;Névjegy</lang>
+<lang id='contextLabelHU'>Gép környezet</lang>
+<lang id='roleLabelHU'>Gép szerep</lang>
+<lang id='scenarioLabelHU'>Adatgyűjtési forgatókönyvek</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceHU'>Source</lang>
+<lang id='btnTargetHU'>Target</lang>
+<lang id='btnAVDHU'>AVD</lang>
+<lang id='btnRDSHU'>RDS</lang>
+<lang id='btnW365HU'>W365</lang>
+<lang id='btnCoreHU'>Core</lang>
+<lang id='btnProfilesHU'>Profiles</lang>
+<lang id='btnActivationHU'>Activation</lang>
+<lang id='btnMSRAHU'>MSRA</lang>
+<lang id='btnSCardHU'>SCard</lang>
+<lang id='btnIMEHU'>IME</lang>
+<lang id='btnTeamsHU'>Teams</lang>
+<lang id='btnMSIXAAHU'>MSIXAA</lang>
+<lang id='btnHCIHU'>HCI</lang>
+<lang id='btnProcDumpHU'>DumpPID</lang>
+<lang id='btnNetTraceHU'>NetTrace</lang>
+<lang id='btnDiagOnlyHU'>DiagOnly</lang>
+<lang id='btnLiveDiagHU'>LiveDiag</lang>
+<lang id='StartHU'>Indítás</lang>
+<lang id='RunningHU'>Fut</lang>
+<lang id='SurveyHU'>Kérdőív</lang>
+<lang id='CompLabelHU'>Számítógép(ek)</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDHU'>Válassza ezt a géptípust az Azure Virtual Desktop-hoz kapcsolódó forgatókönyvekhez</lang>
+<lang id='btnTooltipRDSHU'>Válassza ezt a géptípust a távoli asztali szolgáltatásokhoz vagy közvetlen RDP-hez kapcsolódó forgatókönyvekhez</lang>
+<lang id='btnTooltipW365HU'>Válassza ezt a géptípust a Windows 365 Cloud PC-hez kapcsolódó forgatókönyvekhez</lang>
+<lang id='btnTooltipSourceHU'>Válassza ezt a szereptípust, ha a gépet távoli kapcsolatok kezdeményezésére használják más gépekhez</lang>
+<lang id='btnTooltipTargetHU'>Válassza ezt a szereptípust, ha a gép a távoli kapcsolat fogadó végén van, vagy ha szerver, amelyen bármilyen RDS szerep van telepítve</lang>
+<lang id='btnTooltipProfilesHU'>Adatok gyűjtése a felhasználói profilokkal kapcsolatos hibaelhárításhoz</lang>
+<lang id='btnTooltipActivationHU'>Adatok gyűjtése az operációs rendszer licenceléssel/kapcsolatos hibaelhárításhoz</lang>
+<lang id='btnTooltipMSRAHU'>Adatok gyűjtése a 'Távoli segítségnyújtás' hibaelhárításához</lang>
+<lang id='btnTooltipSCardHU'>Adatok gyűjtése a 'Smart Card' hibaelhárításához</lang>
+<lang id='btnTooltipIMEHU'>Adatok gyűjtése a 'Beviteli mód' hibaelhárításához</lang>
+<lang id='btnTooltipTeamsHU'>Adatok gyűjtése a 'Teams Media Optimization' hibaelhárításához (csak AVD/W365)</lang>
+<lang id='btnTooltipMSIXAAHU'>Adatok gyűjtése a 'MSIX App Attach' hibaelhárításához (csak AVD)</lang>
+<lang id='btnTooltipHCIHU'>Adatok gyűjtése a 'Azure Stack HCI' hibaelhárításához (csak AVD)</lang>
+<lang id='btnTooltipProcDumpHU'>Gyűjtsön egy meglévő folyamat memóriaképet</lang>
+<lang id='btnTooltipNetTraceHU'>Gyűjtsön hálózati nyomkövetést (netsh)</lang>
+<lang id='btnTooltipDiagOnlyHU'>Csak egy diagnosztikai jelentést generáljon</lang>
+<lang id='btnTooltipLiveDiagHU'>Lépjen be a Live Diagnostics módba</lang>
+<lang id='btnTooltipSurveyHU'>Nyissa meg a MSRD-Collect elégedettségi felmérését, hogy visszajelzést adjon a scriptről</lang>
+<lang id='btnTooltipComputerHU'>Adjon meg egy vagy több számítógépnév (NetBIOS vagy FQDN) elválasztva pontosvesszővel, hogy adatokat gyűjtsön</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkHU'>Hogy tetszik ez a script?</lang>
+<lang id='ReadyHU'>Kész</lang>
+<lang id='checkupdHU'>Frissítések ellenőrzése. Kérem, várjon...</lang>
+<lang id='collecting1HU'>Adatgyűjtés</lang>
+<lang id='collecting2HU'>. Kérem, várjon...</lang>
+<lang id='waitHU'>Kérem, várjon...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aHU'>Script verzió</lang>
+<lang id='initvalues1bHU'>elindítva innen:</lang>
+<lang id='initvalues1cHU'>Parancssor:</lang>
+<lang id='initvalues2HU'>EULA és Figyelmeztetés elfogadva</lang>
+<lang id='initvalues3HU'>Kimeneti hely:</lang>
+<lang id='initvalues4HU'>Felhasználói kontextus:</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteHU'>A Teams problémák hibaelhárítása érdekében javasolt először friss Teams hibakeresési naplókat létrehozni.
+Lásd: https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+Ezeknek a hibakeresési naplóknak a létrehozásához nyissa meg a érintett Teams alkalmazást (ugyanazzal a felhasználói fiókkal/környezettel, mint a adatgyűjtés esetében) és nyomja meg a CTRL+ALT+SHIFT+1 billentyűket a Teams-en belül.
+A Teams diagnosztikai naplókat fog generálni, amelyeket ezzel a szkripttel lehet gyűjteni.
+
+Ha már rendelkezik ezekkel a naplókkal, vagy nem szükségesek, válassza a 'újra' lehetőséget a folytatáshoz.
+Ellenkező esetben válassza a 'Cancel' gombot, hozza létre a Teams hibakeresési naplókat, majd indítsa el újra az adatgyűjtést.</lang>
+
+<lang id='teamstitleHU'>Teams hibaelhárítási adatok gyűjtése</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1HU'>Válassza ki a futó folyamatot a dump elkészitéséhez</lang>
+<lang id='dpidtext2HU'>Válasszon folyamatot</lang>
+<lang id='dpidtext3HU'>A folyamat dump-hoz kiválasztott folyamat (PID):</lang>
+<lang id='dpidtext4HU'>Nincs kiválasztva PID - nem lesz folyamat dump generálva</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgHU'>Adatgyűjtés folyamatban - kérjük várjon...</lang>
+<lang id='fdcmsgHU'>Adatgyűjtés kész</lang>
+<lang id='rdiagmsgHU'>Diagnosztizálás folyamatban - kérjük várjon...</lang>
+<lang id='noDiagmsgHU'>Nincs kiválasztva diagnosztikai ellenőrzés. A diagnosztikai jelentés generálása kihagyva.</lang>
+<lang id='selectedParamHU'>Kiválasztott paraméterek az adatgyűjtéshez/diagnosztikához:</lang>
+<lang id='checkmsgHU'>Ellenőrzés</lang>
+<lang id='fdiagmsgHU'>Diagnosztizálás kész</lang>
+<lang id='archmsgHU'>Eredmények archiválása - kérjük várjon!</lang>
+<lang id='zipmsgHU'>Zip fájl kész:</lang>
+<lang id='ziperrormsgHU'>A Zip fájl nem hozható létre. Kérjük, hogy az adatgyűjtött adatokat kézzel archiválja az alábbi helyre:</lang>
+<lang id='dtmmsgHU'>Használjon mindig biztonságos fájlátviteli eszközt, amikor megosztja ezeket az eredményeket a Microsoft CSS-sel. Beszélje meg ezt a támogatási szakemberrel, és bármilyen aggodalmát.</lang>
+<lang id='logfoldermsgHU'>Mappa létrehozása</lang>
+<lang id='logfolderexistmsgHU'>már létezik</lang>
+<lang id='coremsgHU'>Core hibakeresési adatok gyűjtése</lang>
+<lang id='profilesmsgHU'>Felhasználói profil hibakeresési adatok gyűjtése</lang>
+<lang id='msramsgHU'>Távoli segítségnyújtás hibakeresési adatainak gyűjtése</lang>
+<lang id='scardmsgHU'>Smart Card hibakeresési adatainak gyűjtése</lang>
+<lang id='imemsgHU'>Beviteli mód hibakeresési adatainak gyűjtése</lang>
+<lang id='teamsmsgHU'>Teams a virtuális asztalon hibakeresési adatainak gyűjtése</lang>
+<lang id='msixaamsgHU'>MSIX alkalmazások csatolásának hibakeresési adatainak gyűjtése</lang>
+<lang id='hcimsgHU'>Azure Stack HCI hibakeresési adatainak gyűjtése</lang>
+<lang id='activationmsgHU'>Operációs rendszer licencelés/aktiválás hibakeresési adatainak gyűjtése</lang>
+<lang id='errormsgHU'>Hiba történt a</lang>
+<lang id='location1HU'>Válasszon egy helyet az eredmények tárolásához (az alapértelmezett hely C:\MS_DATA)</lang>
+<lang id='location2HU'>Kimeneti hely:</lang>
+<lang id='context1HU'>Felhasználói kontextus beállítása</lang>
+<lang id='context2HU'>Adja meg a felhasználónevet, akinek a profiljából adatokat kell gyűjteni</lang>
+<lang id='context3HU'>Felhasználói kontextus beállítva: </lang>
+<lang id='selectCollect1HU'>Adatgyűjtés konfigurálása</lang>
+<lang id='selectCollect2HU'>Használja a bal táblázatot az adatgyűjtéshez kiválasztott elemek kiválasztásához. A kiválasztott elemek kizárásához kattintson a jobbra mutató nyílra. Az elemek visszavételéhez válasszon a jobb táblázatból, majd kattintson a balra mutató nyílra.</lang>
+<lang id='selectCollect3HU'>Adatok gyűjtése forgatókönyvenként</lang>
+<lang id='selectCollect4HU'>Adatok kizárása forgatókönyvenként</lang>
+<lang id='selectDiag1HU'>Diagnosztika konfigurálása</lang>
+<lang id='selectDiag2HU'>Használja a bal táblázatot a diagnosztikához kiválasztott elemek kiválasztásához. A kiválasztott elemek kizárásához kattintson a jobbra mutató nyílra. Az elemek visszavételéhez válasszon a jobb táblázatból, majd kattintson a balra mutató nyílra.</lang>
+<lang id='selectDiag3HU'>Diagnosztika kategóriánként</lang>
+<lang id='selectDiag4HU'>Diagnosztika kategóriánként kizárva</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceHU'>Hálózati nyomkövetés futása - kérjük várjon...</lang>
+
+<lang id='netTraceNoteHU'>Ismételje meg a problémát.
+Amint a probléma bekövetkezett, állítsa le a nyomkövetést a "OK" gomb megnyomásával.</lang>
+
+<lang id='netTraceNote2HU'>Ismételje meg a problémát, és nyomja meg az "Y" billentyűt a reprodukció befejezése UTÁN (ablakfókusz itt)</lang>
+<lang id='netTraceRunningHU'>Hálózati nyomkövetés fut</lang>
+<lang id='netTraceStoppingHU'>Hálózati nyomkövetés leállítása - kérjük várjon (ez akár néhány percig is eltarthat)...</lang>
+<lang id='netTraceFinishedHU'>Hálózati nyomkövetés befejeződött</lang>
+<lang id='conVisibleHU'>A konzolablak látható</lang>
+<lang id='conHiddenHU'>A konzolablak rejtett</lang>
+<lang id='openMaximizedHU'>A parancsfájl maximális méretben indul</lang>
+<lang id='openWindowedHU'>A parancsfájl nem indul maximális méretben</lang>
+<lang id='ontopHU'>A parancsfájl ablak mindig a többi ablak előtt lesz</lang>
+<lang id='ontopNotHU'>A parancsfájl ablak nem lesz mindig a többi ablak előtt</lang>
+<lang id='outputNotFoundHU'>[FIGYELEM] A kiválasztott kimeneti hely nem található.</lang>
+<lang id='outputLoc1HU'>A jelenlegi kimeneti helyen elérhető diagnosztikai jelentések listájának frissítése</lang>
+<lang id='outputLoc2HU'>[FIGYELEM] A kiválasztott kimeneti hely már nem létezik. Kattintson a "Nézet\Diagnosztikai jelentések" elemre a lista frissítéséhez, majd próbálja újra.</lang>
+<lang id='outputLoc3HU'>A lista sikeresen frissítve.</lang>
+<lang id='outputLoc4HU'>Nem találhatók jelentések a jelenlegi kimeneti helyen</lang>
+<lang id='outputLoc5HU'>Először generáljon néhány diagnosztikai jelentést, hogy kitöltse ezt a listát.</lang>
+<lang id='outputLoc6HU'>A jelenlegi kimeneti hely nem létezik</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgHU'>Egy vagy több háttérben futó feladat még mindig fut. Ezek akár 3 percig is tarthatnak. Kérjük, várjon...</lang>
+<lang id='bgjob2msgHU'>Egy vagy több háttérben futó feladat nem fejeződött be a kijelölt idő alatt. Lehet, hogy hiányzik néhány adat. Ha ez a probléma ismétlődik, kérjük, jelentse e-mailben a következő címre: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1HU'>Ellenőrzés, hogy elérhető-e új verzió (kérem, várjon)</lang>
+<lang id='vercheck2HU'>újabb verzió érhető el itt: https://aka.ms/msrd-collect !</lang>
+<lang id='vercheck3HU'>Elérhető újabb verzió:</lang>
+<lang id='vercheck4HU'>Jelenleg a következő verziót használja:</lang>
+<lang id='vercheck5HU'>A legjobb eredmény érdekében töltsön le és használja a legfrissebb verziót az alábbi oldalról: https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck5bHU'>Ha a "Yes"-t választja, akkor egy böngészőablak nyílik meg a legújabb "MSRD-Collect.zip" letöltéséhez, és az aktuális script kilép. Ellenkező esetben az aktuális script folytatódik az aktuális verzióval.</lang>
+<lang id='vercheck6HU'>Szeretné letölteni az új verziót most?</lang>
+
+<lang id='vercheck7HU'>A legfrissebb 'MSRD-Collect.zip' letöltéséhez nyissa meg az alapértelmezett böngészőt a https://aka.ms/MSRD-Collect oldalon.
+Kilépés.
+</lang>
+
+<lang id='vercheck8HU'>úgy döntött, hogy még nem tölti le a legújabb verziót. A legjobb eredmény érdekében töltsön le és használja a legfrissebb verziót az alábbi oldalról: https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck9HU'>Az MSRD-Collect verziója naprakész</lang>
+<lang id='PDvercheck1HU'>A ProcDump verziója naprakész</lang>
+<lang id='selfupdate1HU'>Ha 'Igen'-t választ, a script automatikusan frissíti magát. Ellenkezõ esetben a jelenlegi script változat folytatódik.</lang>
+<lang id='selfupdate2HU'>Script önfrissítés</lang>
+<lang id='selfupdate3HU'>felhasználó által indítva:</lang>
+<lang id='selfupdate4HU'>A legfrissebb kiadás biztonságos letöltésének kezdete innen: https://aka.ms/MSRD-Collect (Kérem várjon...)</lang>
+<lang id='selfupdate5HU'>A jelenlegi MSRD-Collect konfigurációs fájl másolatának mentése</lang>
+<lang id='selfupdate6HU'>Fájlok kibontása innen:</lang>
+<lang id='selfupdate7HU'>Az elõzõ biztonsági mentésbõl visszaállításra kerül az MSRD-Collect konfigurációs fájl, majd a biztonsági mentés törlése</lang>
+<lang id='selfupdate8HU'>Ideiglenes letöltési fájl eltávolítása</lang>
+<lang id='selfupdate9HU'>Frissítés sikeres. Script újraindítása.</lang>
+
+<!-- How to -->	
+<lang id='howtouseHU'>Használati útmutató:
+
+	Lépés 1: Válassza ki a gép(ek) használati környezetét/kontextusát:
+
+		AVD		- Azure Virtual Desktop
+		RDS		- Távoli asztali szolgáltatások vagy közvetlen (nem AVD/nem W365) RDP kapcsolat
+		W365		- Windows 365 Cloud PC
+
+	Lépés 2: Válassza ki a gép(ek) szerepét a megadott környezetben/kontextusban:
+
+		Source		- Forrás gép, amelyről egy Távoli Asztali kliens segítségével kapcsolódik más gépekhez
+		Target		- Cél gép, amelyhez kapcsolódik, vagy egy szerver bármilyen RDS szereppel telepítve
+
+	Lépés 3: [Opcionális] Ha 'AVD' vagy 'W365' lett kiválasztva, írjon be egy vagy több számítógépnevet (NetBIOS vagy FQDN) a 'Számítógép(ek)' mezőbe, ahonnan adatokat szeretne gyűjteni. 
+		 A helyi számítógép neve alapértelmezés szerint használatos. 
+		 Ha több gép van megadva, pontosvesszővel válassza el őket. Az adatokat minden gépről egy sorrendi sorrendben gyűjtik össze.
+
+Az adatgyűjtéshez:
+
+	Lépés 4a: [Opcionális] Válasszon ki egy vagy több forgatókönyvet:
+
+		Profiles	- Adatgyűjtés a 'Felhasználói profilok' hibaelhárításához
+		Activation	- Adatgyűjtés az 'Operációs rendszer engedélyezése/aktiválása' hibaelhárításához
+		MSRA		- Adatgyűjtés a 'Távoli segítségnyújtás' hibaelhárításához
+		SCard		- Adatgyűjtés a 'Smartcard' hibaelhárításához
+		IME		- Adatgyűjtés az 'Input módszer' hibaelhárításához
+		Teams		- Adatgyűjtés a 'Teams Media Optimization' hibaelhárításához (csak AVD/W365)
+		MSIXAA		- Adatgyűjtés az 'MSIX App Attach' hibaelhárításához (csak AVD)
+		HCI		- Adatgyűjtés az 'Azure Stack HCI-n' hibaelhárításához (csak AVD)
+		DumpPID	- Process Dump gyűjtése egy meglévő folyamatból
+		NetTrace	- Hálózati nyomkövetés (netsh) gyűjtése
+		DiagOnly	- Csak Diagnosztika jelentés generálása
+
+	Lépés 5a: Kattintson a 'Start' gombra, ha kész. Az adatgyűjtés/diagnosztika akár néhány percig is eltarthat.
+
+Az élő diagnosztikához:
+
+	Lépés 4b: Válassza ki a 'LiveDiag' lehetőséget.
+
+	Lépés 5b: Válassza ki a kívánt diagnosztika kategória fület.
+
+	Lépés 6: Kattintson a kívánt gombra a kiválasztott fülön a megfelelő diagnosztikai ellenőrzés futtatásához.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1HU'>Diagnosztika futtatása. Ez néhány percig is eltarthat. Kérem várjon...</lang>
+<lang id='liveDiag2HU'>Diagnosztika kész</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateHU'>Ütemezett feladat létrehozása a diagnosztika futtatásához</lang>
+<lang id='schedTaskNoteHU'>Egy ütemezett feladatot fog létrehozni ezen a gépen, amely futtatja az MSRD-Collect Diagnostics-t és létrehoz egy MSRD-Diag.html jelentést.`n`nBiztosan folytatni szeretné?</lang>
+<lang id='schedTaskInfo1HU'>Ütemezett feladat sikeresen létrehozva a következő paraméterekkel:</lang>
+<lang id='schedTaskInfo2HU'>Kezdési dátum:</lang>
+<lang id='schedTaskInfo3HU'>Kezdési idő:</lang>
+<lang id='schedTaskInfo4HU'>Gyakoriság:</lang>
+<lang id='schedTaskInfo5HU'>Hét napja:</lang>
+<lang id='schedTaskInfo6HU'>Gép kontextusa:</lang>
+<lang id='schedTaskInfo7HU'>Gép szerepe:</lang>
+<lang id='schedTaskInfo8HU'>Parancsfájl helye:</lang>
+<lang id='schedTaskInfo9HU'>Kimeneti hely:</lang>
+<lang id='schedTaskInfo10HU'>Felhasználói kontextus:</lang>
+<lang id='schedTaskInfo11HU'>Ütemezett feladat sikeresen létrehozva a következő paraméterekkel:</lang>
+<lang id='schedTaskInfo12HU'>Hónap hete:</lang>
+<lang id='schedTaskInfo13HU'>Ismeretlen hiba. Nincs ütemezett feladat létrehozva.</lang>
+<lang id='schedTaskInfo14HU'>Végrehajtandó művelet:</lang>
+<lang id='schedTaskEmpty1HU'>A kimeneti hely üres</lang>
+<lang id='schedTaskEmpty2HU'>A parancsfájl helye üres</lang>
+<lang id='schedTaskNotFound1HU'>A kimeneti hely nem található</lang>
+<lang id='schedTaskNotFound2HU'>A parancsfájl helye nem található</lang>
+	
+<!-- Presets -->
+<lang id='presetResetHU'>Összes alaphelyzetbe állítása</lang>
+<lang id='presetLoaded1HU'>Kiválasztott előbeállítás</lang>
+<lang id='presetLoaded2HU'>Nyomja meg a 'Start' gombot az adatgyűjtés/diagnosztika megkezdéséhez.</lang>
+<lang id='presetErrcon1HU'>Nem lehet csatlakozni / Hiba az első kapcsolat során (Forrás/kliens gép)</lang>
+<lang id='presetErrcon2HU'>Nem lehet csatlakozni / Hiba az első kapcsolat során (Cél/házigép)</lang>
+<lang id='presetLogon1HU'>Nem lehet bejelentkezni / Hitelesítési vagy felhasználói profil probléma (Forrás/kliens gép)</lang>
+<lang id='presetLogon2HU'>Nem lehet bejelentkezni / Hitelesítési vagy felhasználói profil probléma (Cél/házigép)</lang>
+<lang id='presetScard1HU'>Nem lehet bejelentkezni okoskártyával vagy problémák vannak az okoskártya használatával egy munkamenetben (Forrás/kliens gép)</lang>
+<lang id='presetScard2HU'>Nem lehet bejelentkezni okoskártyával vagy problémák vannak az okoskártya használatával egy munkamenetben (Cél/házigép)</lang>
+<lang id='presetMsixaaHU'>MSIX App Attach / Problémák a hozzárendelt alkalmazáscsomagok használatával (Célgép/Host)</lang>
+<lang id='presetLic1HU'>RD Licensing issues with 'per Device' RDS CALs (Forrás/kliens gép)</lang>
+<lang id='presetLic2HU'>RD Licensing issue with 'per Device' or 'per User' RDS CALs (Session Host / License Server)</lang>
+<lang id='presetLic3HU'>RD Licensing issue with 'per User' RDS CALs (Session Host / License Server)</lang>
+<lang id='presetDiscon1HU'>Váratlan kapcsolatbontás egy aktív vagy üresjáratú munkamenetben (Forrás/kliens gép)</lang>
+<lang id='presetDiscon2HU'>Váratlan kapcsolatbontás egy aktív vagy üresjáratú munkamenetben (Cél/házigép)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeHU'>A parancsfájl most távoli módban van</lang>
+<lang id='remoteInvalidCompHU'>A 'Számítógép(ek)' mező egy érvénytelen számítógépnévvel rendelkezik:</lang>
+<lang id='remoteReach1HU'>A megadott számítógép</lang>
+<lang id='remoteReach2HU'>elérhető. Adatgyűjtés/felismerés folytatása.</lang>
+<lang id='remoteReach3HU'>nem érhető el. Győződjön meg róla, hogy a számítógép neve helyes-e, és hogy elérhető-e a hálózaton keresztül. Ha még nem tette meg, akkor szükség lehet a 'Fájl- és nyomtatásmegosztás bekapcsolására' a távoli számítógépen.</lang>
+<lang id='remoteModeNotice1HU'>Egy vagy több gépet adott meg a "Számítógép(ek)" mezőben, amelyek eltérnek a helyi géptől.</lang>
+<lang id='remoteModeNotice2HU'>A parancsfájl megpróbálja távolról összegyűjteni az adatokat, úgy hogy másolja magát a C:\MS_DATA\ mappába a megadott gépeken, és onnan futtatja.</lang>
+<lang id='remoteModeNotice3HU'>Folytatja?</lang>
+<lang id='remoteModeNotice4HU'>Ha a "Igen" lehetőséget választja, akkor külön-külön felkérhetik, hogy adja meg a távoli gépekhez tartozó hitelesítő adatait. Kérjük, adjon meg egy olyan fiókot, amely rendszergazdai jogosultságokkal rendelkezik a távoli gépen (ha a gép tartományhoz csatlakozik, akkor lehetőleg egy tartományi rendszergazdai fiókot).</lang>
+<lang id='remoteModeNotice5HU'>Kérjük, vegye figyelembe, hogy jelenleg a szűréshez a "Adatgyűjtés konfigurálása" vagy a "Diagnosztika konfigurálása" beállításokban végzett bármilyen módosítás nem alkalmazható a távoli adatgyűjtésre vagy diagnosztikára.</lang>
+<lang id='remoteModeRunningHU'>Távoli mód - Kérem várjon...</lang>
+<lang id='localModeHU'>A parancsfájl most helyi módban van</lang>
+<lang id='popupWarningHU'>Figyelmeztetés</lang>
+<lang id='remotePSinitLocalCredHU'>Távoli PowerShell-munkamenet beállítása a jelenlegi felhasználó jogosultságaival. Távoli gép:</lang>
+<lang id='remotePSinitLocalCredSuccessHU'>Sikeresen létrehozott távoli PSSession a jelenlegi felhasználó jogosultságaival. Távoli gép:</lang>
+<lang id='remotePSinitLocalCredFailHU'>Nem sikerült létrehozni a távoli PSSession-t a jelenlegi felhasználó jogosultságaival. Hitelesítő adatok bekérése és újra próbálkozás. Távoli gép:</lang>
+<lang id='remotePSenterCredHU'>Adja meg a távoli gép rendszergazdai hitelesítő adatait:</lang>
+<lang id='remotePSinitProvCredSuccessHU'>Sikeresen létrehozott távoli PSSession a megadott hitelesítő adatokkal. Távoli gép:</lang>
+<lang id='remotePScopyHU'>Parancsfájl fájlok másolása a C:\MS_DATA\ mappába:</lang>
+<lang id='remotePScopyExistsHU'>már létezik. Ellenőrzés a meglévő parancsfájl fájlokra és szükség esetén frissítés. Távoli gép:</lang>
+<lang id='remotePSlaunch1HU'>MSRD-Collect indítása a távoli PSSession-ben</lang>
+<lang id='remotePScompleteHU'>Távoli adatgyűjtés/diagnosztika befejezve. Távoli PSSession eltávolítása:</lang>
+
+<!-- User Context -->
+<lang id='userCon1HU'>Nem található helyi profil a megadott felhasználóhoz a következő helyen: </lang>
+<lang id='userCon2HU'>A felhasználói környezet visszaállítva:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundHU'>az avdnettest.exe nem található. Az AVD RDP rövid útvonalának elérhetőségére vonatkozó információk hiányosak. Győződjön meg arról, hogy letöltötte és kicsomagolta az MSRD-Collect vagy a TSS teljes csomagját</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeHU'>Az AVD Windows Desktop kliens (MSRDC) jelenleg ezen a gépen fut.
+A legfrissebb Windows Desktop kliens-specifikus ETL nyomkövetés(ek) rögzítéséhez szükséges a MSRDC.exe folyamat bezárása.
+	
+	
+Szeretné most bezárni az MSRDC.exe-t?
+	
+	
+Ha a 'Igen' lehetőséget választja, akkor az MSRDC.exe folyamat megszűnik, és megszakadnak az összes kimenő MSRDC kapcsolatok, a parancsfájl pedig folytatja az adatgyűjtést.
+	
+Ha a 'Nem' lehetőséget választja, akkor az MSRDC.exe folyamat megmarad, és a parancsfájl folytatja az adatgyűjtést, de nem tudja rögzíteni a legfrissebb ETL nyomkövetés(ek)et.
+	
+Ha a 'Mégse' lehetőséget választja, akkor az adatgyűjtés megszakad.</lang>
+
+<lang id='msrdcClosedHU'>Az MSRDC.exe bezárásra került. A parancsfájl 20 másodpercig vár, mielőtt folytatná, hogy a legfrissebb RD kliens ETL nyomkövetési adatai mentésre kerüljenek.</lang>
+<lang id='msrdcNotClosedHU'>Az MSRDC.exe nem lett bezárva. A legfrissebb RD kliens ETL nyomkövetési adatai NEM állnak rendelkezésre a hibaelhárításhoz! Adatgyűjtés folytatása.</lang>
+<lang id='msrdcTitleHU'>Folytatás előtt</lang>
+
+</LangV1>

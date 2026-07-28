@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingAR">بدء تشغيل MSRD-Collect</lang>
+<lang id="notApprovedAR">لم يتم الموافقة على تنفيذ البرنامج النصي من قبل مستخدم المسؤول ، والخروج.</lang>
+<lang id="eulaOKAR">تم قبول EULA ، والاستمرار</lang>
+<lang id="eulaNotOKAR">تم رفض EULA ، والخروج</lang>
+<lang id="eulaSilentOKAR">تم تحديد مفتاح AcceptEula ، والاستمرار بصمت</lang>
+<lang id="noticeOKAR">تم قبول الإشعار ، والاستمرار</lang>
+<lang id="noticeSilentOKAR">تم تحديد مفتاح AcceptNotice ، والاستمرار بصمت</lang>
+<lang id="enabledAR">تمكين</lang>
+<lang id="disabledAR">معاق</lang>
+<lang id="autoUpdateAR">التحقق من التحديث التلقائي عند بدء تشغيل البرنامج النصي:</lang>
+<lang id="playSndAR">تشغيل الأصوات:</lang>
+<lang id='aaModeAR'>وضع المساعدة الصوتية:</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuAR'>ملف</lang>
+<lang id='RunMenuAR'>بدء جمع البيانات/التشخيص</lang>
+<lang id='UpdateMenuAR'>التحقق من التحديثات</lang>
+<lang id='ExitMenuAR'>الخروج</lang>
+<lang id='ViewMenuAR'>عرض</lang>
+<lang id='PresetsMenuAR'>الإعدادات المسبقة</lang>
+<lang id='HideConsoleAR'>إظهار نافذة الوحدة</lang>
+<lang id='MaximizeWindowAR'>البدء بحجم كامل</lang>
+<lang id='AlwaysOnTopAR'>دائماً في المقدمة</lang>
+<lang id='OutputLocationAR'>فتح موقع الإخراج</lang>
+<lang id='LiteModeAR'>وضع مبسط</lang>
+<lang id='LiteModeMachineAR'>حدد سياق الوحدة</lang>
+<lang id='LiteModeRoleAR'>حدد دور الوحدة</lang>
+<lang id='LiteModeSourceAR'>وحدة المصدر / العميل</lang>
+<lang id='LiteModeSourceTooltipAR'>وحدة المصدر التي تتصل منها بوحدات أخرى باستخدام عميل Remote Desktop</lang>
+<lang id='LiteModeTargetAR'>وحدة الهدف / المضيف</lang>
+<lang id='LiteModeTarget2AR'>وحدة الهدف / المضيف (أو الخوادم الوسيطة)</lang>
+<lang id='LiteModeTargetTooltipAR'>وحدة الهدف التي تتصل بها</lang>
+<lang id='LiteModeTargetTooltip2AR'>وحدة الهدف التي تتصل بها أو أي خادم RDS في نشر RDS</lang>
+<lang id='LiteModeScenariosAR'>حدد سيناريو واحد أو أكثر (اختياري)</lang>
+<lang id='LiteModeStartAR'>انقر فوق "بدء" عندما تكون جاهزًا</lang>
+<lang id='LiteModeAdvancedAR'>وضع متقدم</lang>
+<lang id='LiteModeHideConsoleAR'>إظهار الوحدة</lang>
+<lang id='DiagReportsAR'>تقارير التشخيص</lang>
+<lang id='ToolsMenuAR'>أدوات</lang>
+<lang id='SetOutputLocationAR'>تعيين موقع الإخراج...</lang>
+<lang id='SetUserContextAR'>تعيين سياق المستخدم...</lang>
+<lang id='ConfigDataCollectionAR'>تكوين جمع البيانات...</lang>
+<lang id='ConfigDiagAR'>تكوين التشخيص...</lang>
+<lang id='ConfigSchedTaskAR'>إنشاء مهمة مجدولة...</lang>
+<lang id='OpenTaskSchedAR'>فتح مخطط المهام</lang>
+<lang id='AutoVerCheckAR'>التحقق من التحديث عند الإطلاق</lang>
+<lang id='PlaySoundsAR'>استخدام أصوات النظام</lang>
+<lang id='AssistModeAR'>وضع المساعدة الصوتية</lang>
+<lang id='UILangAR'>لغة واجهة المستخدم</lang>
+<lang id='araAR'>عربى</lang>
+<lang id='dutAR'>هولندي</lang>
+<lang id='gerAR'>ألماني</lang>
+<lang id='engAR'>إنجليزي</lang>
+<lang id='hunAR'>هنغاري</lang>
+<lang id='romAR'>روماني</lang>
+<lang id='freAR'>فرنسي</lang>
+<lang id='itaAR'>إيطالي</lang>
+<lang id='porAR'>برتغالي</lang>
+<lang id='spaAR'>إسباني</lang>
+<lang id='jpnAR'>ياباني</lang>
+<lang id='czeAR'>تشيكي</lang>
+<lang id='turAR'>تركي</lang>
+<lang id='chiAR'>صيني</lang>
+<lang id='HelpMenuAR'>مساعدة</lang>
+<lang id='ReadMeAR'>ReadMe (الإنجليزية)</lang>
+<lang id='WhatsNewAR'>ما الجديد</lang>
+<lang id='DownloadAR'>تنزيلات</lang>
+<lang id='DownloadMSRDCAR'>الحصول على &amp;MSRD-Collect</lang>
+<lang id='DownloadRDSTracingAR'>الحصول على &amp;RDSTracing</lang>
+<lang id='DownloadSaRAAR'>الحصول على &amp;SaRA لـ Office 365</lang>
+<lang id='DownloadTSSAR'>الحصول على &amp;TSS</lang>
+<lang id='MSDocsAR'>&amp;Microsoft Docs</lang>
+<lang id='AVDAR'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixAR'>&amp;FSLogix</lang>
+<lang id='RDSAR'>&amp;Remote Desktop Services</lang>
+<lang id='365AR'>&amp;Windows 365</lang>
+<lang id='TechCommunityAR'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDAR'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixAR'>&amp;FSLogix</lang>	
+<lang id='TC365AR'>&amp;Windows 365</lang>
+<lang id='AzureMenuAR'>A&amp;zure</lang>
+<lang id='AzOutageNotificationAR'>الحصول على إشعارات بالانقطاعات التي تؤثر عليك (الوثائق)</lang>
+<lang id='AzStatusAR'>حالة Azure</lang>
+<lang id='AzStatusHistAR'>تاريخ حالة Azure</lang>
+<lang id='AzServHealthAR'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorAR'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailAR'>تقديم ملاحظات (عبر البريد الإلكتروني)</lang>
+<lang id='FeedbackSurveyAR'>تقديم ملاحظات (عبر الاستطلاع)</lang>
+<lang id='AboutAR'>حول</lang>
+<lang id='contextLabelAR'>سياق الجهاز</lang>
+<lang id='roleLabelAR'>دور الجهاز</lang>
+<lang id='scenarioLabelAR'>سيناريوهات جمع البيانات</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceAR'>Source</lang>
+<lang id='btnTargetAR'>Target</lang>
+<lang id='btnAVDAR'>AVD</lang>
+<lang id='btnRDSAR'>RDS</lang>
+<lang id='btnW365AR'>W365</lang>
+<lang id='btnCoreAR'>Core</lang>
+<lang id='btnProfilesAR'>Profiles</lang>
+<lang id='btnActivationAR'>Activation</lang>
+<lang id='btnMSRAAR'>MSRA</lang>
+<lang id='btnSCardAR'>SCard</lang>
+<lang id='btnIMEAR'>IME</lang>
+<lang id='btnTeamsAR'>Teams</lang>
+<lang id='btnMSIXAAAR'>MSIXAA</lang>
+<lang id='btnHCIAR'>HCI</lang>
+<lang id='btnProcDumpAR'>DumpPID</lang>
+<lang id='btnNetTraceAR'>NetTrace</lang>
+<lang id='btnDiagOnlyAR'>DiagOnly</lang>
+<lang id='btnLiveDiagAR'>LiveDiag</lang>
+<lang id='StartAR'>بدء</lang>
+<lang id='RunningAR'>تشغيل</lang>
+<lang id='SurveyAR'>استطلاع</lang>
+<lang id='CompLabelAR'>الكمبيوتر(ات)</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDAR'>حدد هذا النوع من الأجهزة لسيناريوهات Azure Virtual Desktop ذات الصلة</lang>
+<lang id='btnTooltipRDSAR'>حدد هذا النوع من الأجهزة لسيناريوهات Remote Desktop Services أو RDP المباشرة</lang>
+<lang id='btnTooltipW365AR'>حدد هذا النوع من الأجهزة لسيناريوهات Windows 365 Cloud PC ذات الصلة</lang>
+<lang id='btnTooltipSourceAR'>حدد هذا النوع من الأدوار إذا كان الجهاز مستخدمًا لبدء الاتصالات عن بعد بأجهزة أخرى</lang>
+<lang id='btnTooltipTargetAR'>حدد هذا النوع من الأدوار إذا كان الجهاز على الطرف الاستقبالي لاتصال عن بعد أو إذا كان خادمًا مع أي دور RDS مثبت</lang>
+<lang id='btnTooltipProfilesAR'>جمع البيانات لإصلاح مشكلات 'ملفات تعريف المستخدم' </lang>
+<lang id='btnTooltipActivationAR'>جمع البيانات لإصلاح مشكلات 'ترخيص/تنشيط نظام التشغيل' </lang>
+<lang id='btnTooltipMSRAAR'>جمع البيانات لإصلاح مشكلات 'المساعدة عن بعد' </lang>
+<lang id='btnTooltipSCardAR'>جمع البيانات لإصلاح مشكلات 'بطاقة ذكية' </lang>
+<lang id='btnTooltipIMEAR'>جمع البيانات لإصلاح مشكلات 'طريقة الإدخال' </lang>
+<lang id='btnTooltipTeamsAR'>جمع البيانات لإصلاح مشكلات 'تحسين وسائط Teams' (AVD/W365 فقط) </lang>
+<lang id='btnTooltipMSIXAAAR'>جمع البيانات لإصلاح مشكلات 'MSIX App Attach' (AVD فقط) </lang>
+<lang id='btnTooltipHCIAR'>جمع البيانات لإصلاح مشكلات 'Azure Stack HCI' (AVD فقط) </lang>
+<lang id='btnTooltipProcDumpAR'>جمع تفريغ عملية من عملية موجودة </lang>
+<lang id='btnTooltipNetTraceAR'>جمع تتبع الشبكة (netsh) </lang>
+<lang id='btnTooltipDiagOnlyAR'>إنشاء تقرير تشخيصي فقط </lang>
+<lang id='btnTooltipLiveDiagAR'>الدخول إلى وضع التشخيص المباشر </lang>
+<lang id='btnTooltipSurveyAR'>فتح استطلاع رضا MSRD-Collect لتقديم ملاحظات حول النص </lang>
+<lang id='btnTooltipComputerAR'>أدخل أحد أسماء الكمبيوتر (NetBIOS أو FQDN) المفصولة بفاصلة منقوطة لجمع البيانات </lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkAR'>ما رأيك في هذا النص؟ </lang>
+<lang id='ReadyAR'>جاهز </lang>
+<lang id='checkupdAR'>جاري التحقق من التحديثات. يرجى الانتظار... </lang>
+<lang id='collecting1AR'>جمع </lang>
+<lang id='collecting2AR'>البيانات. يرجى الانتظار... </lang>
+<lang id='waitAR'>يرجى الانتظار... </lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aAR'>إصدار النص </lang>
+<lang id='initvalues1bAR'>تم تشغيله من: </lang>
+<lang id='initvalues1cAR'>سطر الأوامر: </lang>
+<lang id='initvalues2AR'>تم قبول EULA والإشعار </lang>
+<lang id='initvalues3AR'>موقع الإخراج: </lang>
+<lang id='initvalues4AR'>سياق المستخدم: </lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteAR'>لإصلاح مشكلات Teams ، يُوصى بإنشاء سجلات Teams Debug جديدة أولاً.
+انظر: https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+لإنشاء هذه السجلات التشخيصية ، افتح تطبيق Teams المتأثر (باستخدام نفس حساب المستخدم/السياق الذي تم استخدامه لجمع هذه البيانات) واضغط على CTRL+ALT+SHIFT+1 داخل Teams.
+سيقوم Teams بإنشاء سجلات تشخيصية يمكن جمعها بواسطة هذا البرنامج النصي.
+
+إذا كانت لديك بالفعل هذه السجلات أو لا تحتاج إليها ، فحدد "إعادة المحاولة" للمتابعة.
+وإلا ، حدد "إلغاء" ، وقم بإنشاء سجلات Teams Debug وابدأ جمع البيانات مرة أخرى.</lang>
+
+<lang id='teamstitleAR'>جمع بيانات إصلاح أخطاء Teams </lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1AR'>حدد العملية الجارية لإفراغها </lang>
+<lang id='dpidtext2AR'>حدد عملية </lang>
+<lang id='dpidtext3AR'>تم تحديد العملية (PID) لإفراغ العملية: </lang>
+<lang id='dpidtext4AR'>لم يتم تحديد PID - لن يتم إنشاء إفراغ للعملية </lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgAR'>يتم تشغيل جمع البيانات - يرجى الانتظار... </lang>
+<lang id='fdcmsgAR'>تم جمع البيانات </lang>
+<lang id='rdiagmsgAR'>يتم تشغيل التشخيص - يرجى الانتظار... </lang>
+<lang id='noDiagmsgAR'>لم يتم تحديد فحوصات التشخيص. تخطي إنشاء تقرير التشخيص.</lang>
+<lang id='selectedParamAR'>المعلمات المحددة لجمع البيانات/التشخيص: </lang>
+<lang id='checkmsgAR'>جاري التحقق من </lang>
+<lang id='fdiagmsgAR'>تم التشخيص </lang>
+<lang id='archmsgAR'>جاري أرشفة النتائج - يرجى الانتظار! </lang>
+<lang id='zipmsgAR'>ملف الضغط جاهز: </lang>
+<lang id='ziperrormsgAR'>تعذر إنشاء ملف الضغط. يرجى أرشفة البيانات المجمعة يدويًا تحت: </lang>
+<lang id='dtmmsgAR'>استخدم دائمًا أداة نقل ملفات آمنة عند مشاركة هذه النتائج مع Microsoft CSS. ناقش هذا مع محترف الدعم الخاص بك وأي مخاوف قد تكون لديك أيضًا. </lang>
+<lang id='logfoldermsgAR'>جاري إنشاء المجلد </lang>
+<lang id='logfolderexistmsgAR'>موجود بالفعل </lang>
+<lang id='coremsgAR'>جمع بيانات إصلاح أخطاء النواة </lang>
+<lang id='profilesmsgAR'>جمع بيانات إصلاح أخطاء ملفات تعريف المستخدم </lang>
+<lang id='msramsgAR'>جمع بيانات إصلاح أخطاء المساعدة عن بعد </lang>
+<lang id='scardmsgAR'>جمع بيانات إصلاح أخطاء بطاقة الذاكرة الذكية </lang>
+<lang id='imemsgAR'>جمع بيانات إصلاح أخطاء طريقة الإدخال </lang>
+<lang id='teamsmsgAR'>جمع بيانات إصلاح أخطاء Teams على AVD </lang>
+<lang id='msixaamsgAR'>جمع بيانات إصلاح أخطاء MSIX App Attach </lang>
+<lang id='hcimsgAR'>جمع بيانات إصلاح أخطاء Azure Stack HCI </lang>
+<lang id='activationmsgAR'>جمع بيانات إصلاح أخطاء ترخيص/تنشيط نظام التشغيل </lang>
+<lang id='errormsgAR'>حدث خطأ في</lang>
+<lang id='location1AR'>حدد موقعًا لتخزين النتائج (الموقع الافتراضي هو C:\MS_DATA) </lang>
+<lang id='location2AR'>موقع الإخراج: </lang>
+<lang id='context1AR'>تعيين سياق المستخدم </lang>
+<lang id='context2AR'>أدخل اسم المستخدم الذي يجب جمع بعض البيانات من ملفه الشخصي </lang>
+<lang id='context3AR'>تم تعيين سياق المستخدم على: </lang>
+<lang id='selectCollect1AR'>تكوين جمع البيانات </lang>
+<lang id='selectCollect2AR'>استخدم الجدول الأيسر لتحديد العناصر لجمع البيانات ، انقر فوق السهم الأيمن لاستبعاد العناصر المحددة. لإعادة تضمين العناصر مرة أخرى ، حدد من الجدول الأيمن وانقر فوق السهم الأيسر. </lang>
+<lang id='selectCollect3AR'>البيانات التي يتم جمعها لكل سيناريو </lang>
+<lang id='selectCollect4AR'>البيانات المستبعدة لكل سيناريو </lang>
+<lang id='selectDiag1AR'>تكوين التشخيص </lang>
+<lang id='selectDiag2AR'>استخدم الجدول الأيسر لتحديد العناصر للتشخيص ، انقر فوق السهم الأيمن لاستبعاد العناصر المحددة. لإعادة تضمين العناصر مرة أخرى ، حدد من الجدول الأيمن وانقر فوق السهم الأيسر. </lang>
+<lang id='selectDiag3AR'>التشخيصات التي يتم تنفيذها لكل فئة </lang>
+<lang id='selectDiag4AR'>التشخيصات المستبعدة لكل فئة </lang>
+
+<!-- NetTrace -->
+<lang id='netTraceAR'>جاري تشغيل تتبع الشبكة - يرجى الانتظار... </lang>
+
+<lang id='netTraceNoteAR'>أعد إنتاج المشكلة.
+بمجرد حدوث المشكلة، قم بإيقاف التتبع في أقرب وقت ممكن عن طريق الضغط على زر "موافق".</lang>
+
+<lang id='netTraceNote2AR'>أعد إنتاج المشكلة واضغط على مفتاح "Y" بعد الانتهاء من إعادة الإنتاج (مع تركيز النافذة هنا) </lang>
+<lang id='netTraceRunningAR'>جاري تشغيل تتبع الشبكة </lang>
+<lang id='netTraceStoppingAR'>جاري إيقاف تتبع الشبكة - يرجى الانتظار (قد يستغرق هذا عدة دقائق)...</lang>
+<lang id='netTraceFinishedAR'>تم إنهاء تتبع الشبكة </lang>
+<lang id='conVisibleAR'>نافذة وحدة التحكم مرئية </lang>
+<lang id='conHiddenAR'>نافذة وحدة التحكم مخفية </lang>
+<lang id='openMaximizedAR'>سيتم تشغيل البرنامج النصي بحجم مكبر </lang>
+<lang id='openWindowedAR'>سيتم تشغيل البرنامج النصي بحجم غير مكبر </lang>
+<lang id='ontopAR'>سيبقى نافذة البرنامج النصي في الأعلى من النوافذ الأخرى </lang>
+<lang id='ontopNotAR'>لن تبقى نافذة البرنامج النصي في الأعلى من النوافذ الأخرى </lang>
+<lang id='outputNotFoundAR'>[تحذير] تعذر العثور على موقع الإخراج المحدد. </lang>
+<lang id='outputLoc1AR'>تحديث قائمة تقارير التشخيص المتاحة تحت موقع الإخراج الحالي </lang>
+<lang id='outputLoc2AR'>[تحذير] لم يعد موقع الإخراج المحدد موجودًا. انقر فوق "عرض\تقارير التشخيص" لتحديث القائمة وحاول مرة أخرى. </lang>
+<lang id='outputLoc3AR'>تم تحديث القائمة بنجاح. </lang>
+<lang id='outputLoc4AR'>لم يتم العثور على تقارير تحت موقع الإخراج الحالي </lang>
+<lang id='outputLoc5AR'>أنشئ بعض تقارير التشخيص أولاً لملء هذه القائمة. </lang>
+<lang id='outputLoc6AR'>موقع الإخراج الحالي غير موجود </lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgAR'>ما زالت وظيفة أو أكثر تعمل في الخلفية. قد تستغرق هذه الوظائف ما يصل إلى 3 دقائق. يرجى الانتظار... </lang>
+<lang id='bgjob2msgAR'>لم تتمكن وظيفة أو أكثر في الخلفية من الانتهاء في الوقت المخصص. قد تكون بعض البيانات مفقودة. إذا كان هذا الإصدار يتكرر، فيرجى الإبلاغ عنه إلى: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1AR'>جاري التحقق مما إذا كانت هناك نسخة جديدة متاحة (يرجى الانتظار) </lang>
+<lang id='vercheck2AR'>نسخة أحدث متاحة على https://aka.ms/msrd-collect !</lang>
+<lang id='vercheck3AR'>نسخة أحدث متاحة: </lang>
+<lang id='vercheck4AR'>أنت حاليًا على الإصدار</lang>
+<lang id='vercheck5AR'>للحصول على أفضل النتائج، قم بتنزيل واستخدام الإصدار الأحدث من https://aka.ms/MSRD-Collect </lang>
+<lang id='vercheck5bAR'>إذا قمت باختيار "نعم"، فسيتم فتح نافذة متصفح لتنزيل ملف "MSRD-Collect.zip" الأحدث وسيتم إغلاق النص البرمجي الحالي. وإلا، سيستمر النص البرمجي الحالي كما هو.</lang>
+<lang id='vercheck6AR'>هل ترغب في تنزيل الإصدار الجديد الآن؟ </lang>
+
+<lang id='vercheck7AR'>فتح المتصفح الافتراضي لتنزيل أحدث ملف "MSRD-Collect.zip" من https://aka.ms/MSRD-Collect
+الخروج.
+</lang>
+
+<lang id='vercheck8AR'>قررت عدم تنزيل الإصدار الأحدث حتى الآن. للحصول على أفضل النتائج، قم بتنزيل واستخدام الإصدار الأحدث من https://aka.ms/MSRD-Collect </lang>
+<lang id='vercheck9AR'>إصدار MSRD-Collect محدث </lang>
+<lang id='PDvercheck1AR'>إصدار ProcDump محدث </lang>
+<lang id='selfupdate1AR'>إذا قمت باختيار "نعم"، فسيتم تحديث النص البرمجي تلقائيًا. وإلا، سيستمر النص البرمجي الحالي كما هو.</lang>
+<lang id='selfupdate2AR'>تحديث النص البرمجي تلقائيًا</lang>
+<lang id='selfupdate3AR'>بدأها المستخدم: </lang>
+<lang id='selfupdate4AR'>بدء التنزيل الآمن لأحدث إصدار من https://aka.ms/MSRD-Collect (يرجى الانتظار...)</lang>
+<lang id='selfupdate5AR'>حفظ نسخة من ملف تكوين MSRD-Collect الحالي إلى </lang>
+<lang id='selfupdate6AR'>استخراج الملفات من </lang>
+<lang id='selfupdate7AR'>استعادة ملف تكوين MSRD-Collect من النسخة الاحتياطية السابقة وإزالة النسخة الاحتياطية </lang>
+<lang id='selfupdate8AR'>إزالة ملف التنزيل المؤقت </lang>
+<lang id='selfupdate9AR'>تم التحديث بنجاح. إعادة تشغيل النص البرمجي.</lang>
+
+<!-- How to -->	
+<lang id='howtouseAR'>دليل الاستخدام
+
+	الخطوة ١: حدد السياق/البيئة التي يتم فيها استخدام الجهاز:
+
+		AVD		- Azure Virtual Desktop
+		RDS		- خدمات سطح المكتب عن بُعد أو اتصال RDP مباشر (غير AVD/غير W365)
+		W365		- Windows 365 Cloud PC
+
+	الخطوة ٢: حدد دور الجهاز في السياق/البيئة المعطى:
+
+		Source		- الجهاز المصدر الذي تتصل منه بأجهزة أخرى باستخدام عميل سطح المكتب عن بُعد
+		Target		- آلة الهدف التي تتصل بها أو خادم يحتوي على أي دور RDS مثبت
+
+	الخطوة ٣: [اختياري] إذا كنت قد حددت 'AVD' أو 'W365'، أدخل اسم جهاز كمبيوتر واحد أو أكثر (NetBIOS أو FQDN) في حقل 'الكمبيوتر(أجهزة الكمبيوتر)' من حيث تريد جمع البيانات. 
+		 يتم استخدام اسم الكمبيوتر المحلي كقيمة افتراضية. 
+		 إذا تم تحديد عدة أجهزة كمبيوتر، فافصل بينها بفاصلة منقوطة. سيتم جمع البيانات من كل جهاز كمبيوتر بترتيب تسلسلي.
+
+لجمع البيانات:
+
+	الخطوة ٤أ: [اختياري] اختر أحد السيناريوهات المتاحة أو أكثر:
+	
+		Profiles	- جمع البيانات لإصلاح مشاكل 'ملفات تعريف المستخدم'
+		Activation	- جمع البيانات لإصلاح مشاكل 'ترخيص/تنشيط نظام التشغيل'
+		MSRA		- جمع البيانات لإصلاح مشاكل 'المساعدة عن بعد'
+		SCard		- جمع البيانات لإصلاح مشاكل 'بطاقة ذكية'
+		IME		- جمع البيانات لإصلاح مشاكل 'طريقة الإدخال'
+		Teams		- جمع البيانات لإصلاح مشاكل 'تحسين وسائل الإعلام في Teams' (AVD/W365 فقط)
+		MSIXAA		- جمع البيانات لإصلاح مشاكل 'MSIX App Attach' (AVD فقط)
+		HCI		- جمع البيانات لإصلاح مشاكل 'Azure Stack HCI' (AVD فقط)
+		DumpPID	- جمع تفريغ عملية من عملية موجودة
+		NetTrace	- جمع تتبع شبكة (netsh)
+		DiagOnly	- إنشاء تقرير تشخيصي فقط		
+	
+	الخطوة ٥أ: انقر على زر 'بدء' عند الجاهزية. قد يستغرق جمع البيانات/تشخيصها عدة دقائق.
+
+للتشخيص الفوري:
+
+	الخطوة ٤ب: اختر الخيار 'LiveDiag'.
+	
+	الخطوة ٥ب: اختر علامة التبويب لفئة التشخيص المطلوبة.
+	
+	الخطوة ٦: انقر على الزر المطلوب داخل التبويب المحدد لتشغيل فحص التشخيص المتوافق.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1AR'>تشغيل التشخيص. قد يستغرق هذا بضع دقائق. يرجى الانتظار...</lang>
+<lang id='liveDiag2AR'>اكتمل التشخيص</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateAR'>إنشاء مهمة مجدولة لتشغيل التشخيص</lang>
+<lang id='schedTaskNoteAR'>أنت على وشك إنشاء مهمة مجدولة على هذا الكمبيوتر، والتي ستقوم بتشغيل MSRD-Collect Diagnostics وإنشاء تقرير MSRD-Diag.html.`n`nهل أنت متأكد من أنك تريد المتابعة؟</lang>
+<lang id='schedTaskInfo1AR'>تم إنشاء المهمة المجدولة بنجاح بالمعلمات التالية:</lang>
+<lang id='schedTaskInfo2AR'>تاريخ البدء:</lang>
+<lang id='schedTaskInfo3AR'>وقت البدء:</lang>
+<lang id='schedTaskInfo4AR'>التكرار:</lang>
+<lang id='schedTaskInfo5AR'>يوم الأسبوع:</lang>
+<lang id='schedTaskInfo6AR'>سياق الجهاز:</lang>
+<lang id='schedTaskInfo7AR'>دور الجهاز:</lang>
+<lang id='schedTaskInfo8AR'>موقع النص:</lang>
+<lang id='schedTaskInfo9AR'>موقع الإخراج:</lang>
+<lang id='schedTaskInfo10AR'>سياق المستخدم:</lang>
+<lang id='schedTaskInfo11AR'>تم إنشاء المهمة المجدولة بنجاح بالمعلمات التالية:</lang>
+<lang id='schedTaskInfo12AR'>أسبوع الشهر:</lang>
+<lang id='schedTaskInfo13AR'>خطأ غير معروف. لم يتم إنشاء أي مهمة مجدولة.</lang>
+<lang id='schedTaskInfo14AR'>الإجراء الذي سيتم تنفيذه:</lang>
+<lang id='schedTaskEmpty1AR'>موقع الإخراج فارغ</lang>
+<lang id='schedTaskEmpty2AR'>موقع النص فارغ</lang>
+<lang id='schedTaskNotFound1AR'>موقع الإخراج غير موجود</lang>
+<lang id='schedTaskNotFound2AR'>موقع النص غير موجود</lang>
+	
+<!-- Presets -->
+<lang id='presetResetAR'>إعادة تعيين الكل</lang>
+<lang id='presetLoaded1AR'>تم تحديد الإعداد المسبق</lang>
+<lang id='presetLoaded2AR'>اضغط على زر "بدء" لبدء جمع البيانات/التشخيص.</lang>
+<lang id='presetErrcon1AR'>لا يمكن الاتصال / خطأ أثناء الاتصال الأولي (جهاز المصدر/العميل)</lang>
+<lang id='presetErrcon2AR'>لا يمكن الاتصال / خطأ أثناء الاتصال الأولي (جهاز الوجهة/المضيف)</lang>
+<lang id='presetLogon1AR'>لا يمكن الاتصال / خطأ أثناء الاتصال الأولي (جهاز المصدر/العميل)</lang>
+<lang id='presetLogon2AR'>لا يمكن الاتصال / خطأ أثناء الاتصال الأولي (جهاز الوجهة/المضيف)</lang>
+<lang id='presetScard1AR'>لا يمكن الاتصال / خطأ أثناء الاتصال الأولي (جهاز المصدر/العميل)</lang>
+<lang id='presetScard2AR'>لا يمكن الاتصال / خطأ أثناء الاتصال الأولي (جهاز الوجهة/المضيف)</lang>
+<lang id='presetMsixaaAR'>MSIX App Attach / مشكلات في استخدام حزم التطبيقات المعينة (جهاز الوجهة/المضيف)</lang>
+<lang id='presetLic1AR'>مشكلات ترخيص RD مع تراخيص RDS "لكل جهاز" (جهاز المصدر/العميل)</lang>
+<lang id='presetLic2AR'>مشكلة ترخيص RD مع تراخيص RDS "لكل جهاز" أو "لكل مستخدم" (Session Host / License Server)</lang>
+<lang id='presetLic3AR'>مشكلة ترخيص RD مع تراخيص RDS "لكل مستخدم" (Session Host / License Server)</lang>
+<lang id='presetDiscon1AR'>فصل غير متوقع لجلسة نشطة أو غير نشطة (جهاز المصدر/العميل)</lang>
+<lang id='presetDiscon2AR'>فصل غير متوقع لجلسة نشطة أو غير نشطة (جهاز الوجهة/المضيف)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeAR'>البرنامج النصي الآن في وضع الوصول عن بعد</lang>
+<lang id='remoteInvalidCompAR'>يحتوي حقل "الكمبيوترات" على اسم كمبيوتر غير صالح:</lang>
+<lang id='remoteReach1AR'>الكمبيوتر المحدد</lang>
+<lang id='remoteReach2AR'>متاح. مواصلة جمع البيانات/التشخيص.</lang>
+<lang id='remoteReach3AR'>غير متاح. يرجى التأكد من أن اسم الكمبيوتر صحيح وأنه متاح عبر الشبكة. قد تحتاج إلى "تشغيل مشاركة الملفات والطابعات" على الكمبيوتر البعيد إذا لم يتم ذلك بالفعل.</lang>
+<lang id='remoteModeNotice1AR'>لقد حددت جهازًا أو أكثر في حقل "الكمبيوترات" تختلف عن الجهاز المحلي.</lang>
+<lang id='remoteModeNotice2AR'>سيحاول البرنامج النصي جمع البيانات عن بُعد عن طريق نسخ نفسه إلى مجلد C:\MS_DATA\ على كل جهاز محدد وتشغيله من هناك.</lang>
+<lang id='remoteModeNotice3AR'>هل تريد المتابعة؟</lang>
+<lang id='remoteModeNotice4AR'>إذا حددت "نعم" ، فقد يُطلب منك إدخال بيانات اعتماد لكل جهاز كمبيوتر عن بُعد بشكل منفصل. يُرجى توفير حساب بأذونات إدارية على الجهاز البعيد (يُفضل مسؤول النطاق إذا كان الجهاز متصلاً بنطاق).</lang>
+<lang id='remoteModeNotice5AR'>يرجى ملاحظة أنه حاليًا ، لا تنطبق أي تغييرات تم إجراؤها في خيارات "تكوين جمع البيانات" أو "تكوين التشخيص" للتصفية على جمع البيانات أو التشخيص عن بُعد.</lang>
+<lang id='remoteModeRunningAR'>تشغيل في وضع الوصول عن بعد - يرجى الانتظار...</lang>
+<lang id='localModeAR'>البرنامج النصي الآن في وضع محلي</lang>
+<lang id='popupWarningAR'>تحذير</lang>
+<lang id='remotePSinitLocalCredAR'>إعداد جلسة PowerShell عن بُعد باستخدام امتيازات المستخدم الحالي. الكمبيوتر البعيد:</lang>
+<lang id='remotePSinitLocalCredSuccessAR'>تم إنشاء جلسة PSS عن بُعد بنجاح باستخدام امتيازات المستخدم الحالي. الكمبيوتر البعيد:</lang>
+<lang id='remotePSinitLocalCredFailAR'>فشل إنشاء جلسة PSS عن بُعد باستخدام امتيازات المستخدم الحالي. طلب بيانات اعتماد وإعادة المحاولة. الكمبيوتر البعيد:</lang>
+<lang id='remotePSenterCredAR'>أدخل بيانات اعتماد المسؤول للكمبيوتر البعيد:</lang>
+<lang id='remotePSinitProvCredSuccessAR'>تم إنشاء جلسة PSS عن بُعد بنجاح باستخدام بيانات اعتماد المستخدم المقدمة. الكمبيوتر البعيد:</lang>
+<lang id='remotePScopyAR'>نسخ ملفات البرنامج النصي إلى C:\MS_DATA\ على:</lang>
+<lang id='remotePScopyExistsAR'>موجود بالفعل. التحقق من وجود ملفات البرنامج النصي الموجودة وتحديثها حسب الحاجة. الكمبيوتر البعيد:</lang>
+<lang id='remotePSlaunch1AR'>تشغيل MSRD-Collect في جلسة PSS عن بُعد</lang>
+<lang id='remotePScompleteAR'>اكتمل جمع البيانات/التشخيص عن بُعد. إزالة جلسة PSS عن بُعد إلى:</lang>
+
+<!-- User Context -->
+<lang id='userCon1AR'>لم يتم العثور على ملف تعريف محلي للمستخدم المحدد في موقع ملف تعريف المستخدم الافتراضي:</lang>
+<lang id='userCon2AR'>تم إعادة تعيين سياق المستخدم إلى:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundAR'>تعذر العثور على avdnettest.exe. ستكون المعلومات حول توافر RDP Shortpath لـ AVD غير مكتملة. تأكد من تنزيل وفك حزمة MSRD-Collect أو TSS الكاملة</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeAR'>يتم تشغيل عميل سطح المكتب Windows AVD (MSRDC) حاليًا على هذا الكمبيوتر.
+لالتقاط أحدث تتبعات ETL الخاصة بعميل سطح المكتب Windows ، من الضروري إغلاق عملية MSRDC.exe.
+
+
+هل تريد إغلاق MSRDC.exe الآن؟
+
+	
+إذا اخترت 'نعم' ، فسيتم إنهاء عملية MSRDC.exe ، مما يؤدي إلى فصل جميع اتصالات MSRDC الصادرة وسيستمر البرنامج النصي في جمع البيانات.
+	
+إذا اخترت 'لا' ، فسيستمر عملية MSRDC.exe ، وسيستمر البرنامج النصي في جمع البيانات ، ولكنه لن يتمكن من جمع أحدث تتبعات ETL.
+	
+إذا اخترت 'إلغاء' ، سيتم إيقاف جمع البيانات.</lang>
+
+<lang id='msrdcClosedAR'>تم إغلاق MSRDC.exe. سينتظر البرنامج النصي 20 ثانية قبل المتابعة ، للسماح بحفظ بيانات تتبع ETL الأخيرة لعميل RD.</lang>
+<lang id='msrdcNotClosedAR'>لم يتم إغلاق MSRDC.exe. لن تكون بيانات تتبع ETL الأخيرة لعميل RD متاحة لإصلاح الأخطاء! مواصلة جمع البيانات.</lang>
+<lang id='msrdcTitleAR'>قبل المتابعة</lang>
+
+</LangV1>

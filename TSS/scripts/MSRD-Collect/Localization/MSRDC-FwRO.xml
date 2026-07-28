@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingRO">Se porneşte MSRD-Collect</lang>
+<lang id="notApprovedRO">Execuţia scriptului nu este aprobată de utilizatorul administrator, se închide.</lang>
+<lang id="eulaOKRO">EULA acceptată, continuare</lang>
+<lang id="eulaNotOKRO">EULA refuzată, se închide</lang>
+<lang id="eulaSilentOKRO">AcceptEula switch specificat, continuare silenţioasă</lang>
+<lang id="noticeOKRO">Notificare acceptată, continuare</lang>
+<lang id="noticeSilentOKRO">AcceptNotice switch specificat, continuare silenţioasă</lang>
+<lang id="enabledRO">Activat</lang>
+<lang id="disabledRO">Dezactivat</lang>
+<lang id="autoUpdateRO">Verificare automată pentru actualizări la pornirea scriptului:</lang>
+<lang id="playSndRO">Redare sunete:</lang>
+<lang id='aaModeRO'>Mod Audio Assist:</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuRO'>&amp;Fişier</lang>
+<lang id='RunMenuRO'>Porniţi colectarea de date/diagnosticarea</lang>
+<lang id='UpdateMenuRO'>Verificare &amp;actualizare</lang>
+<lang id='ExitMenuRO'>&amp;Ieşire</lang>
+<lang id='ViewMenuRO'>&amp;Vizualizare</lang>
+<lang id='PresetsMenuRO'>&amp;Preconfigurări</lang>
+<lang id='HideConsoleRO'>&amp;Afişare fereastră consolă</lang>
+<lang id='MaximizeWindowRO'>Pornire cu fereastră maximizată</lang>
+<lang id='AlwaysOnTopRO'>&amp;întotdeauna deasupra</lang>
+<lang id='OutputLocationRO'>&amp;Deschidere locaţie ieşire</lang>
+<lang id='LiteModeRO'>&amp;Modul Lite</lang>
+<lang id='LiteModeMachineRO'>Selectaţi contextul maşinii</lang>
+<lang id='LiteModeRoleRO'>Selectaţi rolul maşinii</lang>
+<lang id='LiteModeSourceRO'>Maşină sursă / Client</lang>
+<lang id='LiteModeSourceTooltipRO'>Maşină sursă de unde vă conectaţi la alte maşini folosind un client Remote Desktop</lang>
+<lang id='LiteModeTargetRO'>Maşină ţintă / Gazdă</lang>
+<lang id='LiteModeTarget2RO'>Maşină ţintă / Gazdă (sau servere intermediare)</lang>
+<lang id='LiteModeTargetTooltipRO'>Maşină ţintă la care vă conectaţi</lang>
+<lang id='LiteModeTargetTooltip2RO'>Maşină ţintă la care vă conectaţi sau orice server RDS într-o implementare RDS</lang>
+<lang id='LiteModeScenariosRO'>Selectaţi unul sau mai multe scenarii (opţional)</lang>
+<lang id='LiteModeStartRO'>Apăsaţi 'Pornire' când sunteţi gata</lang>
+<lang id='LiteModeAdvancedRO'>Mod avansat</lang>
+<lang id='LiteModeHideConsoleRO'>&amp;Afişare consolă</lang>
+<lang id='DiagReportsRO'>Rapoarte de &amp;diagnosticare</lang>
+<lang id='ToolsMenuRO'>&amp;Instrumente</lang>
+<lang id='SetOutputLocationRO'>Setare locaţie de &amp;ieşire...</lang>
+<lang id='SetUserContextRO'>Setare context de &amp;utilizator...</lang>
+<lang id='ConfigDataCollectionRO'>Configurare &amp;colectare de date...</lang>
+<lang id='ConfigDiagRO'>Configurare &amp;diagnosticare...</lang>
+<lang id='ConfigSchedTaskRO'>Creare sarcină programată...</lang>
+<lang id='OpenTaskSchedRO'>Deschideţi Planificatorul de sarcini</lang>
+<lang id='AutoVerCheckRO'>Verificaţi actualizările la lansare</lang>
+<lang id='PlaySoundsRO'>Utilizare sunete de sistem</lang>
+<lang id='AssistModeRO'>Mod asistent audio</lang>
+<lang id='UILangRO'>Limba interfeţei utilizatorului</lang>
+<lang id='araRO'>Arabă</lang>
+<lang id='dutRO'>Olandeză</lang>
+<lang id='gerRO'>Germană</lang>
+<lang id='engRO'>Engleză</lang>
+<lang id='hunRO'>Maghiară</lang>
+<lang id='romRO'>Română</lang>
+<lang id='freRO'>Franceză</lang>
+<lang id='itaRO'>Italiană</lang>
+<lang id='porRO'>Portugheză</lang>
+<lang id='spaRO'>Spaniolă</lang>
+<lang id='jpnRO'>Japoneză</lang>
+<lang id='czeRO'>Cehă</lang>
+<lang id='turRO'>Turcă</lang>
+<lang id='chiRO'>Chineză</lang>
+<lang id='HelpMenuRO'>&amp;Ajutor</lang>
+<lang id='ReadMeRO'>&amp;ReadMe (Engleză)</lang>
+<lang id='WhatsNewRO'>&amp;Ce este nou</lang>
+<lang id='DownloadRO'>&amp;Descărcări</lang>
+<lang id='DownloadMSRDCRO'>Obţineţi &amp;MSRD-Collect</lang>
+<lang id='DownloadRDSTracingRO'>Obţineţi &amp;RDSTracing</lang>
+<lang id='DownloadSaRARO'>Obţineţi &amp;SaRA pentru Office 365</lang>
+<lang id='DownloadTSSRO'>Obţineţi &amp;TSS</lang>
+<lang id='MSDocsRO'>&amp;Microsoft Docs</lang>
+<lang id='AVDRO'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixRO'>&amp;FSLogix</lang>
+<lang id='RDSRO'>&amp;Remote Desktop Services</lang>
+<lang id='365RO'>&amp;Windows 365</lang>
+<lang id='TechCommunityRO'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDRO'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixRO'>&amp;FSLogix</lang>	
+<lang id='TC365RO'>&amp;Windows 365</lang>
+<lang id='AzureMenuRO'>A&amp;zure</lang>
+<lang id='AzOutageNotificationRO'>&amp;Fiţi notificat în cazul în care apar probleme care vă afectează (Documente)</lang>
+<lang id='AzStatusRO'>&amp;Stare Azure</lang>
+<lang id='AzStatusHistRO'>Istoric &amp;stare Azure</lang>
+<lang id='AzServHealthRO'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorRO'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailRO'>Furnizaţi feedback (&amp;email)</lang>
+<lang id='FeedbackSurveyRO'>Furnizaţi feedback (&amp;chestionar)</lang>
+<lang id='AboutRO'>&amp;Despre</lang>
+<lang id='contextLabelRO'>Context maşină</lang>
+<lang id='roleLabelRO'>Rol maşină</lang>
+<lang id='scenarioLabelRO'>Scenarii de colectare de date</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceRO'>Source</lang>
+<lang id='btnTargetRO'>Target</lang>
+<lang id='btnAVDRO'>AVD</lang>
+<lang id='btnRDSRO'>RDS</lang>
+<lang id='btnW365RO'>W365</lang>
+<lang id='btnCoreRO'>Core</lang>
+<lang id='btnProfilesRO'>Profiles</lang>
+<lang id='btnActivationRO'>Activation</lang>
+<lang id='btnMSRARO'>MSRA</lang>
+<lang id='btnSCardRO'>SCard</lang>
+<lang id='btnIMERO'>IME</lang>
+<lang id='btnTeamsRO'>Teams</lang>
+<lang id='btnMSIXAARO'>MSIXAA</lang>
+<lang id='btnHCIRO'>HCI</lang>
+<lang id='btnProcDumpRO'>DumpPID</lang>
+<lang id='btnNetTraceRO'>NetTrace</lang>
+<lang id='btnDiagOnlyRO'>DiagOnly</lang>
+<lang id='btnLiveDiagRO'>LiveDiag</lang>
+<lang id='StartRO'>Pornire</lang>
+<lang id='RunningRO'>Rulează</lang>
+<lang id='SurveyRO'>Chestionar</lang>
+<lang id='CompLabelRO'>Computer(e)</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDRO'>Selectaţi acest tip de maşină pentru scenarii legate de Azure Virtual Desktop</lang>
+<lang id='btnTooltipRDSRO'>Selectaţi acest tip de maşină pentru scenarii legate de Remote Desktop Services sau RDP direct</lang>
+<lang id='btnTooltipW365RO'>Selectaţi acest tip de maşină pentru scenarii legate de Windows 365 Cloud PC</lang>
+<lang id='btnTooltipSourceRO'>Selectaţi acest tip de rol dacă maşina este utilizată pentru a iniţia conexiuni la distanţă la alte maşini</lang>
+<lang id='btnTooltipTargetRO'>Selectaţi acest tip de rol dacă maşina este la capătul de primire al unei conexiuni la distanţă sau dacă este un server cu orice rol RDS instalat</lang>
+<lang id='btnTooltipProfilesRO'>Colectaţi date pentru depanarea problemelor cu 'Profiluri utilizator'</lang>
+<lang id='btnTooltipActivationRO'>Colectaţi date pentru depanarea problemelor cu licenţierea/activarea sistemului de operare</lang>
+<lang id='btnTooltipMSRARO'>Colectaţi date pentru depanarea problemelor cu 'Asistenţă la distanţă'</lang>
+<lang id='btnTooltipSCardRO'>Colectaţi date pentru depanarea problemelor cu 'Smart Card'</lang>
+<lang id='btnTooltipIMERO'>Colectaţi date pentru depanarea problemelor cu 'Metoda de introducere'</lang>
+<lang id='btnTooltipTeamsRO'>Colectaţi date pentru depanarea problemelor cu 'Teams Media Optimization' (numai AVD/W365)</lang>
+<lang id='btnTooltipMSIXAARO'>Colectaţi date pentru depanarea problemelor cu 'MSIX App Attach' (numai AVD)</lang>
+<lang id='btnTooltipHCIRO'>Colectaţi date pentru depanarea problemelor cu 'Azure Stack HCI' (numai AVD)</lang>
+<lang id='btnTooltipProcDumpRO'>Colectaţi un proces dump al unui proces existent</lang>
+<lang id='btnTooltipNetTraceRO'>Colectaţi o urmă de reţea (netsh)</lang>
+<lang id='btnTooltipDiagOnlyRO'>Generaţi doar un raport de diagnostic</lang>
+<lang id='btnTooltipLiveDiagRO'>Intraţi în modul de diagnosticare live</lang>
+<lang id='btnTooltipSurveyRO'>Deschideţi chestionarul de satisfacţie MSRD-Collect pentru a furniza feedback despre script</lang>
+<lang id='btnTooltipComputerRO'>Introduceţi unul sau mai multe nume de calculator (NetBIOS sau FQDN) separate prin punct şi virgulă pentru a colecta date</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkRO'>Cum vă place acest script?</lang>
+<lang id='ReadyRO'>Gata</lang>
+<lang id='checkupdRO'>Se verifică actualizările. Vă rog să aşteptaţi...</lang>
+<lang id='collecting1RO'>Se colectează date de</lang>
+<lang id='collecting2RO'>. Vă rog să aşteptaţi...</lang>
+<lang id='waitRO'>Vă rog să aşteptaţi...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aRO'>Script versiunea</lang>
+<lang id='initvalues1bRO'>lansat din:</lang>
+<lang id='initvalues1cRO'>Linie de comandă:</lang>
+<lang id='initvalues2RO'>EULA şi Notificarea CSS acceptate</lang>
+<lang id='initvalues3RO'>Locaţia de ieşire:</lang>
+<lang id='initvalues4RO'>Contextul utilizatorului:</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteRO'>Pentru depanarea problemelor din Teams, se recomandă generarea mai întâi a jurnalului de depanare Teams.
+Vedeţi: https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+Pentru a genera aceste jurnale de depanare, deschideţi aplicaţia Teams afectată (utilizând acelaşi cont de utilizator/context ca şi pentru această colectare de date) şi apăsaţi CTRL+ALT+SHIFT+1 în cadrul aplicaţiei Teams.
+Teams va genera jurnale de diagnosticare care pot fi colectate de acest script.
+
+Dacă aveţi deja aceste jurnale sau nu aveţi nevoie de ele, selectaţi „Reîncercaţi" pentru a continua.
+în caz contrar, selectaţi „Anulaţi", generaţi jurnalele de depanare Teams şi reluaţi colectarea de date.</lang>
+
+<lang id='teamstitleRO'>Colectarea datelor de depanare Teams</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1RO'>Selectaţi procesul în execuţie pentru a genera un dump de memorie</lang>
+<lang id='dpidtext2RO'>Selectaţi un proces</lang>
+<lang id='dpidtext3RO'>Procesul (PID-ul) selectat pentru dump-ul de proces:</lang>
+<lang id='dpidtext4RO'>Niciun PID selectat - nu se va genera un dump de proces</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgRO'>Se colectează datele - vă rog să aşteptaţi...</lang>
+<lang id='fdcmsgRO'>Colectarea datelor a fost finalizată</lang>
+<lang id='rdiagmsgRO'>Se rulează diagnosticul - vă rog să aşteptaţi...</lang>
+<lang id='noDiagmsgRO'>Nu sunt selectate verificări de diagnostic. Se sare peste generarea raportului de diagnostic.</lang>
+<lang id='selectedParamRO'>Parametri selectaţi pentru colectarea datelor/diagnosticare:</lang>
+<lang id='checkmsgRO'>Se verifică</lang>
+<lang id='fdiagmsgRO'>Diagnosticul a fost finalizat</lang>
+<lang id='archmsgRO'>Se arhivează rezultatele - vă rog să aşteptaţi!</lang>
+<lang id='zipmsgRO'>Fişierul zip este pregătit:</lang>
+<lang id='ziperrormsgRO'>Fişierul zip nu a putut fi creat. Vă rog să arhivaţi manual datele colectate la:</lang>
+<lang id='dtmmsgRO'>Utilizaţi întotdeauna o unealtă de transfer securizată a fişierelor când partajaţi aceste rezultate cu Microsoft CSS. Discutaţi acest lucru cu inginerul de suport, precum şi orice preocupări pe care le aveţi.</lang>
+<lang id='logfoldermsgRO'>Se creează dosarul</lang>
+<lang id='logfolderexistmsgRO'>există deja</lang>
+<lang id='coremsgRO'>Se colectează date pentru depanarea sistemului (Core)</lang>
+<lang id='profilesmsgRO'>Se colectează date pentru depanarea profilurilor de utilizator</lang>
+<lang id='msramsgRO'>Se colectează date pentru depanarea Asistenţei la Distanţă</lang>
+<lang id='scardmsgRO'>Se colectează date pentru depanarea Smart Card-urilor</lang>
+<lang id='imemsgRO'>Se colectează date pentru depanarea Input Method (IME)</lang>
+<lang id='teamsmsgRO'>Se colectează date pentru depanarea Teams pe AVD</lang>
+<lang id='msixaamsgRO'>Se colectează date pentru depanarea MSIX App Attach</lang>
+<lang id='hcimsgRO'>Se colectează date pentru depanarea Azure Stack HCI</lang>
+<lang id='activationmsgRO'>Se colectează date pentru depanarea licenţierii/activării sistemului de operare</lang>
+<lang id='errormsgRO'>A apărut o eroare în</lang>
+<lang id='location1RO'>Selectaţi o locaţie pentru stocarea rezultatelor (implicit este C:\MS_DATA)</lang>
+<lang id='location2RO'>Locaţia de stocare a datelor:</lang>
+<lang id='context1RO'>Setaţi contextul utilizatorului</lang>
+<lang id='context2RO'>Introduceţi numele de utilizator de la care să se colecteze unele dintre date</lang>
+<lang id='context3RO'>Contextul utilizatorului setat la:</lang>
+<lang id='selectCollect1RO'>Configuraţi colectarea de date</lang>
+<lang id='selectCollect2RO'>Utilizaţi tabelul din stânga pentru a selecta elemente pentru colectarea de date, faceţi clic pe săgeata din dreapta pentru a exclude elementele selectate. Pentru a include din nou elementele, selectaţi din tabelul din dreapta şi faceţi clic pe săgeata din stânga.</lang>
+<lang id='selectCollect3RO'>Date colectate per scenariu</lang>
+<lang id='selectCollect4RO'>Date excluse per scenariu</lang>
+<lang id='selectDiag1RO'>Configurare diagnosticare</lang>
+<lang id='selectDiag2RO'>Utilizaţi tabelul din stânga pentru a selecta elemente pentru diagnosticare, faceţi clic pe săgeata din dreapta pentru a exclude elementele selectate. Pentru a include din nou elementele, selectaţi din tabelul din dreapta şi faceţi clic pe săgeata din stânga.</lang>
+<lang id='selectDiag3RO'>Diagnosticare efectuată per categorie</lang>
+<lang id='selectDiag4RO'>Diagnosticare exclusă per categorie</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceRO'>Executând urmărirea reţelei - vă rog să aşteptaţi...</lang>
+
+<lang id='netTraceNoteRO'>Reproduceţi problema.
+După ce apare problema, opriţi urmărirea cât mai curând posibil apăsând butonul 'OK'.</lang>
+
+<lang id='netTraceNote2RO'>Reproduceţi problema şi apăsaţi tasta 'Y' DUPĂ finalizarea reproducţiei (cu focalizarea ferestrei aici)</lang>
+<lang id='netTraceRunningRO'>Urmărirea reţelei rulează</lang>
+<lang id='netTraceStoppingRO'>Se opreşte urmărirea reţelei - vă rog să aşteptaţi (aceasta poate dura câteva minute)...</lang>
+<lang id='netTraceFinishedRO'>Urmărirea reţelei a fost finalizată</lang>
+<lang id='conVisibleRO'>Fereastra consolei este vizibilă</lang>
+<lang id='conHiddenRO'>Fereastra consolei este ascunsă</lang>
+<lang id='openMaximizedRO'>Scriptul va porni maximizat</lang>
+<lang id='openWindowedRO'>Scriptul nu va porni maximizat</lang>
+<lang id='ontopRO'>Fereastra scriptului va rămâne deasupra celorlalte ferestre</lang>
+<lang id='ontopNotRO'>Fereastra scriptului nu va rămâne deasupra celorlalte ferestre</lang>
+<lang id='outputNotFoundRO'>[ATENŢIE] Locaţia de ieşire selectată nu a putut fi găsită.</lang>
+<lang id='outputLoc1RO'>Se reîmprospătează lista de rapoarte de diagnosticare disponibile în locaţia de ieşire curentă</lang>
+<lang id='outputLoc2RO'>[ATENŢIE] Locaţia de ieşire selectată nu mai există. Faceţi clic pe 'Vizualizare\Rapoarte de diagnosticare' pentru a reîmprospăta lista şi încercaţi din nou.</lang>
+<lang id='outputLoc3RO'>Lista a fost reîmprospătată cu succes.</lang>
+<lang id='outputLoc4RO'>Nu s-au găsit rapoarte în locaţia de ieşire curentă</lang>
+<lang id='outputLoc5RO'>Generaţi mai întâi câteva rapoarte de diagnosticare pentru a popula această listă.</lang>
+<lang id='outputLoc6RO'>Locaţia de ieşire curentă nu există</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgRO'>Unul sau mai multe joburi rulează încă în fundal. Acestea pot dura până la 3 minute. Vă rog să aşteptaţi...</lang>
+<lang id='bgjob2msgRO'>Unul sau mai multe joburi în fundal nu s-au putut finaliza în timpul alocat. Unele date pot lipsi. Dacă această problemă se repetă, vă rog să o raportaţi la: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1RO'>Verificăm dacă este disponibilă o nouă versiune (vă rog să aşteptaţi)</lang>
+<lang id='vercheck2RO'>Există o versiune mai nouă disponibilă la https://aka.ms/msrd-collect !</lang>
+<lang id='vercheck3RO'>Există o versiune mai nouă disponibilă:</lang>
+<lang id='vercheck4RO'>Sunteţi în prezent pe</lang>
+<lang id='vercheck5RO'>Pentru cele mai bune rezultate, descărcaţi şi utilizaţi cea mai recentă versiune de la https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck5bRO'>Dacă selectaţi 'Da', se va deschide o fereastră de browser pentru a descărca cel mai recent fişier 'MSRD-Collect.zip', iar scriptul curent va fi închis. în caz contrar, scriptul curent va continua ca atare.</lang>
+<lang id='vercheck6RO'>Doriţi să descărcaţi noua versiune acum?</lang>
+
+<lang id='vercheck7RO'>Se deschide browser-ul implicit pentru a descărca cel mai recent fişier 'MSRD-Collect.zip' de la https://aka.ms/MSRD-Collect
+Terminare script.
+</lang>
+
+<lang id='vercheck8RO'>Aţi decis să nu descărcaţi încă cea mai recentă versiune. Pentru cele mai bune rezultate, descărcaţi şi utilizaţi cea mai recentă versiune de la https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck9RO'>Versiunea MSRD-Collect este actualizată</lang>
+<lang id='PDvercheck1RO'>Versiunea ProcDump este actualizată</lang>
+<lang id='selfupdate1RO'>Dacă selectaţi 'Da', scriptul se va actualiza automat. În caz contrar, scriptul curent va continua aşa cum este.</lang>
+<lang id='selfupdate2RO'>Auto-actualizare script</lang>
+<lang id='selfupdate3RO'>iniţiată de utilizator:</lang>
+<lang id='selfupdate4RO'>Iniţierea descărcării securizate a celei mai recente versiuni de la https://aka.ms/MSRD-Collect (Vă rugăm să aşteptaţi...)</lang>
+<lang id='selfupdate5RO'>Salvarea unei copii a fişierului de configurare MSRD-Collect curent la</lang>
+<lang id='selfupdate6RO'>Extragerea fişierelor din</lang>
+<lang id='selfupdate7RO'>Restabilirea fişierului de configurare MSRD-Collect din copia de rezervă anterioară şi eliminarea copiei de rezervă</lang>
+<lang id='selfupdate8RO'>Eliminarea fişierului temporar de descărcare</lang>
+<lang id='selfupdate9RO'>Actualizare reuşită. Se restartează scriptul.</lang>
+
+<!-- How to -->	
+<lang id='howtouseRO'>Ghid de utilizare:
+
+	Pasul 1: Selectaţi contextul/mediul în care este utilizată maşina:
+
+		AVD		- Azure Virtual Desktop
+		RDS		- Servicii Desktop la Distanţă sau conexiune RDP directă (non-AVD/non-W365)
+		W365		- Windows 365 Cloud PC
+
+	Pasul 2: Selectaţi rolul maşinii în contextul/mediul dat:
+
+		Source		- Maşină sursă de unde vă conectaţi la alte maşini folosind un client de Remote Desktop
+		Target		- Mașină țintă la care vă conectați sau un server cu orice rol RDS instalat
+
+	Pasul 3: [Opţional] Dacă aţi selectat 'AVD' sau 'W365', introduceţi unul sau mai multe nume de calculatoare (NetBIOS sau FQDN) în câmpul 'Computer(e)' de unde doriţi să colectaţi date. 
+		 Numele calculatorului local este utilizat ca valoare implicită. 
+		 Dacă sunt specificate mai multe maşini, separaţi-le cu un punct şi virgulă. Datele vor fi colectate de la fiecare calculator într-o ordine secvenţială.
+
+Pentru colectarea datelor:
+
+	Pasul 4a: [Opţional] Selectaţi unul sau mai multe scenarii:
+
+		Profile	- Colectaţi date pentru depanarea problemelor de "Profiluri utilizator"
+		Activare	- Colectaţi date pentru depanarea problemelor de "Licenţiere/Activare sistem de operare"
+		MSRA		- Colectaţi date pentru depanarea problemelor de "Asistenţă la distanţă"
+		SCard		- Colectaţi date pentru depanarea problemelor de "Smart Card"
+		IME		- Colectaţi date pentru depanarea problemelor de "Input Method"
+		Teams		- Colectaţi date pentru depanarea problemelor de "Teams Media Optimization" (doar AVD/W365)
+		MSIXAA		- Colectaţi date pentru depanarea problemelor de "MSIX App Attach" (doar AVD)
+		HCI		- Colectaţi date pentru depanarea problemelor de "Azure Stack HCI" (doar AVD)
+		DumpPID	- Colectaţi un proces dump al unui proces existent
+		NetTrace	- Colectaţi o urmărire de reţea (netsh)
+		DiagOnly	- Generaţi doar un raport de diagnosticare
+
+	Pasul 5a: Apăsaţi butonul "Start" când sunteţi pregătit. Colectarea datelor/diagnosticarea poate dura câteva minute.
+
+Pentru diagnosticare în timp real:
+
+	Pasul 4b: Selectaţi opţiunea 'LiveDiag'.
+
+	Pasul 5b: Selectaţi fila categoriei de diagnostic dorită.
+
+	Pasul 6: Faceţi clic pe butonul dorit în fila selectată pentru a executa verificarea de diagnostic corespunzătoare.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1RO'>Se rulează diagnosticele. Acest proces poate dura câteva minute. Vă rugăm să aşteptaţi...</lang>
+<lang id='liveDiag2RO'>Diagnostice finalizate</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateRO'>Creaţi sarcina programată pentru a rula diagnosticele</lang>
+<lang id='schedTaskNoteRO'>Sunteţi pe cale să creaţi o sarcină programată pe acest computer, care va rula MSRD-Collect Diagnostics şi va genera un raport MSRD-Diag.html.`n`nSigur doriţi să continuaţi?</lang>
+<lang id='schedTaskInfo1RO'>Sarcina programată creată cu succes cu următorii parametri:</lang>
+<lang id='schedTaskInfo2RO'>Data de început:</lang>
+<lang id='schedTaskInfo3RO'>Ora de început:</lang>
+<lang id='schedTaskInfo4RO'>Frecvenţă:</lang>
+<lang id='schedTaskInfo5RO'>Ziua săptămânii:</lang>
+<lang id='schedTaskInfo6RO'>Contextul maşinii:</lang>
+<lang id='schedTaskInfo7RO'>Rolul maşinii:</lang>
+<lang id='schedTaskInfo8RO'>Locaţia scriptului:</lang>
+<lang id='schedTaskInfo9RO'>Locaţia de ieşire:</lang>
+<lang id='schedTaskInfo10RO'>Contextul utilizatorului:</lang>
+<lang id='schedTaskInfo11RO'>Sarcina programată creată cu succes cu următorii parametri:</lang>
+<lang id='schedTaskInfo12RO'>Săptămâna lunii:</lang>
+<lang id='schedTaskInfo13RO'>Eroare necunoscută. Nu a fost creată nicio sarcină programată.</lang>
+<lang id='schedTaskInfo14RO'>Acţiunea care va fi efectuată:</lang>
+<lang id='schedTaskEmpty1RO'>Locaţia de ieşire este goală</lang>
+<lang id='schedTaskEmpty2RO'>Locaţia scriptului este goală</lang>
+<lang id='schedTaskNotFound1RO'>Locaţia de ieşire nu a fost găsită</lang>
+<lang id='schedTaskNotFound2RO'>Locaţia scriptului nu a fost găsită</lang>
+	
+<!-- Presets -->
+<lang id='presetResetRO'>Resetaţi tot</lang>
+<lang id='presetLoaded1RO'>Preconfigurare selectată</lang>
+<lang id='presetLoaded2RO'>Apăsaţi butonul 'Start' pentru a începe colectarea de date/diagnosticarea.</lang>
+<lang id='presetErrcon1RO'>Nu se poate conecta / Eroare în timpul conexiunii iniţiale (Maşină sursă/client)</lang>
+<lang id='presetErrcon2RO'>Nu se poate conecta / Eroare în timpul conexiunii iniţiale (Maşină ţintă/gazdă)</lang>
+<lang id='presetLogon1RO'>Nu se poate autentifica / Probleme de autentificare sau de profil de utilizator (Maşină sursă/client)</lang>
+<lang id='presetLogon2RO'>Nu se poate autentifica / Probleme de autentificare sau de profil de utilizator (Maşină ţintă/gazdă)</lang>
+<lang id='presetScard1RO'>Nu se poate autentifica cu un card inteligent sau există probleme la utilizarea unui card inteligent într-o sesiune (Maşină sursă/client)</lang>
+<lang id='presetScard2RO'>Nu se poate autentifica cu un card inteligent sau există probleme la utilizarea unui card inteligent într-o sesiune (Maşină ţintă/gazdă)</lang>
+<lang id='presetMsixaaRO'>MSIX App Attach / Probleme la utilizarea pachetelor de aplicaţii atribuite (Maşină ţintă/gazdă)</lang>
+<lang id='presetLic1RO'>Probleme de licenţiere RD cu RDS CAL-uri 'per dispozitiv' (Maşină sursă/client)</lang>
+<lang id='presetLic2RO'>Probleme de licenţiere RD cu RDS CAL-uri 'per dispozitiv' sau 'per utilizator' (Session Host / License Server)</lang>
+<lang id='presetLic3RO'>Probleme de licenţiere RD cu RDS CAL-uri 'per utilizator' (Session Host / License Server)</lang>
+<lang id='presetDiscon1RO'>Deconectare neaşteptată a unei sesiuni active sau inactive (Maşină sursă/client)</lang>
+<lang id='presetDiscon2RO'>Deconectare neaşteptată a unei sesiuni active sau inactive (Maşină ţintă/gazdă)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeRO'>Scriptul este acum în modul de lucru la distanţă</lang>
+<lang id='remoteInvalidCompRO'>Câmpul 'Computer(e)' conţine un nume de computer nevalid:</lang>
+<lang id='remoteReach1RO'>Computerul specificat</lang>
+<lang id='remoteReach2RO'>este accesibil. Se continuă cu colectarea de date/diagnosticarea.</lang>
+<lang id='remoteReach3RO'>nu este accesibil. Asiguraţi-vă că numele computerului este corect şi că este accesibil prin reţea. S-ar putea să fie necesar să 'Activaţi partajarea fişierelor şi imprimantelor' pe computerul la distanţă, dacă nu aţi făcut-o deja.</lang>
+<lang id='remoteModeNotice1RO'>Aţi specificat una sau mai multe maşini în câmpul 'Computer(e)' care diferă de maşina locală.</lang>
+<lang id='remoteModeNotice2RO'>Scriptul va încerca să colecteze date la distanţă prin copierea sa în folderul C:\MS_DATA\ de pe fiecare maşină specificată şi rularea de acolo.</lang>
+<lang id='remoteModeNotice3RO'>Doriţi să continuaţi?</lang>
+<lang id='remoteModeNotice4RO'>Dacă selectaţi 'Da', este posibil să vi se solicite să introduceţi datele de conectare pentru fiecare dintre maşinile la distanţă în mod separat. Furnizaţi un cont cu permisiuni de administrator pe maşina la distanţă (preferabil un administrator de domeniu dacă maşina este aderată la domeniu).</lang>
+<lang id='remoteModeNotice5RO'>Vă rugăm să reţineţi că în prezent, orice modificări efectuate în opţiunile 'Configurare colectare date' sau 'Configurare diagnosticare' pentru filtrare nu se aplică colectării de date sau diagnosticării la distanţă.</lang>
+<lang id='remoteModeRunningRO'>Se rulează în modul de lucru la distanţă - Vă rugăm să aşteptaţi...</lang>
+<lang id='localModeRO'>Scriptul este acum în modul local</lang>
+<lang id='popupWarningRO'>Atenţie</lang>
+<lang id='remotePSinitLocalCredRO'>Se configurează o sesiune PowerShell la distanţă folosind privilegiile utilizatorului curent. Maşină la distanţă:</lang>
+<lang id='remotePSinitLocalCredSuccessRO'>Sesiunea PSS la distanţă a fost creată cu succes folosind privilegiile utilizatorului curent. Maşină la distanţă:</lang>
+<lang id='remotePSinitLocalCredFailRO'>Nu s-a reuşit crearea sesiunii PSS la distanţă folosind privilegiile utilizatorului curent. Se solicită date de conectare şi se încearcă din nou. Maşină la distanţă:</lang>
+<lang id='remotePSenterCredRO'>Introduceţi datele de conectare pentru administrator pentru maşina la distanţă:</lang>
+<lang id='remotePSinitProvCredSuccessRO'>Sesiunea PSS la distanţă a fost creată cu succes folosind datele de conectare furnizate. Maşină la distanţă:</lang>
+<lang id='remotePScopyRO'>Se copiază fişierele scriptului în C:\MS_DATA\ pe:</lang>
+<lang id='remotePScopyExistsRO'>există deja. Se verifică existenţa fişierelor scriptului şi se actualizează la nevoie. Maşină la distanţă:</lang>
+<lang id='remotePSlaunch1RO'>Se lansează MSRD-Collect în sesiunea PSS la distanţă</lang>
+<lang id='remotePScompleteRO'>Colectarea de date/diagnosticarea la distanţă s-a încheiat. Se elimină sesiunea PSS la distanţă către:</lang>
+
+<!-- User Context -->
+<lang id='userCon1RO'>Nu s-a găsit un profil local pentru utilizatorul specificat în locaţia implicită a profilului de utilizator:</lang>
+<lang id='userCon2RO'>Contextul utilizatorului a fost resetat la:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundRO'>avdnettest.exe nu a putut fi găsit. Informaţiile privind disponibilitatea RDP Shortpath pentru AVD vor fi incomplete. Asiguraţi-vă că descărcaţi şi dezarhivaţi pachetul complet MSRD-Collect sau TSS</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeRO'>Clientul Windows Desktop pentru AVD (MSRDC) rulează în prezent pe acest computer.
+Pentru a captura cele mai recente trace-uri ETL specifice clientului Windos Desktop, este necesar să închideţi procesul MSRDC.exe.
+	
+	
+Doriţi să închideţi MSRDC.exe acum?
+	
+	
+Dacă alegeţi 'Da', procesul MSRDC.exe va fi terminat, ceea ce va deconecta toate conexiunile MSRDC către exterior, iar scriptul va continua cu colectarea datelor.
+	
+Dacă alegeţi 'Nu', procesul MSRDC.exe va persista, iar scriptul va continua cu colectarea datelor, dar nu va putea să colecteze trace-urile ETL cele mai recente.
+	
+Dacă alegeţi 'Anulare', colectarea datelor va fi abandonată.</lang>
+
+<lang id='msrdcClosedRO'>MSRDC.exe a fost închis. Scriptul va aştepta 20 de secunde înainte de a continua, pentru a permite salvarea celor mai recente date de diagnosticare ETL ale clientului RD.</lang>
+<lang id='msrdcNotClosedRO'>MSRDC.exe nu a fost închis. Cele mai recente date de diagnosticare ETL ale clientului RD NU vor fi disponibile pentru depanare! Se continuă colectarea datelor.</lang>
+<lang id='msrdcTitleRO'>Înainte de a continua</lang>
+
+</LangV1>

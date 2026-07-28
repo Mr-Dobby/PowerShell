@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingIT">Avvio di MSRD-Collect</lang>
+<lang id="notApprovedIT">L'esecuzione dello script non è approvata dall'utente amministratore, uscita.</lang>
+<lang id="eulaOKIT">EULA accettata, continuando</lang>
+<lang id="eulaNotOKIT">EULA rifiutata, uscita</lang>
+<lang id="eulaSilentOKIT">AcceptEula switch specificato, continuando in silenzio</lang>
+<lang id="noticeOKIT">Avviso accettato, continuando</lang>
+<lang id="noticeSilentOKIT">AcceptNotice switch specificato, continuando in silenzio</lang>
+<lang id="enabledIT">Abilitato</lang>
+<lang id="disabledIT">Disabilitato</lang>
+<lang id="autoUpdateIT">Controllo automatico aggiornamenti all'avvio dello script:</lang>
+<lang id="playSndIT">Riproduci suoni:</lang>
+<lang id='aaModeIT'>Modalità Audio Assist:</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuIT'>&amp;File</lang>
+<lang id='RunMenuIT'>Avvia raccolta dati/diagnostica</lang>
+<lang id='UpdateMenuIT'>Controlla aggiornamenti</lang>
+<lang id='ExitMenuIT'>&amp;Esci</lang>
+<lang id='ViewMenuIT'>&amp;Visualizza</lang>
+<lang id='PresetsMenuIT'>&amp;Preimpostazioni</lang>
+<lang id='HideConsoleIT'>&amp;Mostra finestra console</lang>
+<lang id='MaximizeWindowIT'>&amp;Avvia a schermo intero</lang>
+<lang id='AlwaysOnTopIT'>&amp;Sempre in primo piano</lang>
+<lang id='OutputLocationIT'>&amp;Apri posizione output</lang>
+<lang id='LiteModeIT'>&amp;Modalità Lite</lang>
+<lang id='LiteModeMachineIT'>Seleziona il contesto della macchina</lang>
+<lang id='LiteModeRoleIT'>Seleziona il ruolo della macchina</lang>
+<lang id='LiteModeSourceIT'>Macchina sorgente / Client</lang>
+<lang id='LiteModeSourceTooltipIT'>Macchina sorgente da cui ti colleghi ad altre macchine usando un client Desktop remoto</lang>
+<lang id='LiteModeTargetIT'>Macchina di destinazione / Host</lang>
+<lang id='LiteModeTarget2IT'>Macchina di destinazione / Host (o server intermedi)</lang>
+<lang id='LiteModeTargetTooltipIT'>Macchina di destinazione a cui ti colleghi</lang>
+<lang id='LiteModeTargetTooltip2IT'>Macchina di destinazione a cui ti colleghi o qualsiasi server RDS in un'implementazione RDS</lang>
+<lang id='LiteModeScenariosIT'>Seleziona uno o più scenari (opzionale)</lang>
+<lang id='LiteModeStartIT'>Fai clic su 'Avvia' quando sei pronto</lang>
+<lang id='LiteModeAdvancedIT'>Modalità avanzata</lang>
+<lang id='LiteModeHideConsoleIT'>&amp;Mostra console</lang>
+<lang id='DiagReportsIT'>Rapporti &amp;diagnostici</lang>
+<lang id='ToolsMenuIT'>&amp;Strumenti</lang>
+<lang id='SetOutputLocationIT'>Imposta posizione &amp;output...</lang>
+<lang id='SetUserContextIT'>Imposta &amp;contesto utente...</lang>
+<lang id='ConfigDataCollectionIT'>Configura raccolta &amp;dati...</lang>
+<lang id='ConfigDiagIT'>Configura &amp;diagnostica...</lang>
+<lang id='ConfigSchedTaskIT'>Crea attività pianificata...</lang>
+<lang id='OpenTaskSchedIT'>Apri pianificatore attività</lang>
+<lang id='AutoVerCheckIT'>Controlla gli aggiornamenti all'avvio</lang>
+<lang id='PlaySoundsIT'>Utilizzare i suoni di sistema</lang>
+<lang id='AssistModeIT'>Modalità assistente audio</lang>
+<lang id='UILangIT'>Lingua dell'interfaccia utente</lang>
+<lang id='araIT'>Arabo</lang>
+<lang id='dutIT'>Olandese</lang>
+<lang id='gerIT'>Tedesco</lang>
+<lang id='engIT'>Inglese</lang>
+<lang id='hunIT'>Ungherese</lang>
+<lang id='romIT'>Rumeno</lang>
+<lang id='freIT'>Francese</lang>
+<lang id='itaIT'>Italiano</lang>
+<lang id='porIT'>Portoghese</lang>
+<lang id='spaIT'>Spagnolo</lang>
+<lang id='jpnIT'>Giapponese</lang>
+<lang id='czeIT'>Ceco</lang>
+<lang id='turIT'>Turco</lang>
+<lang id='chiIT'>Cinese</lang>
+<lang id='HelpMenuIT'>&amp;Aiuto</lang>
+<lang id='ReadMeIT'>&amp;ReadMe (Inglese)</lang>
+<lang id='WhatsNewIT'>&amp;Novità</lang>
+<lang id='DownloadIT'>&amp;Download</lang>
+<lang id='DownloadMSRDCIT'>Ottieni &amp;MSRD-Collect</lang>
+<lang id='DownloadRDSTracingIT'>Ottieni &amp;RDSTracing</lang>
+<lang id='DownloadSaRAIT'>Ottieni &amp;SaRA per Office 365</lang>
+<lang id='DownloadTSSIT'>Ottieni &amp;TSS</lang>
+<lang id='MSDocsIT'>&amp;Microsoft Docs</lang>
+<lang id='AVDIT'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixIT'>&amp;FSLogix</lang>
+<lang id='RDSIT'>&amp;Remote Desktop Services</lang>
+<lang id='365IT'>&amp;Windows 365</lang>
+<lang id='TechCommunityIT'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDIT'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixIT'>&amp;FSLogix</lang>	
+<lang id='TC365IT'>&amp;Windows 365</lang>
+<lang id='AzureMenuIT'>A&amp;zure</lang>
+<lang id='AzOutageNotificationIT'>&amp;Ricevi notifiche in caso di interruzioni che ti riguardano (Documenti)</lang>
+<lang id='AzStatusIT'>&amp;Stato Azure</lang>
+<lang id='AzStatusHistIT'>Storico &amp;stato Azure</lang>
+<lang id='AzServHealthIT'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorIT'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailIT'>Fornisci feedback (&amp;email)</lang>
+<lang id='FeedbackSurveyIT'>Fornisci feedback (&amp;sondaggio)</lang>
+<lang id='AboutIT'>&amp;Informazioni su</lang>
+<lang id='contextLabelIT'>Contesto macchina</lang>
+<lang id='roleLabelIT'>Ruolo macchina</lang>
+<lang id='scenarioLabelIT'>Scenari di raccolta dati</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceIT'>Source</lang>
+<lang id='btnTargetIT'>Target</lang>
+<lang id='btnAVDIT'>AVD</lang>
+<lang id='btnRDSIT'>RDS</lang>
+<lang id='btnW365IT'>W365</lang>
+<lang id='btnCoreIT'>Core</lang>
+<lang id='btnProfilesIT'>Profiles</lang>
+<lang id='btnActivationIT'>Activation</lang>
+<lang id='btnMSRAIT'>MSRA</lang>
+<lang id='btnSCardIT'>SCard</lang>
+<lang id='btnIMEIT'>IME</lang>
+<lang id='btnTeamsIT'>Teams</lang>
+<lang id='btnMSIXAAIT'>MSIXAA</lang>
+<lang id='btnHCIIT'>HCI</lang>
+<lang id='btnProcDumpIT'>DumpPID</lang>
+<lang id='btnNetTraceIT'>NetTrace</lang>
+<lang id='btnDiagOnlyIT'>DiagOnly</lang>
+<lang id='btnLiveDiagIT'>LiveDiag</lang>
+<lang id='StartIT'>Avvia</lang>
+<lang id='RunningIT'>In esecuzione</lang>
+<lang id='SurveyIT'>Sondaggio</lang>
+<lang id='CompLabelIT'>Computer</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDIT'>Seleziona questo tipo di macchina per gli scenari correlati a Azure Virtual Desktop</lang>
+<lang id='btnTooltipRDSIT'>Seleziona questo tipo di macchina per gli scenari correlati ai servizi Desktop remoto o a RDP diretto</lang>
+<lang id='btnTooltipW365IT'>Seleziona questo tipo di macchina per gli scenari correlati a Windows 365 Cloud PC</lang>
+<lang id='btnTooltipSourceIT'>Seleziona questo tipo di ruolo se la macchina viene utilizzata per avviare connessioni remote ad altre macchine</lang>
+<lang id='btnTooltipTargetIT'>Seleziona questo tipo di ruolo se la macchina è alla fine ricevente di una connessione remota o se è un server con qualsiasi ruolo RDS installato</lang>
+<lang id='btnTooltipProfilesIT'>Raccogliere dati per la risoluzione dei problemi relativi ai 'Profili utente'</lang>
+<lang id='btnTooltipActivationIT'>Raccogliere dati per la risoluzione dei problemi relativi alla licenza/attivazione del sistema operativo</lang>
+<lang id='btnTooltipMSRAIT'>Raccogliere dati per la risoluzione dei problemi relativi all'Assistenza remota</lang>
+<lang id='btnTooltipSCardIT'>Raccogliere dati per la risoluzione dei problemi relativi alla 'Smart Card'</lang>
+<lang id='btnTooltipIMEIT'>Raccogliere dati per la risoluzione dei problemi relativi al 'Metodo di input'</lang>
+<lang id='btnTooltipTeamsIT'>Raccogliere dati per la risoluzione dei problemi relativi all'ottimizzazione dei media di 'Teams' (solo AVD/W365)</lang>
+<lang id='btnTooltipMSIXAAIT'>Raccogliere dati per la risoluzione dei problemi relativi a 'MSIX App Attach' (solo AVD)</lang>
+<lang id='btnTooltipHCIIT'>Raccogliere dati per la risoluzione dei problemi relativi a 'Azure Stack HCI' (solo AVD)</lang>
+<lang id='btnTooltipProcDumpIT'>Raccogliere un dump di processo di un processo esistente</lang>
+<lang id='btnTooltipNetTraceIT'>Raccogliere una traccia di rete (netsh)</lang>
+<lang id='btnTooltipDiagOnlyIT'>Generare solo un rapporto diagnostico</lang>
+<lang id='btnTooltipLiveDiagIT'>Entra nella modalità diagnostica live</lang>
+<lang id='btnTooltipSurveyIT'>Apri il sondaggio di soddisfazione MSRD-Collect per fornire feedback sullo script</lang>
+<lang id='btnTooltipComputerIT'>Immettere uno o più nomi di computer (NetBIOS o FQDN) separati da un punto e virgola per raccogliere dati</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkIT'>Come ti piace questo script?</lang>
+<lang id='ReadyIT'>Pronto</lang>
+<lang id='checkupdIT'>Verifica degli aggiornamenti in corso. Attendere...</lang>
+<lang id='collecting1IT'>Raccolta</lang>
+<lang id='collecting2IT'>dati. Attendere...</lang>
+<lang id='waitIT'>Attendere...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aIT'>Script versione</lang>
+<lang id='initvalues1bIT'>avviato da:</lang>
+<lang id='initvalues1cIT'>Riga di comando:</lang>
+<lang id='initvalues2IT'>EULA e avviso accettati</lang>
+<lang id='initvalues3IT'>Posizione di output:</lang>
+<lang id='initvalues4IT'>Contesto utente:</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteIT'>Per risolvere i problemi di Teams, è consigliabile prima generare i log di debug di Teams aggiornati.
+Vedi: https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+Per generare questi log di debug, aprire l'app Teams interessata (usando lo stesso account utente/contesto di questa raccolta dati) e premere CTRL+ALT+MAIUSC+1 all'interno di Teams.
+Teams genererà log di diagnostica che possono essere raccolti da questo script.
+
+Se hai già questi log o non ne hai bisogno, seleziona 'Retry' per continuare.
+In caso contrario, selezionare 'Cancel', generare i log di debug di Teams e avviare nuovamente la raccolta dati.</lang>
+
+<lang id='teamstitleIT'>Raccolta dati di risoluzione dei problemi di Teams</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1IT'>Seleziona il processo in esecuzione da cui effettuare il dump</lang>
+<lang id='dpidtext2IT'>Seleziona un processo</lang>
+<lang id='dpidtext3IT'>Processo (PID) selezionato per il dump del processo:</lang>
+<lang id='dpidtext4IT'>Nessun PID selezionato - non verrà generato alcun dump del processo</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgIT'>Esecuzione della raccolta dati in corso - attendere...</lang>
+<lang id='fdcmsgIT'>Raccolta dati completata</lang>
+<lang id='rdiagmsgIT'>Esecuzione della diagnostica in corso - attendere...</lang>
+<lang id='noDiagmsgIT'>Nessun controllo diagnostico è selezionato. Salta la generazione del rapporto di diagnostica.</lang>
+<lang id='selectedParamIT'>Parametri selezionati per la raccolta dati/diagnostica:</lang>
+<lang id='checkmsgIT'>Verifica</lang>
+<lang id='fdiagmsgIT'>Diagnostica completata</lang>
+<lang id='archmsgIT'>Archiviazione dei risultati in corso - attendere!</lang>
+<lang id='zipmsgIT'>File zip pronto:</lang>
+<lang id='ziperrormsgIT'>Impossibile creare il file zip. Archiviare manualmente i dati raccolti in:</lang>
+<lang id='dtmmsgIT'>Utilizzare sempre uno strumento di trasferimento file sicuro quando si condividono questi risultati con il supporto tecnico Microsoft CSS. Discutere di questo con il professionista del supporto e di eventuali preoccupazioni che si possono avere.</lang>
+<lang id='logfoldermsgIT'>Creazione cartella</lang>
+<lang id='logfolderexistmsgIT'>esiste già</lang>
+<lang id='coremsgIT'>Raccolta dati di risoluzione dei problemi del core</lang>
+<lang id='profilesmsgIT'>Raccolta dati di risoluzione dei problemi dei profili utente</lang>
+<lang id='msramsgIT'>Raccolta dati di risoluzione dei problemi dell'Assistenza remota</lang>
+<lang id='scardmsgIT'>Raccolta dati di risoluzione dei problemi della Smart Card</lang>
+<lang id='imemsgIT'>Raccolta dati di risoluzione dei problemi del metodo di input</lang>
+<lang id='teamsmsgIT'>Raccolta dati di risoluzione dei problemi di Teams su AVD</lang>
+<lang id='msixaamsgIT'>Raccolta dati di risoluzione dei problemi di MSIX App Attach</lang>
+<lang id='hcimsgIT'>Raccolta dati di risoluzione dei problemi di Azure Stack HCI</lang>
+<lang id='activationmsgIT'>Raccolta dati di risoluzione dei problemi di licenze/attivazione del sistema operativo</lang>
+<lang id='errormsgIT'>Si è verificato un errore in</lang>
+<lang id='location1IT'>Selezionare una posizione in cui archiviare i risultati (predefinita è C:\MS_DATA)</lang>
+<lang id='location2IT'>Posizione di output:</lang>
+<lang id='context1IT'>Impostare il contesto utente</lang>
+<lang id='context2IT'>Inserire il nome utente del cui profilo raccogliere alcuni dati</lang>
+<lang id='context3IT'>Contesto utente impostato su:</lang>
+<lang id='selectCollect1IT'>Configurare la raccolta dati</lang>
+<lang id='selectCollect2IT'>Utilizzare la tabella a sinistra per selezionare gli elementi per la raccolta dati, fare clic sulla freccia destra per escludere gli elementi selezionati. Per includere nuovamente gli elementi, selezionare dalla tabella a destra e fare clic sulla freccia sinistra.</lang>
+<lang id='selectCollect3IT'>Dati raccolti per scenario</lang>
+<lang id='selectCollect4IT'>Dati esclusi per scenario</lang>
+<lang id='selectDiag1IT'>Configurare la diagnostica</lang>
+<lang id='selectDiag2IT'>Utilizzare la tabella a sinistra per selezionare gli elementi per la diagnostica, fare clic sulla freccia destra per escludere gli elementi selezionati. Per includere nuovamente gli elementi, selezionare dalla tabella a destra e fare clic sulla freccia sinistra.</lang>
+<lang id='selectDiag3IT'>Diagnostica effettuata per categoria</lang>
+<lang id='selectDiag4IT'>Diagnostica esclusa per categoria</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceIT'>Esecuzione della traccia di rete - attendere...</lang>
+
+<lang id='netTraceNoteIT'>Riprodurre il problema.
+Una volta verificatosi il problema, arrestare la traccia il prima possibile premendo il pulsante 'OK'.</lang>
+
+<lang id='netTraceNote2IT'>Riprodurre il problema e premere il tasto 'Y' DOPO aver terminato la riproduzione (con il focus della finestra qui)</lang>
+<lang id='netTraceRunningIT'>Traccia di rete in esecuzione</lang>
+<lang id='netTraceStoppingIT'>Arresto della traccia di rete - attendere (questo potrebbe richiedere diversi minuti)...</lang>
+<lang id='netTraceFinishedIT'>Traccia di rete terminata</lang>
+<lang id='conVisibleIT'>La finestra della console è visibile</lang>
+<lang id='conHiddenIT'>La finestra della console è nascosta</lang>
+<lang id='openMaximizedIT'>Lo script verrà avviato a schermo intero</lang>
+<lang id='openWindowedIT'>Lo script non verrà avviato a schermo intero</lang>
+<lang id='ontopIT'>La finestra dello script rimarrà in primo piano rispetto alle altre finestre</lang>
+<lang id='ontopNotIT'>La finestra dello script non rimarrà in primo piano rispetto alle altre finestre</lang>
+<lang id='outputNotFoundIT'>[ATTENZIONE] La posizione di output selezionata non è stata trovata.</lang>
+<lang id='outputLoc1IT'>Aggiornamento dell'elenco dei report di diagnostica disponibili nella posizione di output corrente</lang>
+<lang id='outputLoc2IT'>[ATTENZIONE] La posizione di output selezionata non esiste più. Fare clic su 'Visualizza\Report di diagnostica' per aggiornare l'elenco e riprovare.</lang>
+<lang id='outputLoc3IT'>Elenco aggiornato correttamente.</lang>
+<lang id='outputLoc4IT'>Nessun report è stato trovato nella posizione di output corrente</lang>
+<lang id='outputLoc5IT'>Generare prima alcuni report di diagnostica per popolare questo elenco.</lang>
+<lang id='outputLoc6IT'>La posizione di output corrente non esiste</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgIT'>Uno o più processi in background sono ancora in esecuzione. Questi processi possono richiedere fino a 3 minuti. Attendere...</lang>
+<lang id='bgjob2msgIT'>Uno o più processi in background non hanno potuto terminare entro il tempo previsto. Alcuni dati potrebbero essere mancanti. Se questo problema si ripete, segnalare il problema a: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1IT'>Verifica se è disponibile una nuova versione (attendere)</lang>
+<lang id='vercheck2IT'>È disponibile una versione più recente su https://aka.ms/msrd-collect !</lang>
+<lang id='vercheck3IT'>È disponibile una versione più recente:</lang>
+<lang id='vercheck4IT'>attualmente si è su</lang>
+<lang id='vercheck5IT'>Per i migliori risultati, scaricare e utilizzare la versione più recente da https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck5bIT'>Se si seleziona 'Sì', verrà aperta una finestra del browser per scaricare il file 'MSRD-Collect.zip' più recente e lo script corrente verrà interrotto. In caso contrario, lo script corrente continuerà come è.</lang>
+<lang id='vercheck6IT'>Desideri scaricare la nuova versione adesso?</lang>
+
+<lang id='vercheck7IT'>Apertura del browser predefinito per scaricare l'ultimo file 'MSRD-Collect.zip' da https://aka.ms/MSRD-Collect
+Uscita.
+</lang>
+
+<lang id='vercheck8IT'>Hai deciso di non scaricare ancora l'ultima versione. Per i migliori risultati, scaricare e utilizzare la versione più recente da https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck9IT'>La versione di MSRD-Collect è aggiornata</lang>
+<lang id='PDvercheck1IT'>La versione di ProcDump è aggiornata</lang>
+<lang id='selfupdate1IT'>Se selezioni 'Sì', lo script si aggiornerà automaticamente. Altrimenti lo script attuale continuerà così com'è.</lang>
+<lang id='selfupdate2IT'>Aggiornamento automatico dello script</lang>
+<lang id='selfupdate3IT'>Iniziato da utente:</lang>
+<lang id='selfupdate4IT'>Avvio del download sicuro dell'ultima versione da https://aka.ms/MSRD-Collect (Attendere...)</lang>
+<lang id='selfupdate5IT'>Salvataggio di una copia del file di configurazione MSRD-Collect corrente in</lang>
+<lang id='selfupdate6IT'>Estrazione dei file da</lang>
+<lang id='selfupdate7IT'>Ripristino del file di configurazione MSRD-Collect dal backup precedente e rimozione del backup</lang>
+<lang id='selfupdate8IT'>Rimozione del file di download temporaneo</lang>
+<lang id='selfupdate9IT'>Aggiornamento riuscito. Riavvio dello script.</lang>
+
+<!-- How to -->	
+<lang id='howtouseIT'>Guida all'uso:
+
+	Passo 1: Seleziona il contesto/l'ambiente in cui viene utilizzata la macchina:
+
+		AVD		- Azure Virtual Desktop
+		RDS		- Servizi Desktop remoto o connessione RDP diretta (non AVD/non W365)
+		W365		- Windows 365 Cloud PC
+
+	Passo 2: Seleziona il ruolo della macchina nel contesto/ambiente fornito:
+
+		Source		- Macchina sorgente da cui ti colleghi ad altre macchine utilizzando un client Desktop remoto
+		Target		- Macchina di destinazione a cui ti colleghi o un server con qualsiasi ruolo RDS installato
+
+	Passo 3: [Opzionale] Se hai selezionato 'AVD' o 'W365', inserisci uno o più nomi di computer (NetBIOS o FQDN) nel campo 'Computer' da cui desideri raccogliere dati. 
+		 Il nome del computer locale viene utilizzato come valore predefinito. 
+		 Se sono specificate più macchine, separale con un punto e virgola. I dati verranno raccolti da ogni computer in un ordine sequenziale.
+
+Per la raccolta dati:
+
+	Passo 4a: [Opzionale] Selezionare uno o più scenari:
+
+		Profiles	- Raccogliere dati per la risoluzione dei problemi relativi ai 'Profili utente'
+		Activation	- Raccogliere dati per la risoluzione dei problemi relativi all'attivazione/licenza del sistema operativo
+		MSRA		- Raccogliere dati per la risoluzione dei problemi relativi all'assistenza remota
+		SCard		- Raccogliere dati per la risoluzione dei problemi relativi alle smart card
+		IME		- Raccogliere dati per la risoluzione dei problemi relativi al metodo di input
+		Teams		- Raccogliere dati per la risoluzione dei problemi relativi a 'Teams Media Optimization' (solo AVD/W365)
+		MSIXAA		- Raccogliere dati per la risoluzione dei problemi relativi a 'MSIX App Attach' (solo AVD)
+		HCI		- Raccogliere dati per la risoluzione dei problemi relativi ad 'Azure Stack HCI' (solo AVD)
+		DumpPID	- Raccogliere un dump di processo di un processo esistente
+		NetTrace	- Raccogliere una traccia di rete (netsh)
+		DiagOnly	- Generare solo un rapporto di diagnostica
+
+	Passo 5a: Fare clic sul pulsante 'Avvia' quando si è pronti. La raccolta dati/diagnostica potrebbe richiedere diversi minuti.
+
+Per la diagnostica in tempo reale:
+
+	Passo 4b: Seleziona l'opzione 'LiveDiag'.
+
+	Passo 5b: Seleziona la scheda di categoria diagnostica desiderata.
+
+	Passo 6: Fai clic sul pulsante desiderato nella scheda selezionata per eseguire il controllo diagnostico corrispondente.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1IT'>Esecuzione della diagnostica. Questo processo può richiedere alcuni minuti. Attendere...</lang>
+<lang id='liveDiag2IT'>Diagnostica completata</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateIT'>Crea attività pianificata per eseguire la diagnostica</lang>
+<lang id='schedTaskNoteIT'>Stai per creare un'attività pianificata su questo computer, che eseguirà MSRD-Collect Diagnostics e genererà un rapporto MSRD-Diag.html.`n`nSei sicuro di voler continuare?</lang>
+<lang id='schedTaskInfo1IT'>Attività pianificata creata con successo con i seguenti parametri:</lang>
+<lang id='schedTaskInfo2IT'>Data di inizio:</lang>
+<lang id='schedTaskInfo3IT'>Ora di inizio:</lang>
+<lang id='schedTaskInfo4IT'>Frequenza:</lang>
+<lang id='schedTaskInfo5IT'>Giorno della settimana:</lang>
+<lang id='schedTaskInfo6IT'>Contesto della macchina:</lang>
+<lang id='schedTaskInfo7IT'>Ruolo della macchina:</lang>
+<lang id='schedTaskInfo8IT'>Posizione dello script:</lang>
+<lang id='schedTaskInfo9IT'>Posizione di output:</lang>
+<lang id='schedTaskInfo10IT'>Contesto utente:</lang>
+<lang id='schedTaskInfo11IT'>Attività pianificata creata con successo con i seguenti parametri:</lang>
+<lang id='schedTaskInfo12IT'>Settimana del mese:</lang>
+<lang id='schedTaskInfo13IT'>Errore sconosciuto. Nessuna attività pianificata è stata creata.</lang>
+<lang id='schedTaskInfo14IT'>Azione che verrà eseguita:</lang>
+<lang id='schedTaskEmpty1IT'>La posizione di output è vuota</lang>
+<lang id='schedTaskEmpty2IT'>La posizione dello script è vuota</lang>
+<lang id='schedTaskNotFound1IT'>Posizione di output non trovata</lang>
+<lang id='schedTaskNotFound2IT'>Posizione dello script non trovata</lang>
+	
+<!-- Presets -->
+<lang id='presetResetIT'>Reimposta tutto</lang>
+<lang id='presetLoaded1IT'>Preset selezionato</lang>
+<lang id='presetLoaded2IT'>Premere il pulsante 'Avvia' per avviare la raccolta dati/la diagnostica.</lang>
+<lang id='presetErrcon1IT'>Impossibile connettersi / Errore durante la connessione iniziale (Macchina sorgente/client)</lang>
+<lang id='presetErrcon2IT'>Impossibile connettersi / Errore durante la connessione iniziale (Macchina di destinazione/host)</lang>
+<lang id='presetLogon1IT'>Impossibile accedere / Problema di autenticazione o di profilo utente (Macchina sorgente/client)</lang>
+<lang id='presetLogon2IT'>Impossibile accedere / Problema di autenticazione o di profilo utente (Macchina di destinazione/host)</lang>
+<lang id='presetScard1IT'>Impossibile accedere con una smart card o problemi di utilizzo di una smart card all'interno di una sessione (Macchina sorgente/client)</lang>
+<lang id='presetScard2IT'>Impossibile accedere con una smart card o problemi di utilizzo di una smart card all'interno di una sessione (Macchina di destinazione/host)</lang>
+<lang id='presetMsixaaIT'>MSIX App Attach / Problemi con l'utilizzo dei pacchetti di applicazioni assegnati (Macchina di destinazione/host)</lang>
+<lang id='presetLic1IT'>Problemi di licenza RD con le licenze RDS 'per dispositivo' (Macchina sorgente/client)</lang>
+<lang id='presetLic2IT'>Problema di licenza RD con le licenze RDS 'per dispositivo' o 'per utente' (Session Host / License Server)</lang>
+<lang id='presetLic3IT'>Problema di licenza RD con le licenze RDS 'per utente' (Session Host / License Server)</lang>
+<lang id='presetDiscon1IT'>Disconnessione inattesa di una sessione attiva o inattiva (Macchina sorgente/client)</lang>
+<lang id='presetDiscon2IT'>Disconnessione inattesa di una sessione attiva o inattiva (Macchina di destinazione/host)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeIT'>Lo script è ora in modalità remota</lang>
+<lang id='remoteInvalidCompIT'>Il campo 'Computer' contiene un nome computer non valido:</lang>
+<lang id='remoteReach1IT'>Il computer specificato</lang>
+<lang id='remoteReach2IT'>è raggiungibile. Continuare con la raccolta dati/diagnostica.</lang>
+<lang id='remoteReach3IT'>non è raggiungibile. Assicurarsi che il nome computer sia corretto e che sia raggiungibile tramite la rete. Potrebbe essere necessario 'Attivare la condivisione file e stampanti' sul computer remoto se non è già stato fatto.</lang>
+<lang id='remoteModeNotice1IT'>Hai specificato una o più macchine nel campo 'Computer' che differiscono dalla macchina locale.</lang>
+<lang id='remoteModeNotice2IT'>Lo script cercherà di raccogliere dati in remoto copiandosi nella cartella C:\MS_DATA\ di ogni macchina specificata ed eseguendosi da lì.</lang>
+<lang id='remoteModeNotice3IT'>Vuoi continuare?</lang>
+<lang id='remoteModeNotice4IT'>Se si seleziona 'Sì', potrebbe essere richiesto di immettere le credenziali per ciascuna delle macchine remote separatamente. Fornire un account con autorizzazioni di amministratore sulla macchina remota (preferibilmente un amministratore di dominio se la macchina è associata a un dominio).</lang>
+<lang id='remoteModeNotice5IT'>Si prega di notare che attualmente le modifiche apportate alle opzioni 'Configura raccolta dati' o 'Configura diagnostica' per il filtraggio non si applicano alla raccolta dati o alla diagnostica remota.</lang>
+<lang id='remoteModeRunningIT'>Esecuzione in modalità remota - Attendere...</lang>
+<lang id='localModeIT'>Lo script è ora in modalità locale</lang>
+<lang id='popupWarningIT'>Avvertenza</lang>
+<lang id='remotePSinitLocalCredIT'>Configurazione di una sessione PowerShell remota utilizzando i privilegi dell'utente corrente. Computer remoto:</lang>
+<lang id='remotePSinitLocalCredSuccessIT'>Sessione PSS remota creata con successo utilizzando i privilegi dell'utente corrente. Computer remoto:</lang>
+<lang id='remotePSinitLocalCredFailIT'>Impossibile creare una sessione PSS remota utilizzando i privilegi dell'utente corrente. Richiesta di credenziali e nuovo tentativo. Computer remoto:</lang>
+<lang id='remotePSenterCredIT'>Immettere le credenziali di amministratore per il computer remoto:</lang>
+<lang id='remotePSinitProvCredSuccessIT'>Sessione PSS remota creata con successo utilizzando le credenziali fornite. Computer remoto:</lang>
+<lang id='remotePScopyIT'>Copia dei file di script in C:\MS_DATA\ su:</lang>
+<lang id='remotePScopyExistsIT'>esiste già. Verifica dei file di script esistenti e aggiornamento se necessario. Computer remoto:</lang>
+<lang id='remotePSlaunch1IT'>Avvio di MSRD-Collect nella sessione PSS remota</lang>
+<lang id='remotePScompleteIT'>Raccolta dati/diagnostica remota completata. Rimozione della sessione PSS remota per:</lang>
+
+<!-- User Context -->
+<lang id='userCon1IT'>Nessun profilo locale trovato per l'utente specificato nella posizione predefinita del profilo utente:</lang>
+<lang id='userCon2IT'>Il contesto utente è stato ripristinato a:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundIT'>avdnettest.exe non è stato trovato. Le informazioni sulla disponibilità di RDP Shortpath per AVD saranno incomplete. Assicurarsi di scaricare e decomprimere il pacchetto completo di MSRD-Collect o TSS</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeIT'>Il client desktop Windows AVD (MSRDC) è attualmente in esecuzione su questo computer.
+Per catturare le ultime tracce ETL specifiche del client desktop Windows, è necessario chiudere il processo MSRDC.exe.
+	
+	
+Vuoi chiudere MSRDC.exe ora?
+	
+	
+Se scegli 'Sì', il processo MSRDC.exe verrà terminato, disconnettendo tutte le connessioni in uscita di MSRDC e lo script continuerà con la raccolta dei dati.
+	
+Se scegli 'No', il processo MSRDC.exe persisterà e lo script continuerà con la raccolta dei dati, ma non sarà in grado di raccogliere le tracce ETL più recenti.
+	
+Se scegli 'Annulla', la raccolta dati verrà interrotta.</lang>
+
+<lang id='msrdcClosedIT'>MSRDC.exe è stato chiuso. Lo script attende 20 secondi prima di continuare, per consentire il salvataggio degli ultimi dati di traccia ETL del client RD.</lang>
+<lang id='msrdcNotClosedIT'>MSRDC.exe non è stato chiuso. I dati di traccia ETL più recenti del client RD NON saranno disponibili per il troubleshooting! Continuare la raccolta dei dati.</lang>
+<lang id='msrdcTitleIT'>Prima di continuare</lang>
+
+</LangV1>

@@ -1,0 +1,122 @@
+Install and usage Requirements:
+- .NET 3.5 or higher
+- local Admin Rights
+- user account must have "read" rights on AD Users container (cmdlets use Principal.FindByIdentity)
+
+Installation steps:
+- Copy all files in folder named C:\tools\cru
+- start powershell as admin, cd to C:\tools\cru and execute install_cru.bat
+
+Installation Output:
+
+PS C:\tools\cru> .\cru.ps1 -installcmdlet CredRoamLocalUserData
+CredRoamLocalUserData not registered...
+
+
+    Directory: C:\
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----         5/15/2009   4:02 PM            CredRoamUtil
+Microsoft (R) .NET Framework Installation utility Version 2.0.50727.1433
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\CredRoamUtil\CredRoamLocalUserData.dll assembly's progress.
+The file is located at C:\CredRoamUtil\CredRoamLocalUserData.InstallLog.
+Installing assembly 'C:\CredRoamUtil\CredRoamLocalUserData.dll'.
+Affected parameters are:
+   logtoconsole =
+   assemblypath = C:\CredRoamUtil\CredRoamLocalUserData.dll
+   logfile = C:\CredRoamUtil\CredRoamLocalUserData.InstallLog
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\CredRoamUtil\CredRoamLocalUserData.dll assembly's progress.
+The file is located at C:\CredRoamUtil\CredRoamLocalUserData.InstallLog.
+Committing assembly 'C:\CredRoamUtil\CredRoamLocalUserData.dll'.
+Affected parameters are:
+   logtoconsole =
+   assemblypath = C:\CredRoamUtil\CredRoamLocalUserData.dll
+   logfile = C:\CredRoamUtil\CredRoamLocalUserData.InstallLog
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+Adding PSSnapin now...
+
+
+******************************************************
+
+
+PS C:\tools\cru> .\cru.ps1 -installcmdlet CredRoamADUserData
+GetCredRoamADData not registered...
+Microsoft (R) .NET Framework Installation utility Version 2.0.50727.1433
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\CredRoamUtil\CredRoamADUserCMDlet.dll assembly's progress.
+The file is located at C:\CredRoamUtil\CredRoamADUserCMDlet.InstallLog.
+Installing assembly 'C:\CredRoamUtil\CredRoamADUserCMDlet.dll'.
+Affected parameters are:
+   logtoconsole =
+   assemblypath = C:\CredRoamUtil\CredRoamADUserCMDlet.dll
+   logfile = C:\CredRoamUtil\CredRoamADUserCMDlet.InstallLog
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\CredRoamUtil\CredRoamADUserCMDlet.dll assembly's progress.
+The file is located at C:\CredRoamUtil\CredRoamADUserCMDlet.InstallLog.
+Committing assembly 'C:\CredRoamUtil\CredRoamADUserCMDlet.dll'.
+Affected parameters are:
+   logtoconsole =
+   assemblypath = C:\CredRoamUtil\CredRoamADUserCMDlet.dll
+   logfile = C:\CredRoamUtil\CredRoamADUserCMDlet.InstallLog
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+Adding PSSnapin now...
+
+
+******************************************************
+
+PS C:\tools\cru> .\cru.ps1 -installcmdlet CredRoamLVRData
+GetCredRoamLVRData not registered...
+Microsoft (R) .NET Framework Installation utility Version 2.0.50727.1433
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\CredRoamUtil\CredRoamLVRCMDlet.dll assembly's progress.
+The file is located at C:\CredRoamUtil\CredRoamLVRCMDlet.InstallLog.
+Installing assembly 'C:\CredRoamUtil\CredRoamLVRCMDlet.dll'.
+Affected parameters are:
+   logtoconsole =
+   assemblypath = C:\CredRoamUtil\CredRoamLVRCMDlet.dll
+   logfile = C:\CredRoamUtil\CredRoamLVRCMDlet.InstallLog
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\CredRoamUtil\CredRoamLVRCMDlet.dll assembly's progress.
+The file is located at C:\CredRoamUtil\CredRoamLVRCMDlet.InstallLog.
+Committing assembly 'C:\CredRoamUtil\CredRoamLVRCMDlet.dll'.
+Affected parameters are:
+   logtoconsole =
+   assemblypath = C:\CredRoamUtil\CredRoamLVRCMDlet.dll
+   logfile = C:\CredRoamUtil\CredRoamLVRCMDlet.InstallLog
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+Adding PSSnapin now...
+
+
+
+Note: ps snapin the config data is stored in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellSnapIns

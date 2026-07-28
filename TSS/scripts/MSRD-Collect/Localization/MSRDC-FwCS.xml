@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingCS">Spouštění MSRD-Collect</lang>
+<lang id="notApprovedCS">Spouštění skriptu nebylo schváleno správcem, ukončení.</lang>
+<lang id="eulaOKCS">EULA přijato, pokračování</lang>
+<lang id="eulaNotOKCS">EULA odmítnuto, ukončení</lang>
+<lang id="eulaSilentOKCS">Přepínač AcceptEula specifikován, pokračování v tichu</lang>
+<lang id="noticeOKCS">Oznámení přijato, pokračování</lang>
+<lang id="noticeSilentOKCS">Přepínač AcceptNotice specifikován, pokračování v tichu</lang>
+<lang id="enabledCS">Povoleno</lang>
+<lang id="disabledCS">Zakázáno</lang>
+<lang id="autoUpdateCS">Automatická kontrola aktualizací při spuštění skriptu:</lang>
+<lang id="playSndCS">Přehrávat zvuky:</lang>
+<lang id='aaModeCS'>Audio Assist režim:</lang>
+
+<!-- Menus -->
+<lang id='FileMenuCS'>&amp;Soubor</lang>
+<lang id='RunMenuCS'>Spustit sběr dat/diagnostiku</lang>
+<lang id='UpdateMenuCS'>Zkontrolovat aktualizace</lang>
+<lang id='ExitMenuCS'>&amp;Ukončit</lang>
+<lang id='ViewMenuCS'>&amp;Zobrazit</lang>
+<lang id='PresetsMenuCS'>&amp;Předvolby</lang>
+<lang id='HideConsoleCS'>&amp;Zobrazit okno konzole</lang>
+<lang id='MaximizeWindowCS'>&amp;Spustit maximalizované</lang>
+<lang id='AlwaysOnTopCS'>&amp;Vždy nahoře</lang>
+<lang id='OutputLocationCS'>&amp;Otevřít umístění výstupu</lang>
+<lang id='LiteModeCS'>&amp;Lite mód</lang>
+<lang id='LiteModeMachineCS'>Vyberte kontext stroje</lang>
+<lang id='LiteModeRoleCS'>Vyberte roli stroje</lang>
+<lang id='LiteModeSourceCS'>Zdrojový stroj / klient</lang>
+<lang id='LiteModeSourceTooltipCS'>Zdrojový stroj, ze kterého se připojujete k jiným strojům pomocí klienta vzdálené plochy</lang>
+<lang id='LiteModeTargetCS'>Cílový stroj / hostitel </lang>
+<lang id='LiteModeTarget2CS'>Cílový stroj / hostitel (nebo prostřední servery)</lang>
+<lang id='LiteModeTargetTooltipCS'>Cílový stroj, ke kterému se připojujete</lang>
+<lang id='LiteModeTargetTooltip2CS'>Cílový stroj, ke kterému se připojujete, nebo jakýkoli server RDS v implementaci RDS</lang>
+<lang id='LiteModeScenariosCS'>Vyberte jeden nebo více scénářů (volitelné)</lang>
+<lang id='LiteModeStartCS'>Kliknutím na tlačítko „Spustit“, když jste připraveni</lang>
+<lang id='LiteModeAdvancedCS'>Pokročilý režim</lang>
+<lang id='LiteModeHideConsoleCS'>&amp;Zobrazit konzoli</lang>
+<lang id='DiagReportsCS'>&amp;Diagnostické zprávy</lang>
+<lang id='ToolsMenuCS'>&amp;Nástroje</lang>
+<lang id='SetOutputLocationCS'>&amp;Nastavit umístění výstupu...</lang>
+<lang id='SetUserContextCS'>&amp;Nastavit uživatelský kontext...</lang>
+<lang id='ConfigDataCollectionCS'>Konfigurovat sběr dat...</lang>
+<lang id='ConfigDiagCS'>Konfigurovat diagnostiku...</lang>
+<lang id='ConfigSchedTaskCS'>Vytvořit plánovaný úkol...</lang>
+<lang id='OpenTaskSchedCS'>Otevřít plánovač úloh</lang>
+<lang id='AutoVerCheckCS'>Zkontrolujte aktualizace při spuštění</lang>
+<lang id='PlaySoundsCS'>Používat systémové zvuky</lang>
+<lang id='AssistModeCS'>Režim zvukové asistence</lang>
+<lang id='UILangCS'>Jazyk uživatelského rozhraní</lang>
+<lang id='araCS'>Arabský</lang>
+<lang id='dutCS'>Holandský</lang>
+<lang id='gerCS'>Německý</lang>
+<lang id='engCS'>Anglický</lang>
+<lang id='hunCS'>Maďarský</lang>
+<lang id='romCS'>Rumunský</lang>
+<lang id='freCS'>Francouzský</lang>
+<lang id='itaCS'>Italský</lang>
+<lang id='porCS'>Portugalský</lang>
+<lang id='spaCS'>Španělský</lang>
+<lang id='jpnCS'>Japonský</lang>
+<lang id='czeCS'>Český</lang>
+<lang id='turCS'>Turecký</lang>
+<lang id='chiCS'>Čínský</lang>
+<lang id='HelpMenuCS'>&amp;Nápověda</lang>
+<lang id='ReadMeCS'>&amp;ReadMe (anglicky)</lang>
+<lang id='WhatsNewCS'>&amp;Co je nového</lang>
+<lang id='DownloadCS'>&amp;Stahování</lang>
+<lang id='DownloadMSRDCCS'>&amp;MSRD-Collect získat</lang>
+<lang id='DownloadRDSTracingCS'>&amp;RDSTracing získat</lang>
+<lang id='DownloadSaRACS'>&amp;SaRA pro Office 365 získat</lang>
+<lang id='DownloadTSSCS'>&amp;TSS získat</lang>
+<lang id='MSDocsCS'>&amp;Microsoft Docs</lang>
+<lang id='AVDCS'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixCS'>&amp;FSLogix</lang>
+<lang id='RDSCS'>&amp;Remote Desktop Services</lang>
+<lang id='365CS'>&amp;Windows 365</lang>
+<lang id='TechCommunityCS'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDCS'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixCS'>&amp;FSLogix</lang>	
+<lang id='TC365CS'>&amp;Windows 365</lang>
+<lang id='AzureMenuCS'>A&amp;zure</lang>
+<lang id='AzOutageNotificationCS'>&amp;Být upozorněn na výpadky, které vás ovlivňují (Dokumenty)</lang>
+<lang id='AzStatusCS'>&amp;Stav Azure</lang>
+<lang id='AzStatusHistCS'>Historie stavu Azure</lang>
+<lang id='AzServHealthCS'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorCS'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailCS'>Poskytnout zpětnou vazbu (&amp;e-mail)</lang>
+<lang id='FeedbackSurveyCS'>Poskytnout zpětnou vazbu (&amp;anketa)</lang>
+<lang id='AboutCS'>&amp;O aplikaci</lang>
+<lang id='contextLabelCS'>Kontext stroje</lang>
+<lang id='roleLabelCS'>Role stroje</lang>
+<lang id='scenarioLabelCS'>Scénáře sběru dat</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceCS'>Source</lang>
+<lang id='btnTargetCS'>Target</lang>
+<lang id='btnAVDCS'>AVD</lang>
+<lang id='btnRDSCS'>RDS</lang>
+<lang id='btnW365CS'>W365</lang>
+<lang id='btnCoreCS'>Core</lang>
+<lang id='btnProfilesCS'>Profiles</lang>
+<lang id='btnActivationCS'>Activation</lang>
+<lang id='btnMSRACS'>MSRA</lang>
+<lang id='btnSCardCS'>SCard</lang>
+<lang id='btnIMECS'>IME</lang>
+<lang id='btnTeamsCS'>Teams</lang>
+<lang id='btnMSIXAACS'>MSIXAA</lang>
+<lang id='btnHCICS'>HCI</lang>
+<lang id='btnProcDumpCS'>DumpPID</lang>
+<lang id='btnNetTraceCS'>NetTrace</lang>
+<lang id='btnDiagOnlyCS'>DiagOnly</lang>
+<lang id='btnLiveDiagCS'>LiveDiag</lang>
+<lang id='StartCS'>Spustit</lang>
+<lang id='RunningCS'>Běží</lang>
+<lang id='SurveyCS'>Anketa</lang>
+<lang id='CompLabelCS'>Počítač(e)</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDCS'>Vyberte tento typ počítače pro scénáře související s Azure Virtual Desktop</lang>
+<lang id='btnTooltipRDSCS'>Vyberte tento typ počítače pro scénáře související s Remote Desktop Services nebo přímým RDP</lang>
+<lang id='btnTooltipW365CS'>Vyberte tento typ počítače pro scénáře související s Windows 365 Cloud PC</lang>
+<lang id='btnTooltipSourceCS'>Vyberte tento typ role, pokud se počítač používá k zahájení vzdálených připojení k jiným počítačům</lang>
+<lang id='btnTooltipTargetCS'>Vyberte tento typ role, pokud je počítač na přijímající straně vzdáleného připojení nebo pokud je to server s jakoukoli instalovanou rolí RDS</lang>
+<lang id='btnTooltipProfilesCS'>Sbírat data pro řešení problémů s 'Uživatelskými profily'</lang>
+<lang id='btnTooltipActivationCS'>Sbírat data pro řešení problémů s 'Licencováním/aktivací OS'</lang>
+<lang id='btnTooltipMSRACS'>Sbírat data pro řešení problémů s 'Vzdálenou asistencí'</lang>
+<lang id='btnTooltipSCardCS'>Sbírat data pro řešení problémů se 'Smart Card'</lang>
+<lang id='btnTooltipIMECS'>Sbírat data pro řešení problémů s 'Vstupní metodou'</lang>
+<lang id='btnTooltipTeamsCS'>Sbírat data pro řešení problémů s 'Optimalizací médií Teams' (pouze AVD/W365)</lang>
+<lang id='btnTooltipMSIXAACS'>Sbírat data pro řešení problémů s 'MSIX App Attach' (pouze AVD)</lang>
+<lang id='btnTooltipHCICS'>Sbírat data pro řešení problémů s 'Azure Stack HCI' (pouze AVD)</lang>
+<lang id='btnTooltipProcDumpCS'>Sbírat procesní dump existujícího procesu</lang>
+<lang id='btnTooltipNetTraceCS'>Sbírat sledování sítě (netsh)</lang>
+<lang id='btnTooltipDiagOnlyCS'>Generovat pouze diagnostickou zprávu</lang>
+<lang id='btnTooltipLiveDiagCS'>Vstoupit do režimu živé diagnostiky</lang>
+<lang id='btnTooltipSurveyCS'>Otevřít průzkum spokojenosti MSRD-Collect a poskytnout zpětnou vazbu k skriptu</lang>
+<lang id='btnTooltipComputerCS'>Zadejte jeden nebo více počítačových jmen (NetBIOS nebo FQDN) oddělených středníkem pro sběr dat</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkCS'>Jak se vám líbí tento skript?</lang>
+<lang id='ReadyCS'>Připraveno</lang>
+<lang id='checkupdCS'>Kontrola aktualizací. Čekejte prosím...</lang>
+<lang id='collecting1CS'>Sběr</lang>
+<lang id='collecting2CS'>dat. Čekejte prosím...</lang>
+<lang id='waitCS'>Čekejte prosím...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aCS'>Verze skriptu</lang>
+<lang id='initvalues1bCS'>spuštěno z:</lang>
+<lang id='initvalues1cCS'>Příkazový řádek:</lang>
+<lang id='initvalues2CS'>EULA a upozornění přijaty</lang>
+<lang id='initvalues3CS'>Výstupní umístění:</lang>
+<lang id='initvalues4CS'>Uživatelský kontext:</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteCS'>Pro řešení problémů s Teams je nejprve doporučeno vygenerovat nové protokoly pro ladění Teams.
+Viz: https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+Chcete-li tyto protokoly pro ladění vygenerovat, otevřete postiženou aplikaci Teams (pomocí stejného uživatelského účtu/kontextu jako pro tento sběr dat) a stiskněte v Teams CTRL+ALT+SHIFT+1.
+Teams vygeneruje diagnostické protokoly, které může tento skript shromáždit.
+
+Pokud již tyto protokoly máte nebo je nepotřebujete, vyberte 'Opakovat', abyste pokračovali.
+V opačném případě vyberte 'Storno', vygenerujte protokoly pro ladění Teams a spusťte sběr dat znovu.</lang>
+
+<lang id='teamstitleCS'>Sběr údajů pro řešení problémů s Teams</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1CS'>Vyberte spuštěný proces pro dump</lang>
+<lang id='dpidtext2CS'>Vyberte proces</lang>
+<lang id='dpidtext3CS'>Proces (PID) vybrán pro dump procesu:</lang>
+<lang id='dpidtext4CS'>Není vybrán žádný PID - nebude generován žádný dump procesu</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgCS'>Probíhá sběr dat - čekejte prosím...</lang>
+<lang id='fdcmsgCS'>Sběr dat dokončen</lang>
+<lang id='rdiagmsgCS'>Probíhá diagnostika - čekejte prosím...</lang>
+<lang id='noDiagmsgCS'>Nejsou vybrány žádné diagnostické kontroly. Přeskočit generování diagnostického protokolu.</lang>
+<lang id='selectedParamCS'>Vybrané parametry pro sběr dat/diagnostiku:</lang>
+<lang id='checkmsgCS'>Kontrola</lang>
+<lang id='fdiagmsgCS'>Diagnostika dokončena</lang>
+<lang id='archmsgCS'>Archivace výsledků - čekejte prosím!</lang>
+<lang id='zipmsgCS'>Soubor zip je připraven:</lang>
+<lang id='ziperrormsgCS'>Soubor zip nelze vytvořit. Ručně archivujte shromážděná data pod:</lang>
+<lang id='dtmmsgCS'>Při sdílení těchto výsledků s Microsoft CSS vždy používejte zabezpečený nástroj pro přenos souborů. Toto projednejte se svým odborníkem na podporu a také jakékoliv obavy, které můžete mít.</lang>
+<lang id='logfoldermsgCS'>Vytváření složky</lang>
+<lang id='logfolderexistmsgCS'>již existuje</lang>
+<lang id='coremsgCS'>Sběr údajů pro řešení problémů s jádrem</lang>
+<lang id='profilesmsgCS'>Sběr údajů pro řešení problémů s uživatelskými profily</lang>
+<lang id='msramsgCS'>Sběr údajů pro řešení problémů s vzdálenou asistencí</lang>
+<lang id='scardmsgCS'>Sběr údajů pro řešení problémů s čipovými kartami</lang>
+<lang id='imemsgCS'>Sběr údajů pro řešení problémů s metodou zadávání</lang>
+<lang id='teamsmsgCS'>Sběr údajů pro řešení problémů s Teams na AVD</lang>
+<lang id='msixaamsgCS'>Sběr údajů pro řešení problémů s připojením aplikace MSIX</lang>
+<lang id='hcimsgCS'>Sběr údajů pro řešení problémů s Azure Stack HCI</lang>
+<lang id='activationmsgCS'>Sběr údajů pro řešení problémů s licencováním/aktivací OS</lang>
+<lang id='errormsgCS'>Vyskytla se chyba v</lang>
+<lang id='location1CS'>Vyberte umístění pro uložení výsledků (výchozí je C:\MS_DATA)</lang>
+<lang id='location2CS'>Výstupní umístění:</lang>
+<lang id='context1CS'>Nastavit uživatelský kontext</lang>
+<lang id='context2CS'>Zadejte uživatelské jméno, od kterého se mají shromáždit některá data</lang>
+<lang id='context3CS'>Uživatelský kontext nastaven na:</lang>
+<lang id='selectCollect1CS'>Konfigurace sběru dat</lang>
+<lang id='selectCollect2CS'>Pomocí levé tabulky vyberte položky pro sběr dat, kliknutím na šipku vpravo vyberte vybrané položky. Chcete-li položky znovu zahrnout, vyberte z pravé tabulky a klikněte na šipku vlevo.</lang>
+<lang id='selectCollect3CS'>Sbíraná data podle scénáře</lang>
+<lang id='selectCollect4CS'>Data vyloučená podle scénáře</lang>
+<lang id='selectDiag1CS'>Konfigurace diagnostiky</lang>
+<lang id='selectDiag2CS'>Pomocí levé tabulky vyberte položky pro diagnostiku, kliknutím na šipku vpravo vyberte vybrané položky. Chcete-li položky znovu zahrnout, vyberte z pravé tabulky a klikněte na šipku vlevo.</lang>
+<lang id='selectDiag3CS'>Diagnostika prováděná podle kategorie</lang>
+<lang id='selectDiag4CS'>Diagnostika vyloučená podle kategorie</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceCS'>Probíhá sběr údajů pro řešení problémů sítě - čekejte...</lang>
+
+<lang id='netTraceNoteCS'>Reprodukujte problém.
+Jakmile se problém objeví, zastavte sběr údajů stisknutím tlačítka 'OK'.</lang>
+
+<lang id='netTraceNote2CS'>Reprodukujte problém a stiskněte klávesu 'Y' PO dokončení reprodukce (s fokusem okna zde)</lang>
+<lang id='netTraceRunningCS'>Sběr údajů pro řešení problémů sítě běží</lang>
+<lang id='netTraceStoppingCS'>Probíhá zastavení sběru údajů pro řešení problémů sítě - čekejte (může to trvat několik minut)...</lang>
+<lang id='netTraceFinishedCS'>Sběr údajů pro řešení problémů sítě byl dokončen</lang>
+<lang id='conVisibleCS'>Okno konzole je viditelné</lang>
+<lang id='conHiddenCS'>Okno konzole je skryté</lang>
+<lang id='openMaximizedCS'>Skript bude spuštěn v maximálním zobrazení</lang>
+<lang id='openWindowedCS'>Skript nebude spuštěn v maximálním zobrazení</lang>
+<lang id='ontopCS'>Okno skriptu bude vždy nahoře</lang>
+<lang id='ontopNotCS'>Okno skriptu nebude vždy nahoře</lang>
+<lang id='outputNotFoundCS'>[POZOR] Vybrané výstupní umístění nebylo nalezeno.</lang>
+<lang id='outputLoc1CS'>Aktualizace seznamu diagnostických zpráv dostupných v aktuálním výstupním umístění</lang>
+<lang id='outputLoc2CS'>[POZOR] Vybrané výstupní umístění již neexistuje. Klikněte na 'Zobrazit\Diagnostické zprávy' pro aktualizaci seznamu a zkuste to znovu.</lang>
+<lang id='outputLoc3CS'>Seznam byl úspěšně aktualizován.</lang>
+<lang id='outputLoc4CS'>V aktuálním výstupním umístění nebyly nalezeny žádné zprávy</lang>
+<lang id='outputLoc5CS'>Nejprve vygenerujte nějaké diagnostické zprávy, abyste naplnili tento seznam.</lang>
+<lang id='outputLoc6CS'>Aktuální výstupní umístění neexistuje</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgCS'>Jeden nebo více úloh běží na pozadí. Tyto úlohy mohou trvat až 3 minuty. Čekejte...</lang>
+<lang id='bgjob2msgCS'>Jeden nebo více úloh na pozadí nemohlo být dokončeno v přiděleném čase. Některá data mohou chybět. Pokud se tento problém opakuje, nahlaste jej na: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1CS'>Kontrola, zda je k dispozici nová verze (čekejte)</lang>
+<lang id='vercheck2CS'>Novější verze je k dispozici na https://aka.ms/msrd-collect !</lang>
+<lang id='vercheck3CS'>Novější verze je k dispozici:</lang>
+<lang id='vercheck4CS'>nyní používáte</lang>
+<lang id='vercheck5CS'>Pro nejlepší výsledky stáhněte a použijte nejnovější verzi z https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck5bCS'>Pokud vyberete 'Ano', otevře se okno prohlížeče pro stažení nejnovějšího souboru 'MSRD-Collect.zip' a aktuální skript se ukončí. V opačném případě bude aktuální skript pokračovat jako obvykle.</lang>
+<lang id='vercheck6CS'>Chcete nyní stáhnout novou verzi?</lang>
+
+<lang id='vercheck7CS'>Otevírání výchozího prohlížeče pro stažení nejnovějšího souboru 'MSRD-Collect.zip' z https://aka.ms/MSRD-Collect
+Ukončení.
+</lang>
+
+<lang id='vercheck8CS'>Rozhodli jste se zatím nepřejít na nejnovější verzi. Pro nejlepší výsledky stáhněte a použijte nejnovější verzi z https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck9CS'>Verze MSRD-Collect je aktuální</lang>
+<lang id='PDvercheck1CS'>Verze ProcDump je aktuální</lang>
+<lang id='selfupdate1CS'>Pokud vyberete 'Ano', skript se automaticky aktualizuje. V opačném případě bude aktuální skript pokračovat jako obvykle.</lang>
+<lang id='selfupdate2CS'>Automatická aktualizace skriptu</lang>
+<lang id='selfupdate3CS'>Spouští uživatel:</lang>
+<lang id='selfupdate4CS'>Spouští se bezpečné stahování nejnovější verze z https://aka.ms/MSRD-Collect (Čekejte...)</lang>
+<lang id='selfupdate5CS'>Ukládá se kopie aktuálního konfiguračního souboru MSRD-Collect do</lang>
+<lang id='selfupdate6CS'>Extrahování souborů z</lang>
+<lang id='selfupdate7CS'>Obnovení konfiguračního souboru MSRD-Collect z předchozí zálohy a odstranění zálohy</lang>
+<lang id='selfupdate8CS'>Odstraňování dočasného souboru ke stažení</lang>
+<lang id='selfupdate9CS'>Aktualizace byla úspěšná. Restartování skriptu.</lang>
+
+<!-- How to -->	
+<lang id='howtouseCS'>Návod k použití:
+
+	Krok 1: Vyberte kontext/oblast, ve kterém je počítač používán:
+	
+		AVD		- Azure Virtual Desktop
+		RDS		- Služby vzdálené plochy nebo přímé (non-AVD/non-W365) RDP připojení
+		W365		- Windows 365 Cloud PC
+
+	Krok 2: Vyberte roli počítače v daném kontextu/oblasti:
+	
+		Source		- Zdrojový počítač, ze kterého se připojujete k ostatním počítačům pomocí klienta vzdálené plochy
+		Target		- Cílový počítač, ke kterému se připojujete, nebo server s libovolnou nainstalovanou rolí RDS
+
+	Krok 3: [Volitelné] Pokud jste vybrali 'AVD' nebo 'W365', zadejte do pole 'Počítač(e)' jeden nebo více počítačů (NetBIOS nebo FQDN), ze kterých chcete sbírat data. 
+		 Název lokálního počítače se používá jako výchozí hodnota. 
+		 Pokud je zadáno více počítačů, oddělte je středníkem. Data budou sbírána z každého počítače v sekvenčním pořadí.
+
+Pro sběr dat:
+
+	Krok 4a: [Volitelné] Vyberte jeden nebo více dostupných scénářů:
+	
+		Profiles	- Sbírat data pro řešení problémů s 'Uživatelskými profily'
+		Activation	- Sbírat data pro řešení problémů s 'Licencováním/aktivací OS'
+		MSRA		- Sbírat data pro řešení problémů s 'Vzdálenou asistencí'
+		SCard		- Sbírat data pro řešení problémů se 'Smart kartou'
+		IME		- Sbírat data pro řešení problémů s 'Vstupní metodou'
+		Teams		- Sbírat data pro řešení problémů s 'Optimalizací médií pro Teams' (pouze AVD/W365)
+		MSIXAA		- Sbírat data pro řešení problémů s 'MSIX App Attach' (pouze AVD)
+		HCI		- Sbírat data pro řešení problémů s 'Azure Stack HCI' (pouze AVD)
+		DumpPID	- Sbírat výpis procesu existujícího procesu
+		NetTrace	- Sbírat síťový stop (netsh)
+		DiagOnly	- Generovat pouze diagnostický zprávu
+
+	Krok 5a: Po dokončení klikněte na tlačítko 'Start'. Sběr dat/diagnostika může trvat několik minut.
+	
+Pro živou diagnostiku:
+
+	Krok 4b: Vyberte možnost 'LiveDiag'.
+	
+	Krok 5b: Vyberte záložku požadované diagnostické kategorie.
+	
+	Krok 6: Klikněte na požadované tlačítko v záložce pro spuštění příslušné diagnostické kontroly.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1CS'>Probíhá diagnostika. Tento proces může trvat několik minut. Čekejte prosím...</lang>
+<lang id='liveDiag2CS'>Diagnostika dokončena</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateCS'>Vytvořit plánovanou úlohu pro spuštění diagnostiky</lang>
+<lang id='schedTaskNoteCS'>Chystáte se vytvořit plánovanou úlohu na tomto počítači, která spustí MSRD-Collect Diagnostics a vygeneruje zprávu MSRD-Diag.html.`n`nOpravdu chcete pokračovat?</lang>
+<lang id='schedTaskInfo1CS'>Plánovaná úloha byla úspěšně vytvořena s následujícími parametry:</lang>
+<lang id='schedTaskInfo2CS'>Datum spuštění:</lang>
+<lang id='schedTaskInfo3CS'>Čas spuštění:</lang>
+<lang id='schedTaskInfo4CS'>Frekvence:</lang>
+<lang id='schedTaskInfo5CS'>Den v týdnu:</lang>
+<lang id='schedTaskInfo6CS'>Kontext stroje:</lang>
+<lang id='schedTaskInfo7CS'>Role stroje:</lang>
+<lang id='schedTaskInfo8CS'>Umístění skriptu:</lang>
+<lang id='schedTaskInfo9CS'>Umístění výstupu:</lang>
+<lang id='schedTaskInfo10CS'>Uživatelský kontext:</lang>
+<lang id='schedTaskInfo11CS'>Plánovaná úloha byla úspěšně vytvořena s následujícími parametry:</lang>
+<lang id='schedTaskInfo12CS'>Týden měsíce:</lang>
+<lang id='schedTaskInfo13CS'>Neznámá chyba. Nebyla vytvořena žádná plánovaná úloha.</lang>
+<lang id='schedTaskInfo14CS'>Akce, která bude provedena:</lang>
+<lang id='schedTaskEmpty1CS'>Umístění výstupu je prázdné</lang>
+<lang id='schedTaskEmpty2CS'>Umístění skriptu je prázdné</lang>
+<lang id='schedTaskNotFound1CS'>Umístění výstupu nebylo nalezeno</lang>
+<lang id='schedTaskNotFound2CS'>Umístění skriptu nebylo nalezeno</lang>
+	
+<!-- Presets -->
+<lang id='presetResetCS'>Resetovat vše</lang>
+<lang id='presetLoaded1CS'>Vybraná předvolba</lang>
+<lang id='presetLoaded2CS'>Stiskněte tlačítko 'Start', abyste zahájili sběr dat/diagnostiku.</lang>
+<lang id='presetErrcon1CS'>Nelze se připojit / Chyba během počátečního připojení (Zdrojový/klientský stroj)</lang>
+<lang id='presetErrcon2CS'>Nelze se připojit / Chyba během počátečního připojení (Cílový/hostitelský stroj)</lang>
+<lang id='presetLogon1CS'>Nelze se přihlásit / Chyba při ověřování nebo problém s uživatelským profilem (Zdrojový/klientský stroj)</lang>
+<lang id='presetLogon2CS'>Nelze se přihlásit / Chyba při ověřování nebo problém s uživatelským profilem (Cílový/hostitelský stroj)</lang>
+<lang id='presetScard1CS'>Nelze se přihlásit pomocí karty Smart Card nebo jsou problémy při používání karty Smart Card v rámci relace (Zdrojový/klientský stroj)</lang>
+<lang id='presetScard2CS'>Nelze se přihlásit pomocí karty Smart Card nebo jsou problémy při používání karty Smart Card v rámci relace (Cílový/hostitelský stroj)</lang>
+<lang id='presetMsixaaCS'>MSIX App Attach / Problémy s používáním přiřazených balíčků aplikací (Cílový/hostitelský stroj)</lang>
+<lang id='presetLic1CS'>Problémy s licencováním RD s licencemi RDS 'per Device' (Zdrojový/klientský stroj)</lang>
+<lang id='presetLic2CS'>Problém s licencováním RD s licencemi RDS 'per Device' nebo 'per User' (Session Host / License Server)</lang>
+<lang id='presetLic3CS'>Problém s licencováním RD s licencemi RDS 'per User' (Session Host / License Server)</lang>
+<lang id='presetDiscon1CS'>Neočekávané odpojení aktivní nebo nečinné relace (Zdrojový/klientský stroj)</lang>
+<lang id='presetDiscon2CS'>Neočekávané odpojení aktivní nebo nečinné relace (Cílový/hostitelský stroj)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeCS'>Skript je nyní v režimu vzdáleného přístupu</lang>
+<lang id='remoteInvalidCompCS'>Pole 'Počítač(e)' obsahuje neplatný název počítače:</lang>
+<lang id='remoteReach1CS'>Zadaný počítač</lang>
+<lang id='remoteReach2CS'>je dosažitelný. Pokračování v sběru dat/diagnostice.</lang>
+<lang id='remoteReach3CS'>není dosažitelný. Ujistěte se, že je název počítače správný a že je dosažitelný přes síť. Pokud jste to ještě neudělali, můžete na vzdáleném počítači potřebovat 'Zapnout sdílení souborů a tiskáren'.</lang>
+<lang id='remoteModeNotice1CS'>V poli 'Počítač(e)' jste zadali jednu nebo více počítačů, které se liší od místního počítače.</lang>
+<lang id='remoteModeNotice2CS'>Skript se pokusí o vzdálené shromažďování dat tím, že se zkopíruje do složky C:\MS_DATA\ na každém zadaném počítači a spustí se odtud.</lang>
+<lang id='remoteModeNotice3CS'>Chcete pokračovat?</lang>
+<lang id='remoteModeNotice4CS'>Pokud vyberete 'Ano', může být vás požádáno, abyste pro každý vzdálený počítač zvlášť zadali přihlašovací údaje. Zadejte účet s administrátorskými oprávněními na vzdáleném počítači (nejlépe doménovým správcem, pokud je počítač připojen k doméně).</lang>
+<lang id='remoteModeNotice5CS'>Všimněte si, že v současné době se žádné změny provedené v možnostech 'Konfigurovat sběr dat' nebo 'Konfigurovat diagnostiku' pro filtrování nevztahují na vzdálený sběr dat nebo diagnostiku.</lang>
+<lang id='remoteModeRunningCS'>Probíhá vzdálený režim - Čekejte prosím...</lang>
+<lang id='localModeCS'>Skript je nyní v lokálním režimu</lang>
+<lang id='popupWarningCS'>Varování</lang>
+<lang id='remotePSinitLocalCredCS'>Nastavuje se vzdálená relace PowerShell s použitím oprávnění aktuálního uživatele. Vzdálený počítač:</lang>
+<lang id='remotePSinitLocalCredSuccessCS'>Vzdálená relace PSS byla úspěšně vytvořena s oprávněními aktuálního uživatele. Vzdálený počítač:</lang>
+<lang id='remotePSinitLocalCredFailCS'>Nepodařilo se vytvořit vzdálenou relaci PSS s oprávněními aktuálního uživatele. Vyzývá se k zadání přihlašovacích údajů a opětovnému pokusu. Vzdálený počítač:</lang>
+<lang id='remotePSenterCredCS'>Zadejte přihlašovací údaje správce pro vzdálený počítač:</lang>
+<lang id='remotePSinitProvCredSuccessCS'>Vzdálená relace PSS byla úspěšně vytvořena s poskytnutými přihlašovacími údaji. Vzdálený počítač:</lang>
+<lang id='remotePScopyCS'>Kopírování souborů skriptu do C:\MS_DATA\ na:</lang>
+<lang id='remotePScopyExistsCS'>již existuje. Kontrola existujících souborů skriptu a aktualizace podle potřeby. Vzdálený počítač:</lang>
+<lang id='remotePSlaunch1CS'>Spouštění MSRD-Collect v vzdálené relaci PSS</lang>
+<lang id='remotePScompleteCS'>Vzdálený sběr dat/diagnostika dokončena. Odstraňování vzdálené relace PSS na:</lang>
+
+<!-- User Context -->
+<lang id='userCon1CS'>Pro konkrétního uživatele nebyl nalezen žádný místní profil v umístění výchozího uživatelského profilu:</lang>
+<lang id='userCon2CS'>Kontext uživatele byl resetován na:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundCS'>avdnettest.exe nebyl nalezen. Informace o dostupnosti RDP Shortpath pro AVD budou neúplné. Ujistěte se, že jste stáhli a rozbalili celý balíček MSRD-Collect nebo TSS</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeCS'>Klient desktopu Windows AVD (MSRDC) je v současné době spuštěn na tomto počítači.
+Chcete zachytit nejnovější stopy ETL specifické pro klienta desktopu Windows, je nutné zavřít proces MSRDC.exe.
+	
+	
+Chcete nyní zavřít MSRDC.exe?
+	
+	
+Pokud vyberete 'Ano', proces MSRDC.exe bude ukončen, což odpojí všechny odchozí spojení MSRDC a skript bude pokračovat ve sběru dat.
+	
+Pokud vyberete 'Ne', proces MSRDC.exe bude trvat a skript bude pokračovat ve sběru dat, ale nebude schopen sbírat nejnovější stopy ETL.
+	
+Pokud vyberete 'Storno', sběr dat bude přerušen.</lang>
+
+<lang id='msrdcClosedCS'>MSRDC.exe byl ukončen. Skript počká 20 sekund, než bude pokračovat, aby bylo možné uložit nejnovější data sledování ETL klienta RD.</lang>
+<lang id='msrdcNotClosedCS'>MSRDC.exe nebyl ukončen. Nejnovější data sledování ETL klienta RD nebudou k dispozici pro řešení problémů! Pokračování sběru dat.</lang>
+<lang id='msrdcTitleCS'>Před pokračováním</lang>
+
+</LangV1>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WindowsPerformanceRecorder Version="1.0"  Author="Auth Scripts Team">
+  <Profiles>
+    <SystemCollector Id="SBSL_System_Collector" Name="SBSL System Collector">
+      <BufferSize Value="1024" />
+      <Buffers Value="3276" />
+    </SystemCollector>
+    <EventCollector Id="SBSL_Event_Collector" Name="SBSL Event Collector">
+      <BufferSize Value="1024" />
+      <Buffers Value="655" />
+    </EventCollector>
+    <SystemProvider Id="SBSL_Collector_Provider">
+      <Keywords>
+        <Keyword Value="CpuConfig" />
+        <Keyword Value="CSwitch" />
+        <Keyword Value="DiskIO" />
+        <Keyword Value="DPC" />
+        <Keyword Value="Handle" />
+        <Keyword Value="HardFaults" />
+        <Keyword Value="Interrupt" />
+        <Keyword Value="Loader" />
+        <Keyword Value="MemoryInfo" />
+        <Keyword Value="MemoryInfoWS" />
+        <Keyword Value="ProcessCounter" />
+        <Keyword Value="Power" />
+        <Keyword Value="ProcessThread" />
+        <Keyword Value="ReadyThread" />
+        <Keyword Value="SampledProfile" />
+        <Keyword Value="ThreadPriority" />
+		<Keyword Value="VirtualAllocation" />
+		<Keyword Value="WDFDPC" />
+        <Keyword Value="WDFInterrupt" />
+      </Keywords>
+      <Stacks>
+        <Stack Value="CSwitch" />
+        <Stack Value="HandleCreate" />
+        <Stack Value="HandleClose" />
+        <Stack Value="HandleDuplicate" />
+        <Stack Value="SampledProfile" />
+		<Stack Value="ThreadCreate" />
+        <Stack Value="ReadyThread" />
+      </Stacks>
+    </SystemProvider>
+    <EventProvider Id="Microsoft-Windows-Winlogon" Name="dbe9b383-7cf3-4331-91cc-a3cb16a3b538"/>
+	<EventProvider Id="Microsoft-Windows-GroupPolicy" Name="aea1b4fa-97d1-45f2-a64c-4d69fffd92c9"/>
+	<EventProvider Id="Microsoft-Windows-Wininit" Name="206f6dea-d3c5-4d10-bc72-989f03c8b84b111111"/>
+	<EventProvider Id="Microsoft-Windows-User_Profiles_Service" Name="89b1e9f0-5aff-44a6-9b44-0a07a7ce5845"/>
+	<EventProvider Id="Microsoft-Windows-User_Profiles_General" Name="db00dfb6-29f9-4a9c-9b3b-1f4f9e7d9770"/>
+	<EventProvider Id="Microsoft-Windows-Folder_Redirection" Name="7d7b0c39-93f6-4100-bd96-4dda859652c5"/>
+	<EventProvider Id="Microsoft-Windows-Security-Netlogon" Name="e5ba83f6-07d0-46b1-8bc7-7e669a1d31dca"/>
+	<EventProvider Id="Microsoft-Windows-Shell-Core" Name="30336ed4-e327-447c-9de0-51b652c86108"/>
+    <Profile Id="SBSL.Verbose.Memory" Name="SBSL" Description="RunningProfile:SBSL.Verbose.Memory" LoggingMode="Memory" DetailLevel="Verbose"> <!-- Default profile. Used when the '-slowlogon' switch is used  -->
+      <ProblemCategories>
+        <ProblemCategory Value="First level triage" />
+      </ProblemCategories>
+      <Collectors>
+        <SystemCollectorId Value="SBSL_System_Collector">
+          <SystemProviderId Value="SBSL_Collector_Provider" />
+        </SystemCollectorId>
+        <EventCollectorId Value="SBSL_Event_Collector">
+          <EventProviders>
+            <EventProviderId Value="Microsoft-Windows-Winlogon"/>
+			<EventProviderId Value="Microsoft-Windows-GroupPolicy"/>
+			<EventProviderId Value="Microsoft-Windows-Wininit"/>
+			<EventProviderId Value="Microsoft-Windows-User_Profiles_Service"/>
+			<EventProviderId Value="Microsoft-Windows-User_Profiles_General"/>
+			<EventProviderId Value="Microsoft-Windows-Folder_Redirection"/>
+			<EventProviderId Value="Microsoft-Windows-Shell-Core"/>
+			<EventProviderId Value="Microsoft-Windows-Security-Netlogon"/>
+          </EventProviders>
+        </EventCollectorId>
+      </Collectors>
+      <TraceMergeProperties>
+        <TraceMergeProperty Id="BaseVerboseTraceMergeProperties" Name="BaseTraceMergeProperties">
+          <DeletePreMergedTraceFiles Value="true" />
+          <FileCompression Value="false" />
+          <InjectOnly Value="false" />
+          <CustomEvents>
+            <CustomEvent Value="ImageId" />
+            <CustomEvent Value="BuildInfo" />
+            <CustomEvent Value="VolumeMapping" />
+            <CustomEvent Value="EventMetadata" />
+            <CustomEvent Value="PerfTrackMetadata" />
+            <CustomEvent Value="WinSAT" />
+            <CustomEvent Value="NetworkInterface" />
+          </CustomEvents>
+        </TraceMergeProperty>
+      </TraceMergeProperties>
+    </Profile>
+        <Profile Id="SBSL.Light.Memory" Name="SBSL" Description="RunningProfile:SBSL.Light.Memory" Base="SBSL.Verbose.Memory" LoggingMode="Memory" DetailLevel="Light" /> <!-- Light memory profile. Not currently in use. Reserved for later usage -->
+		<Profile Id="SBSL.Verbose.File" Name="SBSL" Description="RunningProfile:SBSL.Verbose.File" Base="SBSL.Verbose.Memory" LoggingMode="File" DetailLevel="Verbose" /> <!-- Default -File mode profile. Used when the '-slowlogon' switch is added -->
+		<Profile Id="SBSL.Light.File" Name="SBSL" Description="RunningProfile:SBSL.Light.File" Base="SBSL.Verbose.Memory" LoggingMode="File" DetailLevel="Light" /> <!-- Light file profile. Not currently in use. Reserved for later usage -->
+  </Profiles>
+</WindowsPerformanceRecorder>
+

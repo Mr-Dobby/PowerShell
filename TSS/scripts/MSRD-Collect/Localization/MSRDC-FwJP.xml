@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingJP">MSRD-Collectの起動</lang>
+<lang id="notApprovedJP">スクリプトの実行は管理者ユーザーによって承認されていません。終了します。</lang>
+<lang id="eulaOKJP">EULAが受け入れられました。続行します</lang>
+<lang id="eulaNotOKJP">EULAが拒否されました。終了します</lang>
+<lang id="eulaSilentOKJP">AcceptEulaスイッチが指定されています。無音で続行します</lang>
+<lang id="noticeOKJP">通知が受け入れられました。続行します</lang>
+<lang id="noticeSilentOKJP">AcceptNoticeスイッチが指定されています。無音で続行します</lang>
+<lang id="enabledJP">有効</lang>
+<lang id="disabledJP">無効</lang>
+<lang id="autoUpdateJP">スクリプト起動時の自動更新チェック:</lang>
+<lang id="playSndJP">サウンドを再生:</lang>
+<lang id='aaModeJP'>オーディオアシストモード:</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuJP'>ファイル</lang>
+<lang id='RunMenuJP'>データ収集/診断の開始</lang>
+<lang id='UpdateMenuJP'>更新の確認</lang>
+<lang id='ExitMenuJP'>終了</lang>
+<lang id='ViewMenuJP'>表示</lang>
+<lang id='PresetsMenuJP'>プリセット</lang>
+<lang id='HideConsoleJP'>コンソールウィンドウの表示</lang>
+<lang id='MaximizeWindowJP'>最大化して開始</lang>
+<lang id='AlwaysOnTopJP'>常に最前面に表示</lang>
+<lang id='OutputLocationJP'>出力先を開く</lang>
+<lang id='LiteModeJP'>ライトモード</lang>
+<lang id='LiteModeMachineJP'>マシンコンテキストを選択</lang>
+<lang id='LiteModeRoleJP'>マシンの役割を選択</lang>
+<lang id='LiteModeSourceJP'>ソースマシン/クライアント</lang>
+<lang id='LiteModeSourceTooltipJP'>Remote Desktopクライアントを使用して他のマシンに接続するソースマシン</lang>
+<lang id='LiteModeTargetJP'>ターゲットマシン/ホスト</lang>
+<lang id='LiteModeTarget2JP'>ターゲットマシン/ホスト（または中間サーバー）</lang>
+<lang id='LiteModeTargetTooltipJP'>接続するターゲットマシン</lang>
+<lang id='LiteModeTargetTooltip2JP'>接続するターゲットマシンまたはRDSデプロイメント内の任意のRDSサーバー</lang>
+<lang id='LiteModeScenariosJP'>1つ以上のシナリオを選択します（オプション）</lang>
+<lang id='LiteModeStartJP'>準備ができたら「開始」をクリックします</lang>
+<lang id='LiteModeAdvancedJP'>高度なモード</lang>
+<lang id='LiteModeHideConsoleJP'>コンソールを表示</lang>
+<lang id='DiagReportsJP'>診断レポート</lang>
+<lang id='ToolsMenuJP'>ツール</lang>
+<lang id='SetOutputLocationJP'>出力先を設定...</lang>
+<lang id='SetUserContextJP'>ユーザーコンテキストを設定...</lang>
+<lang id='ConfigDataCollectionJP'>データ収集を設定...</lang>
+<lang id='ConfigDiagJP'>診断を設定...</lang>
+<lang id='ConfigSchedTaskJP'>スケジュールされたタスクを作成...</lang>
+<lang id='OpenTaskSchedJP'>タスクスケジューラを開く</lang>
+<lang id='AutoVerCheckJP'>起動時に更新を確認</lang>
+<lang id='PlaySoundsJP'>システムサウンドを使用</lang>
+<lang id='AssistModeJP'>オーディオアシストモード</lang>
+<lang id='UILangJP'>ユーザーインターフェイスの言語</lang>
+<lang id='araJP'>アラビア語</lang>
+<lang id='dutJP'>オランダ語</lang>
+<lang id='gerJP'>ドイツ語</lang>
+<lang id='engJP'>英語</lang>
+<lang id='hunJP'>ハンガリー語</lang>
+<lang id='romJP'>ルーマニア語</lang>
+<lang id='freJP'>フランス語</lang>
+<lang id='itaJP'>イタリア語</lang>
+<lang id='porJP'>ポルトガル語</lang>
+<lang id='spaJP'>スペイン語</lang>
+<lang id='jpnJP'>日本語</lang>
+<lang id='czeJP'>チェコ語</lang>
+<lang id='turJP'>トルコ語</lang>
+<lang id='chiJP'>中国語</lang>
+<lang id='HelpMenuJP'>ヘルプ</lang>
+<lang id='ReadMeJP'>ReadMe（英語）</lang>
+<lang id='WhatsNewJP'>新着情報</lang>
+<lang id='DownloadJP'>ダウンロード</lang>
+<lang id='DownloadMSRDCJP'>&amp;MSRD-Collectを取得</lang>
+<lang id='DownloadRDSTracingJP'>&amp;RDSTracingを取得</lang>
+<lang id='DownloadSaRAJP'>&amp;SaRA for Office 365を取得</lang>
+<lang id='DownloadTSSJP'>&amp;TSSを取得</lang>
+<lang id='MSDocsJP'>&amp;Microsoft Docs</lang>
+<lang id='AVDJP'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixJP'>&amp;FSLogix</lang>
+<lang id='RDSJP'>&amp;Remote Desktop Services</lang>
+<lang id='365JP'>&amp;Windows 365</lang>
+<lang id='TechCommunityJP'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDJP'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixJP'>&amp;FSLogix</lang>	
+<lang id='TC365JP'>&amp;Windows 365</lang>
+<lang id='AzureMenuJP'>A&amp;zure</lang>
+<lang id='AzOutageNotificationJP'>影響を受ける障害について通知を受ける (Docs)</lang>
+<lang id='AzStatusJP'>Azure ステータス</lang>
+<lang id='AzStatusHistJP'>Azure ステータス履歴</lang>
+<lang id='AzServHealthJP'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorJP'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailJP'>フィードバックを提供 (&amp;メール)</lang>
+<lang id='FeedbackSurveyJP'>フィードバックを提供 (&amp;調査)</lang>
+<lang id='AboutJP'>バージョン情報</lang>
+<lang id='contextLabelJP'>マシンコンテキスト</lang>
+<lang id='roleLabelJP'>マシンロール</lang>
+<lang id='scenarioLabelJP'>データ収集シナリオ</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceJP'>Source</lang>
+<lang id='btnTargetJP'>Target</lang>
+<lang id='btnAVDJP'>AVD</lang>
+<lang id='btnRDSJP'>RDS</lang>
+<lang id='btnW365JP'>W365</lang>
+<lang id='btnCoreJP'>Core</lang>
+<lang id='btnProfilesJP'>Profiles</lang>
+<lang id='btnActivationJP'>Activation</lang>
+<lang id='btnMSRAJP'>MSRA</lang>
+<lang id='btnSCardJP'>SCard</lang>
+<lang id='btnIMEJP'>IME</lang>
+<lang id='btnTeamsJP'>Teams</lang>
+<lang id='btnMSIXAAJP'>MSIXAA</lang>
+<lang id='btnHCIJP'>HCI</lang>
+<lang id='btnProcDumpJP'>DumpPID</lang>
+<lang id='btnNetTraceJP'>NetTrace</lang>
+<lang id='btnDiagOnlyJP'>DiagOnly</lang>
+<lang id='btnLiveDiagJP'>LiveDiag</lang>
+<lang id='StartJP'>開始</lang>
+<lang id='RunningJP'>実行中</lang>
+<lang id='SurveyJP'>調査</lang>
+<lang id='CompLabelJP'>コンピューター</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDJP'>このマシンタイプを選択して、Azure Virtual Desktop 関連のシナリオを実行します</lang>
+<lang id='btnTooltipRDSJP'>このマシンタイプを選択して、リモート デスクトップ サービスまたは直接 RDP 関連のシナリオを実行します</lang>
+<lang id='btnTooltipW365JP'>このマシンタイプを選択して、Windows 365 Cloud PC 関連のシナリオを実行します</lang>
+<lang id='btnTooltipSourceJP'>このロールタイプを選択して、マシンが他のマシンへのリモート接続を開始する場合</lang>
+<lang id='btnTooltipTargetJP'>このロールタイプを選択して、マシンがリモート接続の受信側にある場合、または任意の RDS ロールがインストールされたサーバーの場合</lang>
+<lang id='btnTooltipProfilesJP'>'ユーザープロファイル' の問題のトラブルシューティングのためのデータを収集します</lang>
+<lang id='btnTooltipActivationJP'>OS ライセンス/アクティベーションの問題のトラブルシューティングのためのデータを収集します</lang>
+<lang id='btnTooltipMSRAJP'>リモート アシスタンスの問題のトラブルシューティングのためのデータを収集します</lang>
+<lang id='btnTooltipSCardJP'>スマート カードの問題のトラブルシューティングのためのデータを収集します</lang>
+<lang id='btnTooltipIMEJP'>入力方法の問題のトラブルシューティングのためのデータを収集します</lang>
+<lang id='btnTooltipTeamsJP'>Teams メディア最適化の問題のトラブルシューティングのためのデータを収集します (AVD/W365 のみ)</lang>
+<lang id='btnTooltipMSIXAAJP'>MSIX App Attach の問題のトラブルシューティングのためのデータを収集します (AVD のみ)</lang>
+<lang id='btnTooltipHCIJP'>Azure Stack HCI の問題のトラブルシューティングのためのデータを収集します (AVD のみ)</lang>
+<lang id='btnTooltipProcDumpJP'>既存のプロセスのプロセス ダンプを収集します</lang>
+<lang id='btnTooltipNetTraceJP'>ネットワーク トレース (netsh) を収集します</lang>
+<lang id='btnTooltipDiagOnlyJP'>診断レポートのみを生成します</lang>
+<lang id='btnTooltipLiveDiagJP'>ライブ診断モードに入ります</lang>
+<lang id='btnTooltipSurveyJP'>MSRD-Collect 満足度調査を開いて、スクリプトに関するフィードバックを提供します</lang>
+<lang id='btnTooltipComputerJP'>セミコロンで区切られた 1 つ以上のコンピューター名 (NetBIOS または FQDN) を入力して、データを収集します</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkJP'>このスクリプトはいかがですか?</lang>
+<lang id='ReadyJP'>準備完了</lang>
+<lang id='checkupdJP'>更新プログラムを確認しています。しばらくお待ちください...</lang>
+<lang id='collecting1JP'>収集中</lang>
+<lang id='collecting2JP'>データ。しばらくお待ちください...</lang>
+<lang id='waitJP'>しばらくお待ちください...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aJP'>スクリプト バージョン</lang>
+<lang id='initvalues1bJP'>から起動:</lang>
+<lang id='initvalues1cJP'>コマンド ライン:</lang>
+<lang id='initvalues2JP'>EULA と通知が受け入れられました</lang>
+<lang id='initvalues3JP'>出力場所:</lang>
+<lang id='initvalues4JP'>ユーザー コンテキスト:</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteJP'>Teams の問題のトラブルシューティングのために、まず最新の Teams デバッグ ログを生成することをお勧めします。
+参照: https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+これらのデバッグ ログを生成するには、影響を受ける Teams アプリ (このデータ収集と同じユーザー アカウント/コンテキストを使用) を開き、Teams 内で CTRL+ALT+SHIFT+1 を押します。
+Teams は、このスクリプトで収集できる診断ログを生成します。
+
+これらのログをすでに持っているか、必要がない場合は、'Retry' を選択して続行します。
+それ以外の場合は、'Cancel' を選択して Teams デバッグ ログを生成し、データ収集を再開します。</lang>
+
+<lang id='teamstitleJP'>Teams のトラブルシューティング データを収集しています</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1JP'>ダンプする実行中のプロセスを選択します</lang>
+<lang id='dpidtext2JP'>プロセスを選択します</lang>
+<lang id='dpidtext3JP'>プロセス ダンプのために選択されたプロセス (PID):</lang>
+<lang id='dpidtext4JP'>PID が選択されていません - プロセス ダンプは生成されません</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgJP'>データ収集を実行しています - しばらくお待ちください...</lang>
+<lang id='fdcmsgJP'>データ収集が完了しました</lang>
+<lang id='rdiagmsgJP'>診断を実行しています - しばらくお待ちください...</lang>
+<lang id='noDiagmsgJP'>診断チェックが選択されていません。診断レポートの生成をスキップします。</lang>
+<lang id='selectedParamJP'>データ収集/診断のために選択されたパラメーター:</lang>
+<lang id='checkmsgJP'>確認中</lang>
+<lang id='fdiagmsgJP'>診断が完了しました</lang>
+<lang id='archmsgJP'>結果をアーカイブしています - しばらくお待ちください!</lang>
+<lang id='zipmsgJP'>Zip ファイルが準備されました:</lang>
+<lang id='ziperrormsgJP'>Zip ファイルを作成できませんでした。次の場所に手動で収集されたデータをアーカイブしてください:</lang>
+<lang id='dtmmsgJP'>これらの結果を Microsoft CSS と共有する際は、常に安全なファイル転送ツールを使用してください。サポート担当者とも、懸念事項も含めて、このことについて話し合ってください。</lang>
+<lang id='logfoldermsgJP'>フォルダーを作成しています</lang>
+<lang id='logfolderexistmsgJP'>はすでに存在します</lang>
+<lang id='coremsgJP'>コアのトラブルシューティング データを収集しています</lang>
+<lang id='profilesmsgJP'>ユーザー プロファイルのトラブルシューティング データを収集しています</lang>
+<lang id='msramsgJP'>リモート アシスタンスのトラブルシューティング データを収集しています</lang>
+<lang id='scardmsgJP'>スマート カードのトラブルシューティング データを収集しています</lang>
+<lang id='imemsgJP'>入力メソッドのトラブルシューティング データを収集しています</lang>
+<lang id='teamsmsgJP'>AVD 上の Teams のトラブルシューティング データを収集しています</lang>
+<lang id='msixaamsgJP'>MSIX App Attach のトラブルシューティング データを収集しています</lang>
+<lang id='hcimsgJP'>Azure Stack HCI のトラブルシューティング データを収集しています</lang>
+<lang id='activationmsgJP'>OS ライセンス/アクティベーションのトラブルシューティング データを収集しています</lang>
+<lang id='errormsgJP'>でエラーが発生しました</lang>
+<lang id='location1JP'>結果を保存する場所を選択してください (既定は C:\MS_DATA です)</lang>
+<lang id='location2JP'>出力場所:</lang>
+<lang id='context1JP'>ユーザー コンテキストを設定する</lang>
+<lang id='context2JP'>プロファイルからデータを収集するユーザー名を入力してください</lang>
+<lang id='context3JP'>ユーザー コンテキストが次に設定されました:</lang>
+<lang id='selectCollect1JP'>データ収集を構成する</lang>
+<lang id='selectCollect2JP'>データ収集のために項目を選択するには、左側のテーブルを使用し、選択した項目を除外するには右矢印をクリックします。項目を再度含めるには、右側のテーブルから選択して左矢印をクリックします。</lang>
+<lang id='selectCollect3JP'>シナリオごとに収集されるデータ</lang>
+<lang id='selectCollect4JP'>シナリオごとに除外されるデータ</lang>
+<lang id='selectDiag1JP'>診断を構成する</lang>
+<lang id='selectDiag2JP'>診断のために項目を選択するには、左側のテーブルを使用し、選択した項目を除外するには右矢印をクリックします。項目を再度含めるには、右側のテーブルから選択して左矢印をクリックします。</lang>
+<lang id='selectDiag3JP'>カテゴリごとに実行される診断</lang>
+<lang id='selectDiag4JP'>カテゴリごとに除外される診断</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceJP'>ネットワーク トレースを実行しています - しばらくお待ちください...</lang>
+
+<lang id='netTraceNoteJP'>問題を再現してください。
+問題が発生したら、[OK] ボタンを押してトレースをできるだけ早く停止してください。</lang>
+
+<lang id='netTraceNote2JP'>問題を再現してから 'Y' キーを押してください (ウィンドウがここにフォーカスされている状態で)</lang>
+<lang id='netTraceRunningJP'>ネットワーク トレースが実行されています</lang>
+<lang id='netTraceStoppingJP'>ネットワーク トレースを停止しています - しばらくお待ちください (数分かかる場合があります)...</lang>
+<lang id='netTraceFinishedJP'>ネットワーク トレースが完了しました</lang>
+<lang id='conVisibleJP'>コンソール ウィンドウが表示されています</lang>
+<lang id='conHiddenJP'>コンソール ウィンドウが非表示になっています</lang>
+<lang id='openMaximizedJP'>スクリプトは最大化されて起動されます</lang>
+<lang id='openWindowedJP'>スクリプトは最大化されずに起動されます</lang>
+<lang id='ontopJP'>スクリプト ウィンドウは他のウィンドウの上に表示されます</lang>
+<lang id='ontopNotJP'>スクリプト ウィンドウは他のウィンドウの上に表示されません</lang>
+<lang id='outputNotFoundJP'>[警告] 選択した出力場所が見つかりませんでした。</lang>
+<lang id='outputLoc1JP'>現在の出力場所で利用可能な診断レポートのリストを更新しています</lang>
+<lang id='outputLoc2JP'>[警告] 選択した出力場所は存在しません。[表示\診断レポート] をクリックしてリストを更新し、もう一度実行してください。</lang>
+<lang id='outputLoc3JP'>リストは正常に更新されました。</lang>
+<lang id='outputLoc4JP'>現在の出力場所にレポートは見つかりませんでした</lang>	
+<lang id='outputLoc5JP'>このリストを作成するには、まずいくつかの診断レポートを生成してください。</lang>
+<lang id='outputLoc6JP'>現在の出力場所は存在しません</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgJP'>1 つ以上のバックグラウンド ジョブがまだ実行中です。これらは最大 3 分かかる場合があります。しばらくお待ちください...</lang>
+<lang id='bgjob2msgJP'>1 つ以上のバックグラウンド ジョブが割り当てられた時間内に完了できませんでした。一部のデータが欠落している可能性があります。この問題が繰り返し発生する場合は、次のアドレスに報告してください: MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1JP'>新しいバージョンが利用可能かどうかを確認しています (しばらくお待ちください)</lang>
+<lang id='vercheck2JP'>https://aka.ms/msrd-collect で新しいバージョンが利用可能です!</lang>
+<lang id='vercheck3JP'>新しいバージョンが利用可能です:</lang>
+<lang id='vercheck4JP'>現在のバージョンは</lang>
+<lang id='vercheck5JP'>最良の結果を得るには、https://aka.ms/MSRD-Collect から最新バージョンをダウンロードして使用してください</lang>
+<lang id='vercheck5bJP'>[はい] を選択すると、ブラウザ ウィンドウが開いて最新の 'MSRD-Collect.zip' ファイルをダウンロードし、現在のスクリプトが終了します。それ以外の場合は、現在のスクリプトはそのまま続行されます。</lang>
+<lang id='vercheck6JP'>新しいバージョンを今すぐダウンロードしますか?</lang>
+
+<lang id='vercheck7JP'>https://aka.ms/MSRD-Collect から最新の 'MSRD-Collect.zip' をダウンロードするために既定のブラウザを開いています
+終了します。
+</lang>
+
+<lang id='vercheck8JP'>最新バージョンをまだダウンロードしないことにしました。最良の結果を得るには、https://aka.ms/MSRD-Collect から最新バージョンをダウンロードして使用してください</lang>
+<lang id='vercheck9JP'>MSRD-Collect のバージョンは最新です</lang>
+<lang id='PDvercheck1JP'>ProcDump のバージョンは最新です</lang>
+<lang id='selfupdate1JP'>[はい] を選択すると、スクリプトが自動的に更新されます。それ以外の場合は、現在のスクリプトはそのまま続行されます。</lang>
+<lang id='selfupdate2JP'>スクリプトの自動更新</lang>
+<lang id='selfupdate3JP'>ユーザーによって開始:</lang>
+<lang id='selfupdate4JP'>https://aka.ms/MSRD-Collect から最新リリースのセキュアなダウンロードを開始しています (しばらくお待ちください)</lang>
+<lang id='selfupdate5JP'>現在の MSRD-Collect 構成ファイルのコピーを保存しています</lang>
+<lang id='selfupdate6JP'>ファイルを次から抽出しています</lang>
+<lang id='selfupdate7JP'>以前のバックアップから MSRD-Collect 構成ファイルを復元し、バックアップを削除しています</lang>
+<lang id='selfupdate8JP'>一時ダウンロード ファイルを削除しています</lang>
+<lang id='selfupdate9JP'>更新に成功しました。スクリプトを再起動しています。</lang>
+
+<!-- How to -->	
+<lang id='howtouseJP'>利用ガイド:
+
+	ステップ 1: マシンが使用されているコンテキスト/環境を選択します:
+	
+		AVD		- Azure Virtual Desktop
+		RDS		- リモートデスクトップサービスまたは直接的な（AVDではない/W365ではない）RDP接続
+		W365		- Windows 365 Cloud PC
+
+	ステップ 2: 指定されたコンテキスト/環境でのマシンの役割を選択します:
+	
+		Source		- リモートデスクトップクライアントを使用して他のマシンに接続するソースマシン
+		Target		- 接続する対象のマシンまたは任意のRDSロールがインストールされたサーバー
+
+	ステップ 3: [任意] 'AVD'または'W365'を選択した場合は、データを収集する'コンピューター'フィールドに1つ以上のコンピューター名（NetBIOSまたはFQDN）を入力します。 
+		 ローカルコンピューター名がデフォルト値として使用されます。 
+		 複数のマシンが指定されている場合は、セミコロンで区切ります。データは、各マシンから順番に収集されます。
+
+データ収集のために:
+
+	ステップ 4a: [任意] 利用可能なシナリオを選択してください。
+	
+		Profiles	- 'ユーザープロファイル'のトラブルシューティングのためのデータを収集します
+		Activation	- 'OSライセンス/アクティベーション'のトラブルシューティングのためのデータを収集します
+		MSRA		- 'リモートアシスタンス'のトラブルシューティングのためのデータを収集します
+		SCard		- 'スマートカード'のトラブルシューティングのためのデータを収集します
+		IME		- '入力方法'のトラブルシューティングのためのデータを収集します
+		Teams		- 'Teamsメディア最適化'のトラブルシューティングのためのデータを収集します（AVD/W365のみ）
+		MSIXAA		- 'MSIX App Attach'のトラブルシューティングのためのデータを収集します（AVDのみ）
+		HCI		- 'Azure Stack HCI'のトラブルシューティングのためのデータを収集します（AVDのみ）
+		DumpPID	- 既存のプロセスのプロセスダンプを収集します
+		NetTrace	- ネットワークトレースを収集します（netsh）
+		DiagOnly	- 診断レポートのみを生成します
+
+	ステップ 5a: 準備ができたら '開始'ボタンをクリックしてください。データ収集/診断には数分かかる場合があります。
+
+ライブ診断のために:
+
+	ステップ 4b: 'LiveDiag'オプションを選択します。
+
+	ステップ 5b: 診断カテゴリタブを選択します。
+
+	ステップ 6: 選択したタブ内の必要なボタンをクリックして、対応する診断チェックを実行します。
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1JP'>診断を実行しています。これには数分かかる場合があります。しばらくお待ちください...</lang>
+<lang id='liveDiag2JP'>診断が完了しました</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateJP'>診断を実行するためのスケジュールされたタスクを作成する</lang>
+<lang id='schedTaskNoteJP'>このコンピューターにスケジュールされたタスクを作成しようとしています。このタスクはMSRD-Collect Diagnosticsを実行し、MSRD-Diag.htmlレポートを生成します。`n`n続行しますか?</lang>
+<lang id='schedTaskInfo1JP'>以下のパラメーターでスケジュールされたタスクが正常に作成されました:</lang>
+<lang id='schedTaskInfo2JP'>開始日:</lang>
+<lang id='schedTaskInfo3JP'>開始時刻:</lang>
+<lang id='schedTaskInfo4JP'>頻度:</lang>
+<lang id='schedTaskInfo5JP'>曜日:</lang>
+<lang id='schedTaskInfo6JP'>マシンコンテキスト:</lang>
+<lang id='schedTaskInfo7JP'>マシンロール:</lang>
+<lang id='schedTaskInfo8JP'>スクリプトの場所:</lang>
+<lang id='schedTaskInfo9JP'>出力場所:</lang>
+<lang id='schedTaskInfo10JP'>ユーザーコンテキスト:</lang>
+<lang id='schedTaskInfo11JP'>以下のパラメーターでスケジュールされたタスクが正常に作成されました:</lang>
+<lang id='schedTaskInfo12JP'>月の週:</lang>
+<lang id='schedTaskInfo13JP'>不明なエラー。スケジュールされたタスクは作成されませんでした。</lang>
+<lang id='schedTaskInfo14JP'>実行されるアクション:</lang>
+<lang id='schedTaskEmpty1JP'>出力場所は空です</lang>
+<lang id='schedTaskEmpty2JP'>スクリプトの場所は空です</lang>
+<lang id='schedTaskNotFound1JP'>出力場所が見つかりません</lang>
+<lang id='schedTaskNotFound2JP'>スクリプトの場所が見つかりません</lang>
+	
+<!-- Presets -->
+<lang id='presetResetJP'>すべてリセット</lang>
+<lang id='presetLoaded1JP'>プリセットが選択されました</lang>
+<lang id='presetLoaded2JP'>データ収集/診断を開始するには、[開始]ボタンを押します。</lang>
+<lang id='presetErrcon1JP'>接続できません / 初期接続時のエラー (ソース/クライアント マシン)</lang>
+<lang id='presetErrcon2JP'>接続できません / 初期接続時のエラー (ターゲット/ホスト マシン)</lang>
+<lang id='presetLogon1JP'>ログオンできません / 認証またはユーザー プロファイルの問題 (ソース/クライアント マシン)</lang>
+<lang id='presetLogon2JP'>ログオンできません / 認証またはユーザー プロファイルの問題 (ターゲット/ホスト マシン)</lang>
+<lang id='presetScard1JP'>スマート カードでログオンできない、またはセッション内でスマート カードを使用する際の問題 (ソース/クライアント マシン)</lang>
+<lang id='presetScard2JP'>スマート カードでログオンできない、またはセッション内でスマート カードを使用する際の問題 (ターゲット/ホスト マシン)</lang>
+<lang id='presetMsixaaJP'>MSIX App Attach / 割り当てられたアプリケーション パッケージの使用に関する問題 (ターゲット/ホスト マシン)</lang>
+<lang id='presetLic1JP'>RD ライセンスの問題 'per Device' RDS CAL (ソース/クライアント マシン)</lang>
+<lang id='presetLic2JP'>RD ライセンスの問題 'per Device' または 'per User' RDS CAL (Session Host / License Server)</lang>
+<lang id='presetLic3JP'>RD ライセンスの問題 'per User' RDS CAL (Session Host / License Server)</lang>
+<lang id='presetDiscon1JP'>アクティブまたはアイドル状態のセッションの予期しない切断 (ソース/クライアント マシン)</lang>
+<lang id='presetDiscon2JP'>アクティブまたはアイドル状態のセッションの予期しない切断 (ターゲット/ホスト マシン)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeJP'>スクリプトは現在、リモート モードです</lang>
+<lang id='remoteInvalidCompJP'>'Computer(s)' フィールドに無効なコンピューター名が含まれています:</lang>
+<lang id='remoteReach1JP'>指定されたコンピューター</lang>
+<lang id='remoteReach2JP'>に到達できます。データ収集/診断を続行します。</lang>
+<lang id='remoteReach3JP'>に到達できません。コンピューター名が正しいこと、およびネットワーク経由で到達可能であることを確認してください。すでに行っていない場合は、リモート コンピューターで 'ファイルとプリンターの共有を有効にする' 必要がある場合があります。</lang>
+<lang id='remoteModeNotice1JP'>'Computer(s)' フィールドに、ローカル マシンとは異なる 1 台以上のマシンが指定されています。</lang>
+<lang id='remoteModeNotice2JP'>スクリプトは、指定された各マシンの C:\MS_DATA\ フォルダーに自身をコピーしてそこから実行することで、リモートでデータを収集しようとします。</lang>
+<lang id='remoteModeNotice3JP'>続行しますか?</lang>
+<lang id='remoteModeNotice4JP'>「はい」を選択すると、各リモート マシンに対して個別に資格情報を入力するように求められる場合があります。 リモート マシンで管理者権限を持つアカウントを指定してください (マシンがドメインに参加している場合は、ドメイン管理者が望ましいです)。</lang>
+<lang id='remoteModeNotice5JP'>現在、フィルタリング用の 'データ収集の構成' または '診断の構成' オプションで行われた変更は、リモート データ収集または診断には適用されないことに注意してください。</lang>
+<lang id='remoteModeRunningJP'>リモート モードで実行中 - しばらくお待ちください...</lang>
+<lang id='localModeJP'>スクリプトは現在、ローカル モードです</lang>
+<lang id='popupWarningJP'>警告</lang>
+<lang id='remotePSinitLocalCredJP'>現在のユーザーの特権を使用してリモート PowerShell セッションを設定しています。 リモート コンピューター:</lang>
+<lang id='remotePSinitLocalCredSuccessJP'>現在のユーザーの特権を使用してリモート PSSession が正常に作成されました。 リモート コンピューター:</lang>
+<lang id='remotePSinitLocalCredFailJP'>現在のユーザーの特権を使用してリモート PSSession を作成できませんでした。 資格情報を求めて再試行します。 リモート コンピューター:</lang>
+<lang id='remotePSenterCredJP'>リモート コンピューターの管理者資格情報を入力してください:</lang>
+<lang id='remotePSinitProvCredSuccessJP'>指定された資格情報を使用してリモート PSSession が正常に作成されました。 リモート コンピューター:</lang>
+<lang id='remotePScopyJP'>スクリプト ファイルを C:\MS_DATA\ にコピーしています:</lang>
+<lang id='remotePScopyExistsJP'>は既に存在します。 既存のスクリプト ファイルを確認し、必要に応じて更新します。 リモート コンピューター:</lang>
+<lang id='remotePSlaunch1JP'>リモート PSSession で MSRD-Collect を起動しています</lang>
+<lang id='remotePScompleteJP'>リモート データ収集/診断が完了しました。 リモート PSSession を削除しています:</lang>
+
+<!-- User Context -->
+<lang id='userCon1JP'>指定されたユーザーのローカル プロファイルが、デフォルトのユーザー プロファイルの場所に見つかりませんでした:</lang>
+<lang id='userCon2JP'>ユーザー コンテキストが次にリセットされました:</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundJP'>avdnettest.exe が見つかりませんでした。 AVD の RDP Shortpath の可用性に関する情報が不完全になります。 MSRD-Collect または TSS の完全なパッケージをダウンロードして展開していることを確認してください</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeJP'>AVD Windows デスクトップ クライアント (MSRDC) は現在このコンピューターで実行されています。
+最新の Windows デスクトップ クライアント固有の ETL トレースをキャプチャするには、MSRDC.exe プロセスを終了する必要があります。
+	
+	
+MSRDC.exe を終了しますか?
+	
+	
+'はい' を選択すると、MSRDC.exe プロセスが終了し、すべての送信中の MSRDC 接続が切断され、スクリプトはデータ収集を続行します。
+	
+'いいえ' を選択すると、MSRDC.exe プロセスが継続され、スクリプトはデータ収集を続行しますが、最新の ETL トレースを収集することはできません。
+	
+'キャンセル' を選択すると、データ収集が中止されます。</lang>
+
+<lang id='msrdcClosedJP'>MSRDC.exe が終了しました。 最新の RD クライアント ETL トレース データを保存できるように、スクリプトは 20 秒間待機します。</lang>
+<lang id='msrdcNotClosedJP'>MSRDC.exe が終了していません。 最新の RD クライアント ETL トレース データはトラブルシューティングに使用できません。 データ収集を続行します。</lang>
+<lang id='msrdcTitleJP'>続行する前に</lang>
+
+</LangV1>

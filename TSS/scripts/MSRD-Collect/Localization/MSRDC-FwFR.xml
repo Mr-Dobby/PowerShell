@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding = "UTF-8" standalone="no"?>
+<LangV1>
+
+<!-- Script -->
+<lang id="startingFR">Démarrage de MSRD-Collect</lang>
+<lang id="notApprovedFR">L'exécution du script n'est pas approuvée par l'utilisateur administrateur, sortie.</lang>
+<lang id="eulaOKFR">EULA accepté, poursuite</lang>
+<lang id="eulaNotOKFR">EULA refusé, sortie</lang>
+<lang id="eulaSilentOKFR">AcceptEula switch spécifié, poursuite silencieuse</lang>
+<lang id="noticeOKFR">Avis accepté, poursuite</lang>
+<lang id="noticeSilentOKFR">AcceptNotice switch spécifié, poursuite silencieuse</lang>
+<lang id="enabledFR">Activé</lang>
+<lang id="disabledFR">Désactivé</lang>
+<lang id="autoUpdateFR">Vérification automatique des mises à jour au lancement du script :</lang>
+<lang id="playSndFR">Jouer les sons :</lang>
+<lang id='aaModeFR'>Mode Audio Assist :</lang>
+	
+<!-- Menus -->
+<lang id='FileMenuFR'>&amp;Fichier</lang>
+<lang id='RunMenuFR'>Démarrer la collecte de données / diagnostics</lang>
+<lang id='UpdateMenuFR'>Vérifier les &amp;mises à jour</lang>
+<lang id='ExitMenuFR'>&amp;Quitter</lang>
+<lang id='ViewMenuFR'>&amp;Affichage</lang>
+<lang id='PresetsMenuFR'>&amp;Préréglages</lang>
+<lang id='HideConsoleFR'>&amp;Afficher la fenêtre de la console</lang>
+<lang id='MaximizeWindowFR'>Démarrer en plein écran</lang>
+<lang id='AlwaysOnTopFR'>&amp;Toujours en premier plan</lang>
+<lang id='OutputLocationFR'>&amp;Ouvrir l'emplacement de sortie</lang>
+<lang id='LiteModeFR'>&amp;Mode simplifié</lang>
+<lang id='LiteModeMachineFR'>Sélectionner le contexte de la machine</lang>
+<lang id='LiteModeRoleFR'>Sélectionner le rôle de la machine</lang>
+<lang id='LiteModeSourceFR'>Machine source / Client</lang>
+<lang id='LiteModeSourceTooltipFR'>Machine source à partir de laquelle vous vous connectez à d'autres machines à l'aide d'un client de bureau à distance</lang>
+<lang id='LiteModeTargetFR'>Machine cible / Hôte</lang>
+<lang id='LiteModeTarget2FR'>Machine cible / Hôte (ou serveurs intermédiaires)</lang>
+<lang id='LiteModeTargetTooltipFR'>Machine cible à laquelle vous vous connectez</lang>
+<lang id='LiteModeTargetTooltip2FR'>Machine cible à laquelle vous vous connectez ou tout serveur RDS dans un déploiement RDS</lang>
+<lang id='LiteModeScenariosFR'>Sélectionnez un ou plusieurs scénarios (facultatif)</lang>
+<lang id='LiteModeStartFR'>Cliquez sur 'Démarrer' lorsque vous êtes prêt</lang>
+<lang id='LiteModeAdvancedFR'>Mode avancé</lang>
+<lang id='LiteModeHideConsoleFR'>&amp;Afficher la console</lang>
+<lang id='DiagReportsFR'>Rapports de &amp;diagnostic</lang>
+<lang id='ToolsMenuFR'>&amp;Outils</lang>
+<lang id='SetOutputLocationFR'>Définir l'emplacement de &amp;sortie...</lang>
+<lang id='SetUserContextFR'>Définir le &amp;contexte utilisateur...</lang>
+<lang id='ConfigDataCollectionFR'>Configurer la &amp;collecte de données...</lang>
+<lang id='ConfigDiagFR'>Configurer les &amp;diagnostics...</lang>
+<lang id='ConfigSchedTaskFR'>Créer une tâche planifiée...</lang>
+<lang id='OpenTaskSchedFR'>Ouvrir le Planificateur de tâches</lang>
+<lang id='AutoVerCheckFR'>Vérifier les mises à jour au lancement</lang>
+<lang id='PlaySoundsFR'>Utiliser les sons du système</lang>
+<lang id='AssistModeFR'>Mode d'assistance audio</lang>
+<lang id='UILangFR'>Langue de l'interface utilisateur</lang>
+<lang id='araFR'>Arabe</lang>
+<lang id='dutFR'>Néerlandais</lang>
+<lang id='gerFR'>Allemand</lang>
+<lang id='engFR'>Anglais</lang>
+<lang id='hunFR'>Hongrois</lang>
+<lang id='romFR'>Roumain</lang>
+<lang id='freFR'>Français</lang>
+<lang id='itaFR'>Italien</lang>
+<lang id='porFR'>Portugais</lang>
+<lang id='spaFR'>Espagnol</lang>
+<lang id='jpnFR'>Japonais</lang>
+<lang id='czeFR'>Tchèque</lang>
+<lang id='turFR'>Turc</lang>
+<lang id='chiFR'>Chinois</lang>
+<lang id='HelpMenuFR'>&amp;Aide</lang>
+<lang id='ReadMeFR'>&amp;ReadMe (Anglais)</lang>
+<lang id='WhatsNewFR'>&amp;Quoi de neuf</lang>
+<lang id='DownloadFR'>&amp;Téléchargements</lang>
+<lang id='DownloadMSRDCFR'>Obtenir &amp;MSRD-Collect</lang>
+<lang id='DownloadRDSTracingFR'>Obtenir &amp;RDSTracing</lang>
+<lang id='DownloadSaRAFR'>Obtenir &amp;SaRA pour Office 365</lang>
+<lang id='DownloadTSSFR'>Obtenir &amp;TSS</lang>
+<lang id='MSDocsFR'>&amp;Microsoft Docs</lang>
+<lang id='AVDFR'>&amp;Azure Virtual Desktop</lang>
+<lang id='FSLogixFR'>&amp;FSLogix</lang>
+<lang id='RDSFR'>&amp;Remote Desktop Services</lang>
+<lang id='365FR'>&amp;Windows 365</lang>
+<lang id='TechCommunityFR'>Microsoft &amp;TechCommunity</lang>
+<lang id='TCAVDFR'>&amp;Azure Virtual Desktop</lang>
+<lang id='TCFSLogixFR'>&amp;FSLogix</lang>	
+<lang id='TC365FR'>&amp;Windows 365</lang>
+<lang id='AzureMenuFR'>A&amp;zure</lang>
+<lang id='AzOutageNotificationFR'>&amp;Recevoir des notifications en cas d'interruptions de service qui vous concernent (Docs)</lang>
+<lang id='AzStatusFR'>&amp;État Azure</lang>
+<lang id='AzStatusHistFR'>Historique des &amp;états Azure</lang>
+<lang id='AzServHealthFR'>Azure Service &amp;Health</lang>
+<lang id='AVDExpEstimatorFR'>Azure Virtual Desktop Experience Estimator</lang>
+<lang id='FeedbackEmailFR'>Fournir des commentaires (&amp;email)</lang>
+<lang id='FeedbackSurveyFR'>Fournir des commentaires (&amp;sondage)</lang>
+<lang id='AboutFR'>&amp;À propos</lang>
+<lang id='contextLabelFR'>Contexte machine</lang>
+<lang id='roleLabelFR'>Rôle machine</lang>
+<lang id='scenarioLabelFR'>Scénarios de collecte de données</lang>
+
+<!-- Buttons -->
+<lang id='btnSourceFR'>Source</lang>
+<lang id='btnTargetFR'>Target</lang>
+<lang id='btnAVDFR'>AVD</lang>
+<lang id='btnRDSFR'>RDS</lang>
+<lang id='btnW365FR'>W365</lang>
+<lang id='btnCoreFR'>Core</lang>
+<lang id='btnProfilesFR'>Profiles</lang>
+<lang id='btnActivationFR'>Activation</lang>
+<lang id='btnMSRAFR'>MSRA</lang>
+<lang id='btnSCardFR'>SCard</lang>
+<lang id='btnIMEFR'>IME</lang>
+<lang id='btnTeamsFR'>Teams</lang>
+<lang id='btnMSIXAAFR'>MSIXAA</lang>
+<lang id='btnHCIFR'>HCI</lang>
+<lang id='btnProcDumpFR'>DumpPID</lang>
+<lang id='btnNetTraceFR'>NetTrace</lang>
+<lang id='btnDiagOnlyFR'>DiagOnly</lang>
+<lang id='btnLiveDiagFR'>LiveDiag</lang>
+<lang id='StartFR'>Démarrer</lang>
+<lang id='RunningFR'>En cours</lang>
+<lang id='SurveyFR'>Sondage</lang>
+<lang id='CompLabelFR'>Ordinateur(s)</lang>
+
+<!-- Button tooltips -->
+<lang id='btnTooltipAVDFR'>Sélectionnez ce type de machine pour les scénarios liés à Azure Virtual Desktop</lang>
+<lang id='btnTooltipRDSFR'>Sélectionnez ce type de machine pour les scénarios liés aux services Bureau à distance ou à RDP direct</lang>
+<lang id='btnTooltipW365FR'>Sélectionnez ce type de machine pour les scénarios liés à Windows 365 Cloud PC</lang>
+<lang id='btnTooltipSourceFR'>Sélectionnez ce type de rôle si la machine est utilisée pour initier des connexions distantes vers d'autres machines</lang>
+<lang id='btnTooltipTargetFR'>Sélectionnez ce type de rôle si la machine est à l'extrémité réceptrice d'une connexion distante ou si c'est un serveur avec un rôle RDS installé</lang>
+<lang id='btnTooltipProfilesFR'>Collecter des données pour le dépannage des problèmes de 'Profils utilisateur'</lang>
+<lang id='btnTooltipActivationFR'>Collecter des données pour le dépannage des problèmes de licence/activation du système d'exploitation</lang>
+<lang id='btnTooltipMSRAFR'>Collecter des données pour le dépannage des problèmes d'assistance à distance</lang>
+<lang id='btnTooltipSCardFR'>Collecter des données pour le dépannage des problèmes de 'Smart Card'</lang>
+<lang id='btnTooltipIMEFR'>Collecter des données pour le dépannage des problèmes de 'Méthode de saisie'</lang>
+<lang id='btnTooltipTeamsFR'>Collecter des données pour le dépannage des problèmes d'optimisation des médias de 'Teams' (AVD/W365 uniquement)</lang>
+<lang id='btnTooltipMSIXAAFR'>Collecter des données pour le dépannage des problèmes de 'MSIX App Attach' (AVD uniquement)</lang>
+<lang id='btnTooltipHCIFR'>Collecter des données pour le dépannage des problèmes de 'Azure Stack HCI' (AVD uniquement)</lang>
+<lang id='btnTooltipProcDumpFR'>Collecter un vidage de processus d'un processus existant</lang>
+<lang id='btnTooltipNetTraceFR'>Collecter une trace réseau (netsh)</lang>
+<lang id='btnTooltipDiagOnlyFR'>Générer uniquement un rapport de diagnostic</lang>
+<lang id='btnTooltipLiveDiagFR'>Entrez dans le mode de diagnostic en direct</lang>
+<lang id='btnTooltipSurveyFR'>Ouvrez l'enquête de satisfaction MSRD-Collect pour fournir des commentaires sur le script</lang>
+<lang id='btnTooltipComputerFR'>Entrez un ou plusieurs noms d'ordinateur (NetBIOS ou FQDN) séparés par un point-virgule pour collecter des données</lang>
+	
+<!-- Other UI elements -->
+<lang id='surveyLinkFR'>Comment trouvez-vous ce script?</lang>
+<lang id='ReadyFR'>Prêt</lang>
+<lang id='checkupdFR'>Vérification des mises à jour. Veuillez patienter...</lang>
+<lang id='collecting1FR'>Collecte de donné</lang>
+<lang id='collecting2FR'>. Veuillez patienter...</lang>
+<lang id='waitFR'>Veuillez patienter...</lang>
+
+<!-- Initial parameters -->
+<lang id='initvalues1aFR'>Script version</lang>
+<lang id='initvalues1bFR'>lancé depuis :</lang>
+<lang id='initvalues1cFR'>Ligne de commande :</lang>
+<lang id='initvalues2FR'>EULA et Avis acceptés</lang>
+<lang id='initvalues3FR'>Emplacement de sortie :</lang>
+<lang id='initvalues4FR'>Contexte utilisateur :</lang>
+
+<!-- MS Teams -->
+<lang id='teamsnoteFR'>Pour résoudre les problèmes de Teams, il est recommandé de générer des journaux de débogage Teams frais en premier lieu.
+Voir : https://learn.microsoft.com/en-us/azure/virtual-desktop/troubleshoot-teams#collect-teams-logs
+
+Pour générer ces journaux de débogage, ouvrez l'application Teams affectée (en utilisant le même compte/contexte utilisateur que pour cette collecte de données) et appuyez sur CTRL+ALT+MAJ+1 dans Teams.
+Teams générera des journaux de diagnostic qui peuvent être collectés par ce script.
+
+Si vous avez déjà ces journaux ou si vous n'en avez pas besoin, sélectionnez "Retry" pour continuer.
+Sinon, sélectionnez "Cancel", générez les journaux de débogage Teams et recommencez la collecte de données.</lang>
+
+<lang id='teamstitleFR'>Collecte de données de dépannage Teams</lang>
+
+<!-- Dumps -->
+<lang id='dpidtext1FR'>Sélectionnez le processus en cours d'exécution à vider</lang>
+<lang id='dpidtext2FR'>Sélectionner un processus</lang>
+<lang id='dpidtext3FR'>Processus (PID) sélectionné pour le vidage de processus :</lang>
+<lang id='dpidtext4FR'>Aucun PID sélectionné - aucun vidage de processus ne sera généré</lang>
+
+<!-- Script actions -->
+<lang id='rdcmsgFR'>Collecte de données en cours - veuillez patienter...</lang>
+<lang id='fdcmsgFR'>Collecte de données terminée</lang>
+<lang id='rdiagmsgFR'>Exécution des diagnostics - veuillez patienter...</lang>
+<lang id='noDiagmsgFR'>Aucune vérification de diagnostic n'est sélectionnée. Ignorer la génération du rapport de diagnostic.</lang>
+<lang id='selectedParamFR'>Paramètres sélectionnés pour la collecte de données/diagnostics :</lang>
+<lang id='checkmsgFR'>Vérification</lang>
+<lang id='fdiagmsgFR'>Diagnostics terminés</lang>
+<lang id='archmsgFR'>Archivage des résultats - veuillez patienter !</lang>
+<lang id='zipmsgFR'>Fichier zip prêt:</lang>
+<lang id='ziperrormsgFR'>Impossible de créer le fichier zip. Veuillez archiver manuellement les données collectées sous :</lang>
+<lang id='dtmmsgFR'>Utilisez toujours un outil de transfert de fichiers sécurisé lorsque vous partagez ces résultats avec Microsoft CSS. Discutez-en avec votre professionnel de support et de toutes les préoccupations que vous pourriez avoir.</lang>
+<lang id='logfoldermsgFR'>Création du dossier</lang>
+<lang id='logfolderexistmsgFR'>existe déjà</lang>
+<lang id='coremsgFR'>Collecte de données de dépannage de base</lang>
+<lang id='profilesmsgFR'>Collecte de données de dépannage de profils d'utilisateur</lang>
+<lang id='msramsgFR'>Collecte de données de dépannage de l'assistance à distance</lang>
+<lang id='scardmsgFR'>Collecte de données de dépannage de la carte à puce</lang>
+<lang id='imemsgFR'>Collecte de données de dépannage de la méthode de saisie</lang>
+<lang id='teamsmsgFR'>Collecte de données de dépannage de Teams sur AVD</lang>
+<lang id='msixaamsgFR'>Collecte de données de dépannage de MSIX App Attach</lang>
+<lang id='hcimsgFR'>Collecte de données de dépannage de Azure Stack HCI</lang>
+<lang id='activationmsgFR'>Collecte de données de dépannage de la licence/activation du système d'exploitation</lang>
+<lang id='errormsgFR'>Une erreur s'est produite dans</lang>
+<lang id='location1FR'>Sélectionnez un emplacement pour stocker les résultats (par défaut C:\MS_DATA)</lang>
+<lang id='location2FR'>Emplacement de sortie:</lang>
+<lang id='context1FR'>Définir le contexte utilisateur</lang>
+<lang id='context2FR'>Entrez le nom d'utilisateur à partir duquel collecter certaines données</lang>
+<lang id='context3FR'>Contexte utilisateur défini sur:</lang>
+<lang id='selectCollect1FR'>Configurer la collecte de données</lang>
+<lang id='selectCollect2FR'>Utilisez le tableau de gauche pour sélectionner les éléments à collecter, cliquez sur la flèche de droite pour exclure les éléments sélectionnés. Pour inclure à nouveau des éléments, sélectionnez-les dans le tableau de droite et cliquez sur la flèche de gauche.</lang>
+<lang id='selectCollect3FR'>Données collectées par scénario</lang>
+<lang id='selectCollect4FR'>Données exclues par scénario</lang>
+<lang id='selectDiag1FR'>Configurer les diagnostics</lang>
+<lang id='selectDiag2FR'>Utilisez le tableau de gauche pour sélectionner les éléments à diagnostiquer, cliquez sur la flèche de droite pour exclure les éléments sélectionnés. Pour inclure à nouveau des éléments, sélectionnez-les dans le tableau de droite et cliquez sur la flèche de gauche.</lang>
+<lang id='selectDiag3FR'>Diagnostic effectué par catégorie</lang>
+<lang id='selectDiag4FR'>Diagnostic exclu par catégorie</lang>
+	
+<!-- NetTrace -->
+<lang id='netTraceFR'>Exécution de la trace réseau - veuillez patienter...</lang>
+
+<lang id='netTraceNoteFR'>Reproduisez le problème.
+Une fois que le problème est survenu, arrêtez la trace dès que possible en appuyant sur le bouton 'OK'.</lang>
+
+<lang id='netTraceNote2FR'>Reproduisez le problème et appuyez sur la touche 'Y' APRÈS avoir terminé la reproduction (avec la mise au point de la fenêtre ici)</lang>
+<lang id='netTraceRunningFR'>La trace réseau est en cours d'exécution</lang>
+<lang id='netTraceStoppingFR'>Arrêt de la trace réseau - veuillez patienter (cela peut prendre plusieurs minutes)...</lang>
+<lang id='netTraceFinishedFR'>Trace réseau terminée</lang>
+<lang id='conVisibleFR'>La fenêtre de console est visible</lang>
+<lang id='conHiddenFR'>La fenêtre de console est masquée</lang>
+<lang id='openMaximizedFR'>Le script démarrera en mode maximisé</lang>
+<lang id='openWindowedFR'>Le script ne démarrera pas en mode maximisé</lang>
+<lang id='ontopFR'>La fenêtre du script restera au-dessus des autres fenêtres</lang>
+<lang id='ontopNotFR'>La fenêtre du script ne restera pas au-dessus des autres fenêtres</lang>
+<lang id='outputNotFoundFR'>[ATTENTION] L'emplacement de sortie sélectionné n'a pas pu être trouvé.</lang>
+<lang id='outputLoc1FR'>Actualisation de la liste des rapports de diagnostic disponibles sous l'emplacement de sortie actuel</lang>
+<lang id='outputLoc2FR'>[ATTENTION] L'emplacement de sortie sélectionné n'existe plus. Cliquez sur 'Affichage\Rapports de diagnostic' pour actualiser la liste et réessayez.</lang>
+<lang id='outputLoc3FR'>Liste actualisée avec succès.</lang>
+<lang id='outputLoc4FR'>Aucun rapport n'a été trouvé sous l'emplacement de sortie actuel</lang>
+<lang id='outputLoc5FR'>Générez d'abord quelques rapports de diagnostic pour remplir cette liste.</lang>
+<lang id='outputLoc6FR'>L'emplacement de sortie actuel n'existe pas</lang>
+
+<!-- Background jobs -->
+<lang id='bgjob1msgFR'>Un ou plusieurs travaux en arrière-plan sont en cours d'exécution. Ils peuvent prendre jusqu'à 3 minutes. Veuillez patienter...</lang>
+<lang id='bgjob2msgFR'>Un ou plusieurs travaux en arrière-plan n'ont pas pu se terminer dans le délai imparti. Certaines données peuvent être manquantes. Si ce problème se reproduit, veuillez le signaler à : MSRDCollectTalk@microsoft.com</lang>
+
+<!-- Version check -->
+<lang id='vercheck1FR'>Vérification de la disponibilité d'une nouvelle version (veuillez patienter)</lang>
+<lang id='vercheck2FR'>Une version plus récente est disponible à l'adresse https://aka.ms/msrd-collect !</lang>
+<lang id='vercheck3FR'>Une version plus récente est disponible :</lang>
+<lang id='vercheck4FR'>Vous utilisez actuellement</lang>
+<lang id='vercheck5FR'>Pour de meilleurs résultats, téléchargez et utilisez la dernière version à partir de https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck5bFR'>Si vous sélectionnez 'OK', une fenêtre de navigateur s'ouvrira pour télécharger le dernier fichier 'MSRD-Collect.zip' et le script actuel sera arrêté. Sinon, le script actuel continuera tel quel.</lang>
+<lang id='vercheck6FR'>Voulez-vous télécharger la nouvelle version maintenant ?</lang>
+
+<lang id='vercheck7FR'>Ouverture du navigateur par défaut pour télécharger la dernière version de 'MSRD-Collect.zip' à partir de https://aka.ms/MSRD-Collect
+Sortie.
+</lang>
+
+<lang id='vercheck8FR'>Vous avez décidé de ne pas télécharger la dernière version pour le moment. Pour de meilleurs résultats, téléchargez et utilisez la dernière version à partir de https://aka.ms/MSRD-Collect</lang>
+<lang id='vercheck9FR'>MSRD-Collect version La version de MSRD-Collect est à jour</lang>
+<lang id='PDvercheck1FR'>ProcDump version La version de MSRD-Collect est à jour</lang>
+<lang id='selfupdate1FR'>Si vous sélectionnez 'Oui', le script se mettra automatiquement à jour. Sinon, le script actuel continuera tel quel.</lang>
+<lang id='selfupdate2FR'>Mise à jour automatique du script</lang>
+<lang id='selfupdate3FR'>Initiée par l'utilisateur :</lang>
+<lang id='selfupdate4FR'>Téléchargement sécurisé de la dernière version depuis https://aka.ms/MSRD-Collect (Veuillez patienter...)</lang>
+<lang id='selfupdate5FR'>Sauvegarde d'une copie du fichier de configuration MSRD-Collect actuel vers</lang>
+<lang id='selfupdate6FR'>Extraction des fichiers depuis</lang>
+<lang id='selfupdate7FR'>Restauration du fichier de configuration MSRD-Collect depuis la sauvegarde précédente et suppression de la sauvegarde</lang>
+<lang id='selfupdate8FR'>Suppression du fichier de téléchargement temporaire</lang>
+<lang id='selfupdate9FR'>Mise à jour réussie. Redémarrage du script.</lang>
+
+<!-- How to -->	
+<lang id='howtouseFR'>Guide d'utilisation :
+
+	Étape 1: Sélectionnez le contexte/l'environnement dans lequel la machine est utilisée :
+
+		AVD		- Azure Virtual Desktop
+		RDS		- Services Bureau à distance ou connexion RDP directe (non AVD/non W365)
+		W365		- Windows 365 Cloud PC
+
+	Étape 2: Sélectionnez le rôle de la machine dans le contexte/l'environnement donné :
+
+		Source		- Machine source à partir de laquelle vous vous connectez à d'autres machines à l'aide d'un client Bureau à distance
+		Target		- Machine cible à laquelle vous vous connectez ou un serveur avec n'importe quel rôle RDS installé
+
+	Étape 3: [Facultatif] Si vous avez sélectionné 'AVD' ou 'W365', entrez un ou plusieurs noms d'ordinateur (NetBIOS ou FQDN) dans le champ 'Ordinateur(s)' à partir duquel vous souhaitez collecter des données. 
+		 Le nom de l'ordinateur local est utilisé comme valeur par défaut. 
+		 Si plusieurs machines sont spécifiées, séparez-les par un point-virgule. Les données seront collectées à partir de chaque machine dans un ordre séquentiel.
+
+Pour la collecte de données :
+
+	Étape 4a: [Facultatif] Sélectionnez un ou plusieurs scénarios :
+
+		Profiles	- Collecter des données de dépannage pour les problèmes de 'Profils utilisateur'
+		Activation	- Collecter des données de dépannage pour les problèmes de 'Licence/Activation de l'OS'
+		MSRA		- Collecter des données de dépannage pour les problèmes d'Assistance à distance
+		SCard		- Collecter des données de dépannage pour les problèmes de 'Carte à puce'
+		IME		- Collecter des données de dépannage pour les problèmes de 'Méthode de saisie'
+		Teams		- Collecter des données de dépannage pour les problèmes de 'Teams Media Optimization' (uniquement AVD/W365)
+		MSIXAA		- Collecter des données de dépannage pour les problèmes de 'MSIX App Attach' (uniquement AVD)
+		HCI		- Collecter des données de dépannage pour les problèmes d'Azure Stack HCI (uniquement AVD)
+		DumpPID	- Collecter un vidage de processus d'un processus existant
+		NetTrace	- Collecter une trace réseau (netsh)
+		DiagOnly	- Générer uniquement un rapport de diagnostic
+
+	Étape 5a: Cliquez sur le bouton 'Démarrer' lorsque vous êtes prêt. La collecte de données/diagnostics peut prendre plusieurs minutes.
+
+Pour les diagnostics en direct:
+
+	Étape 4b: Sélectionnez l'option 'LiveDiag'.
+
+	Étape 5b: Sélectionnez l'onglet de catégorie de diagnostic souhaité.
+
+	Étape 6: Cliquez sur le bouton souhaité dans l'onglet sélectionné pour lancer la vérification de diagnostic correspondante.
+</lang>
+	
+<!-- Live Diag -->
+<lang id='liveDiag1FR'>Exécution des diagnostics. Cela peut prendre quelques minutes. Veuillez patienter...</lang>
+<lang id='liveDiag2FR'>Diagnostic terminé</lang>
+
+<!-- Scheduled Task -->
+<lang id='schedTaskCreateFR'>Créer une tâche planifiée pour exécuter les diagnostics</lang>
+<lang id='schedTaskNoteFR'>Vous êtes sur le point de créer une tâche planifiée sur cet ordinateur, qui exécutera MSRD-Collect Diagnostics et générera un rapport MSRD-Diag.html.`n`nVoulez-vous vraiment continuer?</lang>
+<lang id='schedTaskInfo1FR'>Tâche planifiée créée avec succès avec les paramètres suivants:</lang>
+<lang id='schedTaskInfo2FR'>Date de début:</lang>
+<lang id='schedTaskInfo3FR'>Heure de début:</lang>
+<lang id='schedTaskInfo4FR'>Fréquence:</lang>
+<lang id='schedTaskInfo5FR'>Jour de la semaine:</lang>
+<lang id='schedTaskInfo6FR'>Contexte de la machine:</lang>
+<lang id='schedTaskInfo7FR'>Rôle de la machine:</lang>
+<lang id='schedTaskInfo8FR'>Emplacement du script:</lang>
+<lang id='schedTaskInfo9FR'>Emplacement de sortie:</lang>
+<lang id='schedTaskInfo10FR'>Contexte utilisateur:</lang>
+<lang id='schedTaskInfo11FR'>Tâche planifiée créée avec succès avec les paramètres suivants:</lang>
+<lang id='schedTaskInfo12FR'>Semaine du mois:</lang>
+<lang id='schedTaskInfo13FR'>Erreur inconnue. Aucune tâche planifiée n'a été créée.</lang>
+<lang id='schedTaskInfo14FR'>Action qui sera effectuée:</lang>
+<lang id='schedTaskEmpty1FR'>L'emplacement de sortie est vide</lang>
+<lang id='schedTaskEmpty2FR'>L'emplacement du script est vide</lang>
+<lang id='schedTaskNotFound1FR'>Emplacement de sortie introuvable</lang>
+<lang id='schedTaskNotFound2FR'>Emplacement du script introuvable</lang>
+	
+<!-- Presets -->
+<lang id='presetResetFR'>Réinitialiser tout</lang>
+<lang id='presetLoaded1FR'>Préréglage sélectionné</lang>
+<lang id='presetLoaded2FR'>Appuyez sur le bouton 'Démarrer' pour commencer la collecte de données/les diagnostics.</lang>
+<lang id='presetErrcon1FR'>Impossible de se connecter / Erreur lors de la connexion initiale (Machine source/client)</lang>
+<lang id='presetErrcon2FR'>Impossible de se connecter / Erreur lors de la connexion initiale (Machine cible/hôte)</lang>
+<lang id='presetLogon1FR'>Impossible de se connecter / Problème d'authentification ou de profil utilisateur (Machine source/client)</lang>
+<lang id='presetLogon2FR'>Impossible de se connecter / Problème d'authentification ou de profil utilisateur (Machine cible/hôte)</lang>
+<lang id='presetScard1FR'>Impossible de se connecter avec une carte à puce ou problèmes d'utilisation d'une carte à puce dans une session (Machine source/client)</lang>
+<lang id='presetScard2FR'>Impossible de se connecter avec une carte à puce ou problèmes d'utilisation d'une carte à puce dans une session (Machine cible/hôte)</lang>
+<lang id='presetMsixaaFR'>MSIX App Attach / Problèmes d'utilisation des packages d'applications attribués (Machine cible/hôte)</lang>
+<lang id='presetLic1FR'>Problèmes de licence RD avec les licences RDS 'par appareil' (Machine source/client)</lang>
+<lang id='presetLic2FR'>Problème de licence RD avec les licences RDS 'par appareil' ou 'par utilisateur' (Session Host / License Server)</lang>
+<lang id='presetLic3FR'>Problème de licence RD avec les licences RDS 'par utilisateur' (Session Host / License Server)</lang>
+<lang id='presetDiscon1FR'>Déconnexion inattendue d'une session active ou inactive (Machine source/client)</lang>
+<lang id='presetDiscon2FR'>Déconnexion inattendue d'une session active ou inactive (Machine cible/hôte)</lang>
+
+<!-- Remote Mode -->
+<lang id='remoteModeFR'>Le script est maintenant en mode distant</lang>
+<lang id='remoteInvalidCompFR'>Le champ 'Ordinateur(s)' contient un nom d'ordinateur non valide :</lang>
+<lang id='remoteReach1FR'>L'ordinateur spécifié</lang>
+<lang id='remoteReach2FR'>est accessible. Poursuite de la collecte de données/diagnostics.</lang>
+<lang id='remoteReach3FR'>n'est pas accessible. Veuillez vous assurer que le nom de l'ordinateur est correct et qu'il est accessible via le réseau. Vous devrez peut-être 'Activer le partage de fichiers et d'imprimantes' sur l'ordinateur distant si ce n'est pas déjà fait.</lang>
+<lang id='remoteModeNotice1FR'>Vous avez spécifié une ou plusieurs machines dans le champ 'Ordinateur(s)' qui diffèrent de la machine locale.</lang>
+<lang id='remoteModeNotice2FR'>Le script tentera de collecter des données à distance en se copiant dans le dossier C:\MS_DATA\ de chaque machine spécifiée et en s'exécutant à partir de là.</lang>
+<lang id='remoteModeNotice3FR'>Voulez-vous continuer ?</lang>
+<lang id='remoteModeNotice4FR'>Si vous sélectionnez 'Oui', vous pouvez être invité à saisir des informations d'identification pour chacune des machines distantes séparément. Veuillez fournir un compte avec des autorisations d'administration sur la machine distante (de préférence un administrateur de domaine si la machine est jointe au domaine).</lang>
+<lang id='remoteModeNotice5FR'>Veuillez noter que, actuellement, les modifications apportées aux options 'Configurer la collecte de données' ou 'Configurer les diagnostics' pour le filtrage ne s'appliquent pas à la collecte de données ou aux diagnostics à distance.</lang>
+<lang id='remoteModeRunningFR'>Exécution en mode distant - Veuillez patienter...</lang>
+<lang id='localModeFR'>Le script est maintenant en mode local</lang>
+<lang id='popupWarningFR'>Avertissement</lang>
+<lang id='remotePSinitLocalCredFR'>Configuration d'une session PowerShell à distance en utilisant les privilèges de l'utilisateur actuel. Machine distante :</lang>
+<lang id='remotePSinitLocalCredSuccessFR'>Session PSS à distance créée avec succès en utilisant les privilèges de l'utilisateur actuel. Machine distante :</lang>
+<lang id='remotePSinitLocalCredFailFR'>Échec de la création d'une session PSS à distance en utilisant les privilèges de l'utilisateur actuel. Demande d'informations d'identification et nouvelle tentative. Machine distante :</lang>
+<lang id='remotePSenterCredFR'>Entrez les informations d'identification administrateur pour la machine distante :</lang>
+<lang id='remotePSinitProvCredSuccessFR'>Session PSS à distance créée avec succès en utilisant les informations d'identification fournies. Machine distante :</lang>
+<lang id='remotePScopyFR'>Copie des fichiers de script vers C:\MS_DATA\ sur :</lang>
+<lang id='remotePScopyExistsFR'>existe déjà. Vérification des fichiers de script existants et mise à jour si nécessaire. Machine distante :</lang>
+<lang id='remotePSlaunch1FR'>Lancement de MSRD-Collect dans la session PSS à distance</lang>
+<lang id='remotePScompleteFR'>Collecte de données/diagnostics à distance terminée. Suppression de la session PSS à distance vers :</lang>
+
+<!-- User Context -->
+<lang id='userCon1FR'>Aucun profil local trouvé pour l'utilisateur spécifié sous l'emplacement du profil utilisateur par défaut :</lang>
+<lang id='userCon2FR'>Le contexte utilisateur a été réinitialisé à :</lang>
+
+<!-- avdnettest -->
+<lang id='avdnettestNotFoundFR'>avdnettest.exe n'a pas pu être trouvé. Les informations sur la disponibilité de RDP Shortpath pour AVD seront incomplètes. Assurez-vous de télécharger et de décompresser le package complet de MSRD-Collect ou TSS</lang>
+
+<!-- MSRDC -->
+<lang id='msrdcNoticeFR'>Le client de bureau Windows AVD (MSRDC) s'exécute actuellement sur cet ordinateur.
+Pour capturer les dernières traces ETL spécifiques au client de bureau Windows, il est nécessaire de fermer le processus MSRDC.exe.
+	
+	
+Voulez-vous fermer MSRDC.exe maintenant ?
+	
+	
+Si vous choisissez 'Oui', le processus MSRDC.exe sera terminé, ce qui déconnectera toutes les connexions sortantes MSRDC et le script continuera avec la collecte de données.
+	
+Si vous choisissez 'Non', le processus MSRDC.exe persistera et le script continuera avec la collecte de données, mais ne pourra pas collecter les traces ETL les plus récentes.
+	
+Si vous choisissez 'Annuler', la collecte de données sera abandonnée.</lang>
+
+<lang id='msrdcClosedFR'>MSRDC.exe a été fermé. Le script attendra 20 secondes avant de continuer, pour permettre l'enregistrement des dernières données de trace ETL du client RD.</lang>
+<lang id='msrdcNotClosedFR'>MSRDC.exe n'a pas été fermé. Les données de trace ETL les plus récentes du client RD NE seront PAS disponibles pour le dépannage ! Poursuite de la collecte de données.</lang>
+<lang id='msrdcTitleFR'>Avant de continuer</lang>
+
+</LangV1>
