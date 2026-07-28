@@ -600,14 +600,10 @@ Forces an Intune Win32 application to redeploy.
 
 Update:
 
-```powershell
-$AppID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-```
-
 Run as Administrator:
 
 ```powershell
-.\Remove-RequiredIntuneApps.ps1
+.\Remove-RequiredIntuneApps.ps1 -appid
 ```
 
 ### What it does
