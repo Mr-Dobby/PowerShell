@@ -1,14 +1,8 @@
-#####################
-#
-# By RALBE
-#
-#####################
-
 $Filter = ""
 
 Import-Module ActiveDirectory
 
-$Groups = (Get-AdGroup -filter * | Where {$_.name -like "*$Filter*"} | select name -expandproperty name)
+$Groups = (Get-AdGroup -filter * | where-object {$_.name -like "*$Filter*"} | select-object name -expandproperty name)
 $Table = @()
 
 $Record = [ordered]@{
@@ -19,7 +13,7 @@ $Record = [ordered]@{
 
 Foreach ($Group in $Groups) {
 
-    $Arrayofmembers = Get-ADGroupMember -identity $Group | select name,samaccountname
+    $Arrayofmembers = Get-ADGroupMember -identity $Group | select-object name,samaccountname
 
 foreach ($Member in $Arrayofmembers) {
     $Record."Group Name" = $Group
@@ -30,4 +24,4 @@ foreach ($Member in $Arrayofmembers) {
   }
 }
 
-$Table | Export-Csv "C:\Users\itradm\Documents\CSV Files\SecurityGroups.csv" -NoTypeInformation
+$Table | Export-Csv "C:\SecurityGroups.csv" -NoTypeInformation
