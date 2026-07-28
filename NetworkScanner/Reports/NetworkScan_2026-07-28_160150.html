@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Network Scan Report</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; margin: 24px; background: #f7f9fc; }
+    h1 { margin-bottom: 0.4rem; }
+    .meta { margin: 0.35rem 0; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #d9d9d9; padding: 8px; }
+    th { background: #0078d7; color: white; cursor: pointer; user-select: none; }
+    tr:nth-child(even) { background: #f3f6fb; }
+    .online { color: #1f7a1f; font-weight: 700; }
+    .offline { color: #b30000; font-weight: 700; }
+  </style>
+  <script>
+    function sortTable(n) {
+      const table = document.getElementById('scanTable');
+      let switching = true;
+      let dir = table.getAttribute('data-sort-dir') === 'asc' ? 'desc' : 'asc';
+      while (switching) {
+        switching = false;
+        const rows = table.rows;
+        for (let i = 1; i < rows.length - 1; i++) {
+          let shouldSwitch = false;
+          const x = rows[i].getElementsByTagName('TD')[n].innerText.toLowerCase();
+          const y = rows[i + 1].getElementsByTagName('TD')[n].innerText.toLowerCase();
+          if ((dir === 'asc' && x > y) || (dir === 'desc' && x < y)) {
+            shouldSwitch = true;
+            break;
+          }
+        }
+        if (shouldSwitch) {
+          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          switching = true;
+        }
+      }
+      table.setAttribute('data-sort-dir', dir);
+    }
+  </script>
+</head>
+<body>
+  <h1>Network Scan Report</h1>
+  <div class="meta"><b>Generated:</b> 2026-07-28 16.01.50</div>
+  <div class="meta"><b>Online:</b> 0</div>
+  <div class="meta"><b>Offline:</b> 2</div>
+  <br />
+  <table id="scanTable" data-sort-dir="asc">
+    <tr>
+      <th onclick="sortTable(0)">IP</th>
+      <th onclick="sortTable(1)">Status</th>
+      <th onclick="sortTable(2)">Hostname</th>
+      <th onclick="sortTable(3)">Latency (ms)</th>
+      <th onclick="sortTable(4)">MAC</th>
+      <th onclick="sortTable(5)">Open Ports</th>
+    </tr>
+    <tr>
+  <td>127.0.0.1</td>
+  <td class="offline">🔴 Offline</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>127.0.0.2</td>
+  <td class="offline">🔴 Offline</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+  </table>
+</body>
+</html>

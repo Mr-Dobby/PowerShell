@@ -1,0 +1,11 @@
+==============================================================
+Network Scan Report
+Generated: 2026-07-28 16.01.50
+==============================================================
+
+Online Devices : 0
+Offline Devices: 2
+
+IP Address`tStatus`tHostname`tLatency(ms)`tMAC`tOpen Ports
+127.0.0.1	Offline				
+127.0.0.2	Offline				
