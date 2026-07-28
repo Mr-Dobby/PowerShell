@@ -603,7 +603,7 @@ Update:
 Run as Administrator:
 
 ```powershell
-.\Remove-RequiredIntuneApps.ps1 -appid
+.\Remove-RequiredIntuneApps.ps1 -AppID
 ```
 
 ### What it does
