@@ -31,13 +31,13 @@ function Export-MailboxPermissions {
 
     # Full Access
     Get-MailboxPermission $Mailbox |
-        Select Identity,User,AccessRights,IsInherited |
+        Select-Object Identity,User,AccessRights,IsInherited |
         Export-Csv "$ExportPath\FullAccess-$Label-$timestamp.csv" -NoTypeInformation
 
     # Send-As
     Get-ADPermission $Mailbox |
         Where-Object { $_.ExtendedRights -like "*Send-As*" } |
-        Select Identity,User,ExtendedRights |
+        Select-Object Identity,User,ExtendedRights |
         Export-Csv "$ExportPath\SendAs-$Label-$timestamp.csv" -NoTypeInformation
 
     # Send-on-Behalf
@@ -57,7 +57,7 @@ function Export-MailboxPermissions {
         $path = "$Mailbox`:\$f"
         try {
             Get-MailboxFolderPermission $path |
-                Select FolderName,User,AccessRights |
+                Select-Object FolderName,User,AccessRights |
                 Export-Csv "$ExportPath\Folder-$($f)-$Label-$timestamp.csv" -NoTypeInformation
         }
         catch {
