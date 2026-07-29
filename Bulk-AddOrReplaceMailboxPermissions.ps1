@@ -1,9 +1,6 @@
-﻿# ========================================================================
-# INTERACTIVE MAILBOX PERMISSION COPY SCRIPT
+﻿# INTERACTIVE MAILBOX PERMISSION COPY SCRIPT
 # Copies Full Access, Send-As, Send-on-Behalf, and Calendar permissions
 # Exports BEFORE and AFTER permission state for audit/verification
-# Made by RALBE
-# ========================================================================
 
 $SourceMailbox = Read-Host "Enter the SOURCE mailbox (e.g. user@domain.com)"
 $TargetMailbox = Read-Host "Enter the TARGET mailbox"
@@ -23,9 +20,6 @@ $targetExportPath = "$exportRoot\$TargetMailbox"
 New-Item -ItemType Directory -Force -Path $sourceExportPath | Out-Null
 New-Item -ItemType Directory -Force -Path $targetExportPath | Out-Null
 
-# ========================================================================
-# FUNCTION: Export all permissions for a mailbox
-# ========================================================================
 function Export-MailboxPermissions {
     param(
         [string]$Mailbox,
@@ -74,15 +68,8 @@ function Export-MailboxPermissions {
     Write-Host "Export complete for $Mailbox ($Label)" -ForegroundColor Green
 }
 
-# ========================================================================
-# EXPORT BEFORE CHANGES
-# ========================================================================
 Export-MailboxPermissions -Mailbox $SourceMailbox -ExportPath $sourceExportPath -Label "Before"
 Export-MailboxPermissions -Mailbox $TargetMailbox -ExportPath $targetExportPath -Label "Before"
-
-# ========================================================================
-# APPLY PERMISSION CHANGES
-# ========================================================================
 
 Write-Host "`nApplying permissions in $Mode mode..." -ForegroundColor Yellow
 
@@ -152,12 +139,7 @@ foreach ($folder in $folders) {
 }
 
 Write-Host "`nPermission copy completed." -ForegroundColor Green
-
-# ========================================================================
-# EXPORT AFTER CHANGES
-# ========================================================================
 Export-MailboxPermissions -Mailbox $SourceMailbox -ExportPath $sourceExportPath -Label "After"
 Export-MailboxPermissions -Mailbox $TargetMailbox -ExportPath $targetExportPath -Label "After"
-
 Write-Host "`nExports saved in: $exportRoot" -ForegroundColor Cyan
 Write-Host "Compare BEFORE and AFTER to verify everything applied correctly." -ForegroundColor White
