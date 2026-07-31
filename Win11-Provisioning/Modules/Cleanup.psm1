@@ -54,7 +54,6 @@ function Invoke-QualityOfLifeTweaks {
     Write-Log 'Applying quality-of-life tweaks' 'INFO'
 
     Set-RegistryDword -Path 'HKCU:\Software\Microsoft\Clipboard' -Name 'EnableClipboardHistory' -Value 1
-    Set-RegistryDword -Path 'HKU:\.DEFAULT\Control Panel\Keyboard' -Name 'InitialKeyboardIndicators' -Value 2
     Set-RegistryDword -Path 'HKCU:\Control Panel\Accessibility\StickyKeys' -Name 'Flags' -Value 506
     Set-RegistryDword -Path 'HKCU:\Control Panel\Accessibility\Keyboard Response' -Name 'Flags' -Value 122
     Set-RegistryString -Path 'HKCU:\AppEvents\Schemes\Apps\.Default\SystemStart\.Current' -Name '(Default)' -Value ''

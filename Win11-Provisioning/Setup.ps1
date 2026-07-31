@@ -1,4 +1,3 @@
-#requires -RunAsAdministrator
 [CmdletBinding()]
 param(
     [string]$ConfigPath = (Join-Path -Path $PSScriptRoot -ChildPath 'Config.psd1'),
@@ -8,6 +7,61 @@ param(
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+
+function Test-IsAdministrator {
+    [CmdletBinding()]
+    param()
+
+    $identity = [Security.Principal.WindowsIdentity]::GetCurrent()
+    $principal = New-Object Security.Principal.WindowsPrincipal($identity)
+    return $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+}
+
+function Start-ElevatedSelf {
+    [CmdletBinding()]
+    param()
+
+    $hostExe = (Get-Process -Id $PID).Path
+    $argumentList = @(
+        '-NoProfile',
+        '-ExecutionPolicy',
+        'Bypass',
+        '-File',
+        ('"{0}"' -f $PSCommandPath)
+    ) + $MyInvocation.UnboundArguments
+
+    Start-Process -FilePath $hostExe -Verb RunAs -ArgumentList $argumentList | Out-Null
+}
+
+function Unblock-ProvisioningFiles {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [string]$RootPath
+    )
+
+    $patterns = @('*.ps1', '*.psm1', '*.psd1')
+    $files = Get-ChildItem -Path $RootPath -Recurse -File -Include $patterns -ErrorAction SilentlyContinue
+
+    foreach ($file in $files) {
+        Unblock-File -Path $file.FullName -ErrorAction SilentlyContinue
+    }
+}
+
+if (-not (Test-IsAdministrator)) {
+    Write-Host 'Not running as administrator. Relaunching elevated...' -ForegroundColor Yellow
+    Start-ElevatedSelf
+    exit
+}
+
+try {
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force -ErrorAction Stop
+}
+catch {
+    # Ignore if constrained by policy; we'll still unblock local files below.
+}
+
+Unblock-ProvisioningFiles -RootPath $PSScriptRoot
 
 $modulePath = Join-Path -Path $PSScriptRoot -ChildPath 'Modules'
 $modules = @(
@@ -23,7 +77,7 @@ $modules = @(
     'Winget.psm1',
     'WindowsUpdate.psm1',
     'Cleanup.psm1',
-    'Cortana.psm1',
+    'Cortana.psm1'
 )
 
 foreach ($module in $modules) {
