@@ -1,6 +1,23 @@
 @{
     SystemCleanup = @{
-        RemovePhoneLink = $false
+        RemovePhoneLink = $true
+        AggressiveRemove = $true
+        KeepPackages = @(
+            'Microsoft.WindowsStore',
+            'Microsoft.StorePurchaseApp',
+            'Microsoft.DesktopAppInstaller',
+            'Microsoft.MicrosoftEdge*',
+            'Microsoft.Edge*',
+            'Microsoft.Win32WebViewHost',
+            'Microsoft.SecHealthUI',
+            'Microsoft.WindowsDefender*',
+            'Microsoft.VCLibs*',
+            'Microsoft.UI.Xaml*',
+            'Microsoft.NET.Native.Framework*',
+            'Microsoft.NET.Native.Runtime*',
+            'Microsoft.WindowsTerminal*',
+            'Microsoft.PowerShell*'
+        )
     }
 
     Privacy = @{

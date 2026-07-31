@@ -1,6 +1,24 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
+function Test-AppxKeep {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [string]$PackageName,
+        [Parameter(Mandatory)]
+        [string[]]$KeepPatterns
+    )
+
+    foreach ($pattern in $KeepPatterns) {
+        if ($PackageName -like $pattern) {
+            return $true
+        }
+    }
+
+    return $false
+}
+
 function Remove-AppxEverywhere {
     [CmdletBinding()]
     param(
@@ -42,16 +60,28 @@ function Invoke-SystemCleanup {
 
     $targets = @(
         'Microsoft.Xbox*',
+        'Microsoft.GamingApp*',
         'Clipchamp.Clipchamp',
         'Microsoft.OutlookForWindows',
+        'Microsoft.Outlook*',
         'MicrosoftTeams',
+        'MSTeams*',
         'Microsoft.SkypeApp',
+        '*Skype*',
+        '*LinkedIn*',
+        '7EE7776C.LinkedInforWindows',
         'Microsoft.MicrosoftOfficeHub',
+        'Microsoft.Office.OneNote',
+        'Microsoft.MicrosoftStickyNotes',
+        'Microsoft.Whiteboard',
+        'Microsoft.Todos',
         'Microsoft.Microsoft3DViewer',
         'Microsoft.MixedReality.Portal',
         'Microsoft.WindowsMaps',
         'Microsoft.BingWeather',
         'Microsoft.BingNews',
+        'Microsoft.News',
+        'MicrosoftCorporationII.QuickAssist',
         'Microsoft.MicrosoftSolitaireCollection',
         'Microsoft.WindowsFeedbackHub',
         'Microsoft.Getstarted',
@@ -59,7 +89,33 @@ function Invoke-SystemCleanup {
         'Microsoft.ZuneVideo',
         'Microsoft.ZuneMusic',
         'Microsoft.People',
+        'Microsoft.YourPhone',
+        'Microsoft.PhoneLink',
+        'Microsoft.549981C3F5F10',
         'Microsoft.PowerAutomateDesktop',
+        'Microsoft.BingSearch',
+        'Microsoft.BingFinance',
+        'Microsoft.BingSports',
+        'Microsoft.WindowsAlarms',
+        'Microsoft.WindowsCamera',
+        'Microsoft.WindowsSoundRecorder',
+        'Microsoft.ScreenSketch',
+        'Microsoft.MicrosoftOfficeHub',
+        'Microsoft.MicrosoftJournal',
+        'Microsoft.Minecraft*',
+        '*Disney*',
+        '*Spotify*',
+        '*TikTok*',
+        '*Instagram*',
+        '*Facebook*',
+        '*Twitter*',
+        '*Netflix*',
+        '*Amazon*',
+        '*eBay*',
+        '*Walmart*',
+        '*AliExpress*',
+        '*Wish*',
+        '*Pinterest*',
         'Microsoft.549981C3F5F10'
     )
 
@@ -68,7 +124,46 @@ function Invoke-SystemCleanup {
     }
 
     foreach ($name in $targets) {
-        Remove-AppxEverywhere -PackageNamePattern $name 
+        Remove-AppxEverywhere -PackageNamePattern $name
+    }
+
+    if ($Config.AggressiveRemove) {
+        Write-Log 'Running aggressive Appx cleanup (keep-only mode)' 'INFO'
+
+        $keepPatterns = @(
+            'Microsoft.WindowsStore',
+            'Microsoft.StorePurchaseApp',
+            'Microsoft.DesktopAppInstaller',
+            'Microsoft.MicrosoftEdge*',
+            'Microsoft.Edge*',
+            'Microsoft.Win32WebViewHost',
+            'Microsoft.SecHealthUI',
+            'Microsoft.WindowsDefender*',
+            'Microsoft.VCLibs*',
+            'Microsoft.UI.Xaml*',
+            'Microsoft.NET.Native.Framework*',
+            'Microsoft.NET.Native.Runtime*',
+            'Microsoft.WindowsTerminal*',
+            'Microsoft.PowerShell*'
+        )
+
+        if ($Config.ContainsKey('KeepPackages') -and $Config.KeepPackages) {
+            $keepPatterns = $Config.KeepPackages
+        }
+
+        $installed = Get-AppxPackage -AllUsers -ErrorAction SilentlyContinue
+        foreach ($pkg in $installed) {
+            if (-not (Test-AppxKeep -PackageName $pkg.Name -KeepPatterns $keepPatterns)) {
+                Remove-AppxEverywhere -PackageNamePattern $pkg.Name
+            }
+        }
+
+        $provisioned = Get-AppxProvisionedPackage -Online -ErrorAction SilentlyContinue
+        foreach ($pkg in $provisioned) {
+            if (-not (Test-AppxKeep -PackageName $pkg.DisplayName -KeepPatterns $keepPatterns)) {
+                Remove-AppxEverywhere -PackageNamePattern $pkg.DisplayName
+            }
+        }
     }
 
     Write-Log 'System cleanup complete' 'SUCCESS'
