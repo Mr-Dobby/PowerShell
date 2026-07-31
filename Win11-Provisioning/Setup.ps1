@@ -22,7 +22,8 @@ $modules = @(
     'OneDrive.psm1',
     'Winget.psm1',
     'WindowsUpdate.psm1',
-    'Cleanup.psm1'
+    'Cleanup.psm1',
+    'Cortana.psm1',
 )
 
 foreach ($module in $modules) {
@@ -70,6 +71,7 @@ try {
     Invoke-WindowsMaintenance -Config $config.WindowsUpdate
 
     Invoke-OptionalFeatureCleanup -Config $config.OptionalFeatures
+    Invoke-CortanaTweaks -Config $config.Cortana
     Invoke-FinalCleanup -Config $config.Cleanup
 
     Write-Log 'Provisioning completed successfully. A reboot is recommended.' 'SUCCESS'

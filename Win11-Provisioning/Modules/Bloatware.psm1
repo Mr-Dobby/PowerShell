@@ -59,7 +59,8 @@ function Invoke-SystemCleanup {
         'Microsoft.ZuneVideo',
         'Microsoft.ZuneMusic',
         'Microsoft.People',
-        'Microsoft.PowerAutomateDesktop'
+        'Microsoft.PowerAutomateDesktop',
+        'Microsoft.549981C3F5F10'
     )
 
     if ($Config.RemovePhoneLink) {
@@ -67,7 +68,7 @@ function Invoke-SystemCleanup {
     }
 
     foreach ($name in $targets) {
-        Remove-AppxEverywhere -PackageNamePattern $name
+        Remove-AppxEverywhere -PackageNamePattern $name 
     }
 
     Write-Log 'System cleanup complete' 'SUCCESS'
