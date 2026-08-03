@@ -8,7 +8,7 @@ function Disable-OneDriveAutoStart {
     Write-Log 'Disabling OneDrive autostart' 'INFO'
 
     Set-RegistryDword -Path 'HKCU:\SOFTWARE\Policies\Microsoft\Windows\OneDrive' -Name 'DisableFileSyncNGSC' -Value 1
-    Set-ItemProperty -Path $PolicyPath -Name "DisableFileSync" -Value 1 -Type DWord
+    Set-ItemProperty -Path 'HKCU:\SOFTWARE\Policies\Microsoft\Windows\OneDrive' -Name "DisableFileSync" -Value 1 -Type DWord
 
     $runPath = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run'
     if (Test-Path -Path $runPath) {
