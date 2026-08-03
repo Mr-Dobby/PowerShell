@@ -59,8 +59,8 @@ function Invoke-SystemCleanup {
     Write-Log 'Running system cleanup and bloatware removal' 'INFO'
 
     $targets = @(
-        'Microsoft.Xbox*',
-        'Microsoft.GamingApp*',
+        '*Xbox*',
+        '*GamingApp*',
         'Clipchamp.Clipchamp',
         'Microsoft.OutlookForWindows',
         'Microsoft.Outlook*',
@@ -144,7 +144,7 @@ function Invoke-SystemCleanup {
             'Microsoft.NET.Native.Framework*',
             'Microsoft.NET.Native.Runtime*',
             'Microsoft.WindowsTerminal*',
-            'Microsoft.PowerShell*'
+            '*PowerShell*'
         )
 
         if ($Config.ContainsKey('KeepPackages') -and $Config.KeepPackages) {

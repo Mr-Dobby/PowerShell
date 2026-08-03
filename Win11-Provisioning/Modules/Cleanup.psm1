@@ -10,10 +10,24 @@ function Invoke-NetworkingTweaks {
 
     Write-Log 'Applying networking tweaks' 'INFO'
 
-    Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\config' -Name 'AutoConnectAllowedOEM' -Value 0
-    Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\PolicyManager\default\WiFi\AllowWiFiHotSpotReporting' -Name 'value' -Value 0
-    Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\PolicyManager\default\WiFi\AllowAutoConnectToWiFiSenseHotspots' -Name 'value' -Value 0
-    Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config' -Name 'DODownloadMode' -Value 0
+    try {
+      Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\config' -Name 'AutoConnectAllowedOEM' -Value 0
+      Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\PolicyManager\default\WiFi\AllowWiFiHotSpotReporting' -Name 'value' -Value 0
+      Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\PolicyManager\default\WiFi\AllowAutoConnectToWiFiSenseHotspots' -Name 'value' -Value 0
+      Set-RegistryDword -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config' -Name 'DODownloadMode' -Value 0
+    }
+    catch [System.UnauthorizedAccessException] {
+      # Catches permission issues (e.g., trying to write to HKLM without admin rights)
+      Write-Error "Permission Denied: Run PowerShell as an Administrator. Details: $_"
+    }
+    catch [System.IO.IOException] {
+        # Catches issues where the path or data structure is invalid
+        Write-Error "I/O Error: Ensure the path is correct. Details: $_"
+    }
+    catch {
+        # Generic catch-all for any other unexpected failures
+        Write-Error "Unexpected error: $_"
+    }
 
     Write-Log 'Networking tweaks complete' 'SUCCESS'
 }
